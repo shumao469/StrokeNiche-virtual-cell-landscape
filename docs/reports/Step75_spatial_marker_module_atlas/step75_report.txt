@@ -1,0 +1,61 @@
+{
+  "marker_atlas": {
+    "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75/Fig_Step75_SpatialMarkerAtlas.png",
+    "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75/Fig_Step75_SpatialMarkerAtlas.pdf",
+    "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75/Fig_Step75_SpatialMarkerAtlas.svg"
+  },
+  "module_atlas": {
+    "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75/Fig_Step75_SpatialModuleAtlas.png",
+    "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75/Fig_Step75_SpatialModuleAtlas.pdf",
+    "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75/Fig_Step75_SpatialModuleAtlas.svg"
+  },
+  "state_probability_atlas": {
+    "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75/Fig_Step75_SpatialStateProbabilityAtlas.png",
+    "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75/Fig_Step75_SpatialStateProbabilityAtlas.pdf",
+    "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75/Fig_Step75_SpatialStateProbabilityAtlas.svg"
+  },
+  "rescue_atlas": null,
+  "meta_rows": 7756,
+  "obs_id_col": "_obs_index_id_",
+  "xcol": "spatial_x",
+  "ycol": "spatial_y",
+  "prob_cols": {
+    "core": null,
+    "peri": null,
+    "remote": null
+  },
+  "modules": [
+    "repair_ECM",
+    "ferroptosis",
+    "microglia_inflammation",
+    "BBB_endothelial",
+    "astrocyte_reactive",
+    "hypoxia_redox"
+  ],
+  "marker_groups": {
+    "Microglia/myeloid": [
+      "C1qa",
+      "C1qb",
+      "Tyrobp",
+      "Lgals3"
+    ],
+    "Endothelial/BBB": [
+      "Kdr",
+      "Cldn5",
+      "Pecam1",
+      "Kcnj8"
+    ],
+    "Ferroptosis/hypoxia": [
+      "Hmox1",
+      "Fth1",
+      "Slc7a11",
+      "Gpx4"
+    ],
+    "Repair/ECM": [
+      "Col1a1",
+      "Col3a1",
+      "Fn1",
+      "Spp1"
+    ]
+  }
+}

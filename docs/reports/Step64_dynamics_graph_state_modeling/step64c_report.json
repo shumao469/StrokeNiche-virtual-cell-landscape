@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "analysis_name": "Step64c reviewer-ready track label refinement",
+  "in64": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype",
+  "outdir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype",
+  "input_files": {
+    "track_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_summary.csv",
+    "nodes": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_dynamics_graph_nodes.csv",
+    "edges": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_dynamics_graph_edges.csv",
+    "assignments": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_assignment_by_cell.csv",
+    "module_matrix": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_module_matrix.csv"
+  },
+  "n_tracks": 30,
+  "n_assignments_refined": 32629,
+  "label_counts": {
+    "oligodendroglial_context": 9,
+    "core_resolution": 7,
+    "hypoxia_ferroptosis": 6,
+    "astrocyte_reactive": 3,
+    "remote_maintenance": 2,
+    "persistent_core_injury": 2,
+    "inflammatory": 1
+  },
+  "confidence_counts": {
+    "high": 23,
+    "medium": 7
+  },
+  "caution_counts": {
+    "none": 30
+  },
+  "figure_outputs": {
+    "annotated": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/Fig_StrokeNiche_TrackLabelRefinement_annotated.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/Fig_StrokeNiche_TrackLabelRefinement_annotated.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/Fig_StrokeNiche_TrackLabelRefinement_annotated.png"
+    },
+    "clean_no_text": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/Fig_StrokeNiche_TrackLabelRefinement_clean_no_text.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/Fig_StrokeNiche_TrackLabelRefinement_clean_no_text.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/Fig_StrokeNiche_TrackLabelRefinement_clean_no_text.png"
+    }
+  },
+  "outputs": {
+    "track_label_refined": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/step64c_track_label_refined.csv",
+    "track_label_evidence_long": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/step64c_track_label_evidence_long.csv",
+    "track_axis_score_matrix": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/step64c_track_axis_score_matrix.csv",
+    "track_module_evidence_matrix": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/step64c_track_module_evidence_matrix.csv",
+    "track_assignment_by_cell_refined": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/step64c_track_assignment_by_cell.refined_labels.csv",
+    "nodes_refined": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/step64c_dynamics_graph_nodes.refined_labels.csv",
+    "report_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/step64c_report.json",
+    "report_txt": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype/step64c_report.txt"
+  },
+  "interpretation_note": "Refined labels are reviewer-facing biological annotations derived from state transition, celltype context, module evidence and repair-core shifts. Labels with caution flags should be interpreted as module-enriched latent tracks rather than direct cell-lineage assignments."
+}

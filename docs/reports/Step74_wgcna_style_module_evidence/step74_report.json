@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "analysis_name": "Step74 WGCNA-style module evidence figure",
+  "outputs": {
+    "module_gene_sets_used": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/step74_module_gene_sets_used.csv",
+    "module_trait_correlations": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/step74_module_trait_correlations.csv",
+    "module_dotplot_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/step74_module_dotplot_summary.csv",
+    "module_score_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/step74_module_score_summary.csv",
+    "metadata_used_for_traits": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/step74_metadata_used_for_traits.csv",
+    "module_spatial_plot_cells": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/step74_module_spatial_plot_cells.csv",
+    "audit_report": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/step74_audit_report.json",
+    "annotated_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/Fig_Step74_WGCNAStyleModuleEvidence_annotated.pdf",
+    "annotated_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/Fig_Step74_WGCNAStyleModuleEvidence_annotated.svg",
+    "annotated_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/Fig_Step74_WGCNAStyleModuleEvidence_annotated.png",
+    "clean_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/Fig_Step74_WGCNAStyleModuleEvidence_clean_no_text.pdf",
+    "clean_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/Fig_Step74_WGCNAStyleModuleEvidence_clean_no_text.svg",
+    "clean_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74/Fig_Step74_WGCNAStyleModuleEvidence_clean_no_text.png"
+  },
+  "interpretation_note": "Step74 provides WGCNA-style module evidence using curated/Step65-derived module gene sets, module eigengene-like scores, module-trait correlations, spatial maps and dotplots. This is module-level computational evidence, not full R-WGCNA TOM analysis or functional validation."
+}

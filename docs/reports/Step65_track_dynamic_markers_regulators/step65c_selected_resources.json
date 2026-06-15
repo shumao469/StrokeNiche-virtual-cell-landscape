@@ -1,0 +1,295 @@
+{
+  "status": "prepared",
+  "outdir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata",
+  "gene_filter_audit": {
+    "h5ad": "/mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad",
+    "adata_shape": [
+      7756,
+      32285
+    ],
+    "assignment_unique_obs": 7488,
+    "n_overlapping_obs_exported": 7488,
+    "n_genes_kept": 274,
+    "n_genes_removed_blacklist": 8727,
+    "blacklist_reason_counts": {
+      "predicted_Gm_gene": 8522,
+      "ribosomal": 179,
+      "mitochondrial": 13,
+      "hemoglobin": 11,
+      "technical_lncRNA": 2
+    },
+    "kept_category_counts": {
+      "core_inflammation_chemokine": 34,
+      "endothelial_bbb_vascular": 34,
+      "ecm_remodeling_repair": 32,
+      "microglia_macrophage_phagocytosis": 30,
+      "neuronal_synaptic_recovery": 26,
+      "ferroptosis_redox": 25,
+      "candidate_axes_from_perturbmap": 24,
+      "cell_death_stress_heatshock": 23,
+      "astrocyte_reactive_gliosis": 21,
+      "hypoxia_metabolism_mitochondrial_stress": 20,
+      "complement_coagulation_platelet": 19,
+      "oligodendrocyte_myelin": 19
+    }
+  },
+  "expression_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_filtered_stroke_relevant_expression.csv",
+  "regulator_meta": {
+    "external_db_available": true,
+    "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_external_regulator_targets.csv",
+    "n_pairs": 6514838,
+    "n_regulators": 22414,
+    "n_targets": 47230,
+    "databases": {
+      "GMT": 6235546,
+      "dorothea_collectri_trrust_mouse_for_step65_full_unfiltered": 66329,
+      "dorothea_collectri_mouse_for_step65": 66016,
+      "dorothea_collectri_trrust_mouse_for_step65_clean": 66016,
+      "dorothea_collectri_mouse_for_step65_OK_20260601": 66016,
+      "trrust_rawdata.human": 8426,
+      "trrust_rawdata.mouse": 6489
+    },
+    "source_files": [
+      "/mnt/h/vir/ST/resources/regulator_databases/dorothea_collectri_mouse_for_step65.csv",
+      "/mnt/h/vir/ST/resources/regulator_databases/dorothea_collectri_mouse_for_step65_OK_20260601.csv",
+      "/mnt/h/vir/ST/resources/regulator_databases/dorothea_collectri_trrust_mouse_for_step65_clean.csv",
+      "/mnt/h/vir/ST/resources/regulator_databases/dorothea_collectri_trrust_mouse_for_step65_full_unfiltered.csv",
+      "/mnt/h/vir/ST/resources/regulator_databases/trrust_rawdata.human.tsv",
+      "/mnt/h/vir/ST/resources/regulator_databases/trrust_rawdata.mouse.tsv",
+      "/mnt/h/vir/ST/resources/msigdb/ARCHS4_Coexpression.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/ENCODE_ChIP-seq.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/Enrichr_Queries.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/GTEx_Coexpression.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/Literature_ChIP-seq.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/ReMap_ChIP-seq.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.all.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.cgp.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.cp.biocarta.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.cp.reactome.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.cp.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.cp.wikipathways.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m3.all.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m3.gtrd.v2026.1.Mm.symbols.gmt"
+    ]
+  },
+  "regulator_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_external_regulator_targets.csv",
+  "top_external_regulator_candidates": [],
+  "top_external_gmt_candidates": [
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m2.cp.reactome.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1333,
+      "n_genes_head": 75097,
+      "filename_bonus": 2,
+      "score": 4083.9700000000003
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m3.all.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 2000,
+      "n_genes_head": 389304,
+      "filename_bonus": 1,
+      "score": 4000.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m2.all.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 2000,
+      "n_genes_head": 168786,
+      "filename_bonus": 1,
+      "score": 4000.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m5.go.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 2000,
+      "n_genes_head": 180278,
+      "filename_bonus": 1,
+      "score": 4000.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m5.go.bp.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 2000,
+      "n_genes_head": 180278,
+      "filename_bonus": 1,
+      "score": 4000.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m5.go.mf.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1899,
+      "n_genes_head": 114117,
+      "filename_bonus": 1,
+      "score": 3899.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m3.mirdb.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1768,
+      "n_genes_head": 233370,
+      "filename_bonus": 1,
+      "score": 3768.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m2.cp.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1787,
+      "n_genes_head": 89841,
+      "filename_bonus": 1,
+      "score": 3685.41
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/ARCHS4_Coexpression.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1628,
+      "n_genes_head": 486772,
+      "filename_bonus": 1,
+      "score": 3628.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/GTEx_Coexpression.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1607,
+      "n_genes_head": 480493,
+      "filename_bonus": 1,
+      "score": 3607.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/ENCODE_ChIP-seq.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 552,
+      "n_genes_head": 866323,
+      "filename_bonus": 2,
+      "score": 3552.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/Enrichr_Queries.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1404,
+      "n_genes_head": 416511,
+      "filename_bonus": 1,
+      "score": 3404.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m5.go.cc.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1067,
+      "n_genes_head": 112349,
+      "filename_bonus": 1,
+      "score": 3067.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m2.cgp.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 984,
+      "n_genes_head": 116378,
+      "filename_bonus": 1,
+      "score": 2984.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m7.all.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 787,
+      "n_genes_head": 70547,
+      "filename_bonus": 1,
+      "score": 2492.4700000000003
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/Literature_ChIP-seq.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 307,
+      "n_genes_head": 387777,
+      "filename_bonus": 1,
+      "score": 2307.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/ReMap_ChIP-seq.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 297,
+      "n_genes_head": 417237,
+      "filename_bonus": 1,
+      "score": 2297.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m3.gtrd.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 279,
+      "n_genes_head": 163326,
+      "filename_bonus": 1,
+      "score": 2279.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m8.all.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 233,
+      "n_genes_head": 47976,
+      "filename_bonus": 1,
+      "score": 1712.76
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m2.cp.wikipathways.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 202,
+      "n_genes_head": 10785,
+      "filename_bonus": 1,
+      "score": 1309.85
+    }
+  ],
+  "step65_command": [
+    "/home/shu/miniconda/envs/nicheformer_env/bin/python",
+    "/mnt/h/vir/ST/65_track_dynamic_marker_regulator_network.py",
+    "--in64c",
+    "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype",
+    "--in64b",
+    "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype",
+    "--outdir",
+    "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata",
+    "--expr_csv",
+    "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_filtered_stroke_relevant_expression.csv",
+    "--max_genes",
+    "800",
+    "--min_cells_per_timepoint",
+    "10",
+    "--min_abs_delta_module",
+    "0.03",
+    "--min_abs_delta_gene",
+    "0.1",
+    "--top_n_modules_for_enrichment",
+    "8",
+    "--top_n_genes_for_enrichment",
+    "50",
+    "--min_overlap",
+    "1",
+    "--top_tracks_fig",
+    "12",
+    "--top_modules_fig",
+    "12",
+    "--dpi",
+    "600",
+    "--regulator_table",
+    "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_external_regulator_targets.csv"
+  ],
+  "run_script": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_run_step65_clean_gene_externaldb.sh",
+  "note": "This is a clean gene-level Step65 rerun. It keeps only stroke-relevant genes and removes mitochondrial/ribosomal/hemoglobin genes. It does not overwrite Step65b."
+}

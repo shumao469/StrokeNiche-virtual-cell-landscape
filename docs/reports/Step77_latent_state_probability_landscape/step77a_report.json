@@ -1,0 +1,363 @@
+{
+  "status": "ok",
+  "h5ad": "/mnt/h/vir/ST/results/step5_nicheformer/spatial_all_with_nicheformer.h5ad",
+  "state_table": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_modeling_input_used.fixed_region_probs.csv",
+  "n_obs_input": 7756,
+  "n_vars": 32285,
+  "n_obs_used_after_finite_coord_filter": 7756,
+  "state_merge_audit": {
+    "state_table_available": true,
+    "state_table_path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_modeling_input_used.fixed_region_probs.csv",
+    "state_table_rows_raw": 7756,
+    "state_table_rows_after_dedup": 7756,
+    "merge_mode": "id",
+    "adata_id_col_used": "_obs_names_",
+    "merge_key_meta": "_adata_id_",
+    "merge_key_state": "obs_name",
+    "state_merge_overlap": 7756,
+    "n_obs": 7756,
+    "overlap_fraction": 1.0
+  },
+  "latent_coordinate_audit": {
+    "mode": "obsm_forced_pca",
+    "obsm_key": "X_nicheformer",
+    "n_dim": 512,
+    "forced_obsm_priority": true,
+    "obs_x_col": null,
+    "obs_y_col": null
+  },
+  "state_label_source": "state_group",
+  "time_col": "timepoint",
+  "prob_cols_inferred": {
+    "core": "core_probability",
+    "peri": "peri_probability",
+    "remote": "remote_probability",
+    "repair": "repair_score"
+  },
+  "target_source_audit": {
+    "prob_source_requested": "model",
+    "use_label_for_core_peri_remote": false,
+    "model_state_duplicate_detected": true,
+    "duplicate_corr_threshold": 0.995,
+    "model_state_corr": {
+      "core": {
+        "core": 1.0,
+        "peri": 1.0,
+        "remote": 1.0
+      },
+      "peri": {
+        "core": 1.0,
+        "peri": 1.0,
+        "remote": 1.0
+      },
+      "remote": {
+        "core": 1.0,
+        "peri": 1.0,
+        "remote": 1.0
+      }
+    },
+    "target_col_map": {
+      "core": "core_probability",
+      "peri": "peri_probability",
+      "remote": "remote_probability",
+      "repair": "repair_score"
+    },
+    "target_source": {
+      "core": "model_probability",
+      "peri": "model_probability",
+      "remote": "model_probability",
+      "repair": "model_score"
+    }
+  },
+  "target_stats": [
+    {
+      "target": "core",
+      "source_column": "core_probability",
+      "source_type": "model_probability",
+      "n_finite": 7756,
+      "nan_fraction": 0.0,
+      "min": 0.0,
+      "p01": 0.00010580181186078999,
+      "p05": 0.00023223794232905,
+      "mean": 0.11405484916005042,
+      "std": 0.251183955034702,
+      "p50": 0.0071573732248113,
+      "p95": 0.8466335051605014,
+      "p99": 0.9592616198058747,
+      "max": 1.0,
+      "hash": "0dfa8f682f5e22f1",
+      "prob_like": true
+    },
+    {
+      "target": "peri",
+      "source_column": "peri_probability",
+      "source_type": "model_probability",
+      "n_finite": 7756,
+      "nan_fraction": 0.0,
+      "min": 0.0,
+      "p01": 0.00010580181186078999,
+      "p05": 0.00023223794232905,
+      "mean": 0.11405484916005042,
+      "std": 0.251183955034702,
+      "p50": 0.0071573732248113,
+      "p95": 0.8466335051605014,
+      "p99": 0.9592616198058747,
+      "max": 1.0,
+      "hash": "0dfa8f682f5e22f1",
+      "prob_like": true
+    },
+    {
+      "target": "remote",
+      "source_column": "remote_probability",
+      "source_type": "model_probability",
+      "n_finite": 7756,
+      "nan_fraction": 0.0,
+      "min": 0.0,
+      "p01": 0.00010580181186078999,
+      "p05": 0.00023223794232905,
+      "mean": 0.11405484916005042,
+      "std": 0.251183955034702,
+      "p50": 0.0071573732248113,
+      "p95": 0.8466335051605014,
+      "p99": 0.9592616198058747,
+      "max": 1.0,
+      "hash": "0dfa8f682f5e22f1",
+      "prob_like": true
+    },
+    {
+      "target": "repair",
+      "source_column": "repair_score",
+      "source_type": "model_score",
+      "n_finite": 7756,
+      "nan_fraction": 0.0,
+      "min": 0.0,
+      "p01": 0.026376929859088034,
+      "p05": 0.08137655461902996,
+      "mean": 0.7472313909479167,
+      "std": 0.29552963138596633,
+      "p50": 0.8868856359591857,
+      "p95": 0.9928890522890385,
+      "p99": 0.996297440002989,
+      "max": 1.0,
+      "hash": "1e9001f68169ff73",
+      "prob_like": true
+    }
+  ],
+  "target_corr_spearman": {
+    "core": {
+      "core": 1.0,
+      "peri": 1.0,
+      "remote": 1.0,
+      "repair": -0.9618254372286976
+    },
+    "peri": {
+      "core": 1.0,
+      "peri": 1.0,
+      "remote": 1.0,
+      "repair": -0.9618254372286976
+    },
+    "remote": {
+      "core": 1.0,
+      "peri": 1.0,
+      "remote": 1.0,
+      "repair": -0.9618254372286976
+    },
+    "repair": {
+      "core": -0.9618254372286976,
+      "peri": -0.9618254372286976,
+      "remote": -0.9618254372286976,
+      "repair": 1.0
+    }
+  },
+  "target_corr_pearson": {
+    "core": {
+      "core": 1.0,
+      "peri": 1.0,
+      "remote": 1.0,
+      "repair": -0.8433154265350283
+    },
+    "peri": {
+      "core": 1.0,
+      "peri": 1.0,
+      "remote": 1.0,
+      "repair": -0.8433154265350283
+    },
+    "remote": {
+      "core": 1.0,
+      "peri": 1.0,
+      "remote": 1.0,
+      "repair": -0.8433154265350283
+    },
+    "repair": {
+      "core": -0.8433154265350283,
+      "peri": -0.8433154265350283,
+      "remote": -0.8433154265350283,
+      "repair": 1.0
+    }
+  },
+  "grid_corr_spearman": {
+    "core_landscape": {
+      "core_landscape": 1.0,
+      "peri_landscape": 1.0,
+      "remote_landscape": 1.0,
+      "repair_landscape": -0.9294300849272576
+    },
+    "peri_landscape": {
+      "core_landscape": 1.0,
+      "peri_landscape": 1.0,
+      "remote_landscape": 1.0,
+      "repair_landscape": -0.9294300849272576
+    },
+    "remote_landscape": {
+      "core_landscape": 1.0,
+      "peri_landscape": 1.0,
+      "remote_landscape": 1.0,
+      "repair_landscape": -0.9294300849272576
+    },
+    "repair_landscape": {
+      "core_landscape": -0.9294300849272576,
+      "peri_landscape": -0.9294300849272576,
+      "remote_landscape": -0.9294300849272576,
+      "repair_landscape": 1.0
+    }
+  },
+  "grid_allclose_audit": [
+    {
+      "target_1": "core",
+      "target_2": "peri",
+      "n_common_grid": 17613,
+      "allclose": true,
+      "mean_abs_grid_difference": 0.0,
+      "hash_1": "7b3aaab8f1cf6c10",
+      "hash_2": "7b3aaab8f1cf6c10"
+    },
+    {
+      "target_1": "core",
+      "target_2": "remote",
+      "n_common_grid": 17613,
+      "allclose": true,
+      "mean_abs_grid_difference": 0.0,
+      "hash_1": "7b3aaab8f1cf6c10",
+      "hash_2": "7b3aaab8f1cf6c10"
+    },
+    {
+      "target_1": "core",
+      "target_2": "repair",
+      "n_common_grid": 17613,
+      "allclose": false,
+      "mean_abs_grid_difference": 0.5664077920794657,
+      "hash_1": "7b3aaab8f1cf6c10",
+      "hash_2": "52528dd6fc242955"
+    },
+    {
+      "target_1": "peri",
+      "target_2": "remote",
+      "n_common_grid": 17613,
+      "allclose": true,
+      "mean_abs_grid_difference": 0.0,
+      "hash_1": "7b3aaab8f1cf6c10",
+      "hash_2": "7b3aaab8f1cf6c10"
+    },
+    {
+      "target_1": "peri",
+      "target_2": "repair",
+      "n_common_grid": 17613,
+      "allclose": false,
+      "mean_abs_grid_difference": 0.5664077920794657,
+      "hash_1": "7b3aaab8f1cf6c10",
+      "hash_2": "52528dd6fc242955"
+    },
+    {
+      "target_1": "remote",
+      "target_2": "repair",
+      "n_common_grid": 17613,
+      "allclose": false,
+      "mean_abs_grid_difference": 0.5664077920794657,
+      "hash_1": "7b3aaab8f1cf6c10",
+      "hash_2": "52528dd6fc242955"
+    }
+  ],
+  "bandwidth_used": 0.08498843336387615,
+  "grid_n": 240,
+  "radius_mult": 3.0,
+  "density_mask_q": 0.025,
+  "min_neighbors": 8,
+  "mask_audits": {
+    "core": {
+      "density_threshold": 0.02380485561149343,
+      "density_mask_q": 0.025,
+      "min_neighbors": 8,
+      "n_grid_kept": 17613,
+      "n_grid_total": 57600,
+      "kept_fraction": 0.30578125
+    },
+    "peri": {
+      "density_threshold": 0.02380485561149343,
+      "density_mask_q": 0.025,
+      "min_neighbors": 8,
+      "n_grid_kept": 17613,
+      "n_grid_total": 57600,
+      "kept_fraction": 0.30578125
+    },
+    "remote": {
+      "density_threshold": 0.02380485561149343,
+      "density_mask_q": 0.025,
+      "min_neighbors": 8,
+      "n_grid_kept": 17613,
+      "n_grid_total": 57600,
+      "kept_fraction": 0.30578125
+    },
+    "repair": {
+      "density_threshold": 0.02380485561149343,
+      "density_mask_q": 0.025,
+      "min_neighbors": 8,
+      "n_grid_kept": 17613,
+      "n_grid_total": 57600,
+      "kept_fraction": 0.30578125
+    }
+  },
+  "outputs": {
+    "atlas_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_Fixed_StateProbabilityLandscape_2D_Atlas.png",
+    "atlas_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_Fixed_StateProbabilityLandscape_2D_Atlas.pdf",
+    "atlas_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_Fixed_StateProbabilityLandscape_2D_Atlas.svg",
+    "diagnostic_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_TargetDifferenceAudit.png",
+    "diagnostic_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_TargetDifferenceAudit.pdf",
+    "diagnostic_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_TargetDifferenceAudit.svg",
+    "target_stats_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/step77a_target_value_audit.csv",
+    "target_corr_pearson_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/step77a_target_corr_pearson.csv",
+    "target_corr_spearman_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/step77a_target_corr_spearman.csv",
+    "grid_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/step77a_grid_landscape_values.csv",
+    "grid_corr_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/step77a_grid_corr_spearman.csv",
+    "grid_allclose_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/step77a_grid_allclose_audit.csv",
+    "peaks_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/step77a_landscape_peaks.csv",
+    "per_spot_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/step77a_per_spot_latent_targets.csv",
+    "per_target_figures": [
+      {
+        "target": "core",
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_core_Fixed_Landscape_2D3DPeaks.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_core_Fixed_Landscape_2D3DPeaks.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_core_Fixed_Landscape_2D3DPeaks.svg"
+      },
+      {
+        "target": "peri",
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_peri_Fixed_Landscape_2D3DPeaks.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_peri_Fixed_Landscape_2D3DPeaks.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_peri_Fixed_Landscape_2D3DPeaks.svg"
+      },
+      {
+        "target": "remote",
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_remote_Fixed_Landscape_2D3DPeaks.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_remote_Fixed_Landscape_2D3DPeaks.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_remote_Fixed_Landscape_2D3DPeaks.svg"
+      },
+      {
+        "target": "repair",
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_repair_Fixed_Landscape_2D3DPeaks.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_repair_Fixed_Landscape_2D3DPeaks.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77a_X_nicheformer_modelprob_audit/Fig_Step77A_repair_Fixed_Landscape_2D3DPeaks.svg"
+      }
+    ]
+  },
+  "formula": "f_t(z)=sum_i K(||z-z_i||/h)y_{it}/sum_i K(||z-z_i||/h), with low-density grid masking.",
+  "interpretation_note": "Step77A constructs target-specific smoothed conditional landscapes in latent space. If model state-probability columns are missing or nearly duplicate and --prob_source=auto, core/peri/remote landscapes are estimated from state_label one-hot smoothing. This is a visualization-level summary, not a physical energy surface, lineage potential, or functional validation."
+}

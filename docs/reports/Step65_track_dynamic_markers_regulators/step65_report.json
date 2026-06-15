@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "analysis_name": "Step65 track-specific dynamic marker / regulator network",
+  "in64c": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype",
+  "in64b": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype",
+  "cell_table_used": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_modeling_input_used.fixed_region_probs.csv",
+  "expression_mode": "gene_expression",
+  "expr_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_filtered_stroke_relevant_expression.csv",
+  "expr_h5ad": "",
+  "n_tracks": 30,
+  "n_assignments": 32629,
+  "n_module_features": 27,
+  "n_dynamic_module_rows": 810,
+  "n_gene_features": 272,
+  "n_dynamic_gene_rows": 8160,
+  "n_marker_sets": 52,
+  "n_regulator_edges_used": 4898549,
+  "n_regulator_enrichment_rows": 254229,
+  "n_network_edges": 2690,
+  "scipy_available_for_hypergeom": true,
+  "figure_outputs": {
+    "annotated": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/Fig_StrokeNiche_TrackDynamicMarkerRegulator_annotated.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/Fig_StrokeNiche_TrackDynamicMarkerRegulator_annotated.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/Fig_StrokeNiche_TrackDynamicMarkerRegulator_annotated.png"
+    },
+    "clean_no_text": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/Fig_StrokeNiche_TrackDynamicMarkerRegulator_clean_no_text.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/Fig_StrokeNiche_TrackDynamicMarkerRegulator_clean_no_text.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/Fig_StrokeNiche_TrackDynamicMarkerRegulator_clean_no_text.png"
+    }
+  },
+  "outputs": {
+    "dynamic_modules": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_dynamic_modules.csv",
+    "dynamic_genes": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_dynamic_genes.csv",
+    "module_timepoint_means": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_feature_timepoint_means.modules.csv",
+    "gene_timepoint_means": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_feature_timepoint_means.genes.csv",
+    "marker_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_dynamic_marker_summary.csv",
+    "marker_gene_sets": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_marker_gene_sets.csv",
+    "regulator_database_used": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_regulator_database_used.csv",
+    "regulator_enrichment": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_regulator_enrichment.csv",
+    "track_regulator_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_regulator_summary.csv",
+    "pathway_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_pathway_summary.csv",
+    "network_edges": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_network_edges.csv",
+    "report_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_report.json",
+    "report_txt": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_report.txt"
+  },
+  "interpretation_note": "Step65 identifies track-specific dynamic module/gene markers and regulator hypotheses. When no expression matrix or external regulator database is provided, regulator enrichment uses conservative built-in StrokeNiche fallback gene sets and should be interpreted as hypothesis generation, not validation."
+}

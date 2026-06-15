@@ -1,0 +1,62 @@
+{
+  "status": "ok",
+  "data_audit": {
+    "n_obs": 7756,
+    "n_vars": 32285,
+    "merge_mode": "id",
+    "state_table_overlap": 7756,
+    "latent_mode": "obsm_forced_pca:X_nicheformer",
+    "prob_cols": {
+      "core": "core_probability",
+      "repair": "repair_score",
+      "peri": "peri_probability",
+      "remote": "remote_probability"
+    }
+  },
+  "effect_audit": {
+    "mode": "fallback_default",
+    "source_file": null,
+    "all_csvs": []
+  },
+  "effects_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/step78d_candidate_effects_used.csv",
+  "per_cell_response_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/step78d_per_cell_response_proxy.csv",
+  "candidate_summary_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/step78d_candidate_response_classification.csv",
+  "main_atlas": {
+    "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_VirtualPerturbationResponseLandscape_main_rescue_positive_atlas.png",
+    "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_VirtualPerturbationResponseLandscape_main_rescue_positive_atlas.pdf",
+    "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_VirtualPerturbationResponseLandscape_main_rescue_positive_atlas.svg"
+  },
+  "signed_audit_atlas": {
+    "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_VirtualPerturbationResponseLandscape_signed_audit_atlas.png",
+    "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_VirtualPerturbationResponseLandscape_signed_audit_atlas.pdf",
+    "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_VirtualPerturbationResponseLandscape_signed_audit_atlas.svg"
+  },
+  "single_figures": {
+    "Ccl2/Ccr2-Ackr1 blockade": {
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Ccl2_Ccr2-Ackr1_final.png",
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Ccl2_Ccr2-Ackr1_final.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Ccl2_Ccr2-Ackr1_final.svg"
+    },
+    "Spp1-Cd44 blockade": {
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Spp1-Cd44_final.png",
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Spp1-Cd44_final.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Spp1-Cd44_final.svg"
+    },
+    "Vegfa-Flt1/Kdr blockade": {
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Vegfa-Flt1_Kdr_final.png",
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Vegfa-Flt1_Kdr_final.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Vegfa-Flt1_Kdr_final.svg"
+    },
+    "Ferroptosis down": {
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Ferroptosis_down_final.png",
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Ferroptosis_down_final.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Ferroptosis_down_final.svg"
+    },
+    "Repair-ECM up": {
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Repair-ECM_up_signed_audit.png",
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Repair-ECM_up_signed_audit.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78d_fixed_freeze/Fig_Step78D_ResponseLandscape_Repair-ECM_up_signed_audit.svg"
+    }
+  },
+  "interpretation_note": "Step78D fixes row-label clipping by using a dedicated label column. Repair-ECM up and other weak/reverse candidates are not forced into rescue-positive maps; they are shown as signed audits. All maps are Gaussian-kernel-smoothed latent response proxies, not wet-lab KO/blockade results and not observed cell-state transitions."
+}

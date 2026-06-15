@@ -1,0 +1,224 @@
+{
+  "status": "ok",
+  "analysis_name": "Step78B virtual perturbation response landscape",
+  "n_obs": 7756,
+  "n_vars": 32285,
+  "latent_audit": {
+    "mode": "forced_obsm_pca_or_direct",
+    "obsm_key": "X_nicheformer",
+    "input_dim": 512,
+    "projection": "standardized_pca_2d"
+  },
+  "merge_audit": {
+    "state_id_col": "obs_name",
+    "n_adata": 7756,
+    "n_state_table": 7756,
+    "merge_overlap": 7756,
+    "merge_fraction": 1.0
+  },
+  "state_cols": {
+    "core": "core_probability",
+    "peri": "peri_probability",
+    "remote": "remote_probability",
+    "repair": "repair_score",
+    "state_label": "state_group"
+  },
+  "step72_audit": {
+    "summary_path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/expression_level_insilico_ko_72c_strict_label/step72c_expression_level_ko_state_shift_summary.csv",
+    "candidate_csvs_considered": [
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/expression_level_insilico_ko_72c_strict_label/step72c_expression_level_ko_state_shift_summary.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/expression_level_insilico_ko_72c_strict_label/step72c_expression_level_ko_celllevel_state_probabilities.sampled.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/expression_level_insilico_ko_72c_strict_label/step72c_expression_level_ko_net_flow_links.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/expression_level_insilico_ko_72c_strict_label/step72c_candidate_gene_audit.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/expression_level_insilico_ko_72c_strict_label/step72c_feature_genes_used.csv"
+    ],
+    "summary_columns": [
+      "candidate_id",
+      "display_name",
+      "direction",
+      "n_cells",
+      "n_perturbed_genes",
+      "perturbed_feature_genes",
+      "baseline_core_mean",
+      "perturbed_core_mean",
+      "delta_core_probability",
+      "baseline_peri_mean",
+      "perturbed_peri_mean",
+      "delta_peri_probability",
+      "baseline_remote_mean",
+      "perturbed_remote_mean",
+      "delta_remote_probability",
+      "state_shift_priority_score",
+      "plot_order"
+    ],
+    "perturbation_col": "display_name",
+    "delta_core_col": "delta_core_probability",
+    "delta_peri_col": "delta_peri_probability",
+    "delta_remote_col": "delta_remote_probability",
+    "repair_shift_col": "state_shift_priority_score",
+    "n_rows": 5,
+    "n_parsed": 5
+  },
+  "effects_used": {
+    "ccl2_ccr2_ackr1_blockade": {
+      "display": "Ccl2/Ccr2-Ackr1 blockade",
+      "delta_core": -0.0292305570311963,
+      "delta_peri": -0.0075647855024332,
+      "delta_remote": 0.0367953425336296,
+      "repair_shift": 0.0438458355467945,
+      "source": "step72c_summary"
+    },
+    "spp1_cd44_blockade": {
+      "display": "Spp1-Cd44 blockade",
+      "delta_core": -0.0952698412305686,
+      "delta_peri": -0.0921221864531649,
+      "delta_remote": 0.1873920276837335,
+      "repair_shift": 0.1429047618458529,
+      "source": "step72c_summary"
+    },
+    "vegfa_flt1_kdr_blockade": {
+      "display": "Vegfa-Flt1/Kdr blockade",
+      "delta_core": -0.0224440395190317,
+      "delta_peri": -0.0101748528468296,
+      "delta_remote": 0.0326188923658613,
+      "repair_shift": 0.0336660592785475,
+      "source": "step72c_summary"
+    },
+    "ferroptosis_down": {
+      "display": "Ferroptosis down",
+      "delta_core": -0.1084,
+      "delta_peri": -0.0358,
+      "delta_remote": 0.1442,
+      "repair_shift": 0.1627,
+      "source": "fallback_from_step72c_strict_label"
+    },
+    "repair_ecm_up": {
+      "display": "Repair-ECM up",
+      "delta_core": 0.0962,
+      "delta_peri": 0.0521,
+      "delta_remote": -0.1483,
+      "repair_shift": -0.1443,
+      "source": "fallback_from_step72c_strict_label"
+    },
+    "ferroptosis_down_modulation": {
+      "display": "Ferroptosis down-modulation",
+      "delta_core": -0.1084421295062151,
+      "delta_peri": -0.0357549917508629,
+      "delta_remote": 0.1441971212570781,
+      "repair_shift": 0.1626631942593227,
+      "source": "step72c_summary"
+    },
+    "repair_ecm_promotion": {
+      "display": "Repair-ECM promotion",
+      "delta_core": 0.0961873064112934,
+      "delta_peri": 0.0520728382211191,
+      "delta_remote": -0.1482601446324125,
+      "repair_shift": -0.1442809596169401,
+      "source": "step72c_summary"
+    }
+  },
+  "susceptibility_audit": {
+    "ccl2_ccr2_ackr1_blockade": {
+      "col_inflammation": "module_inflammation",
+      "col_repair": "module_repair_ECM",
+      "col_ferroptosis": "module_ferroptosis",
+      "col_bbb": "module_BBB_leakage",
+      "col_astrocyte": "module_astrocyte_reactive"
+    },
+    "spp1_cd44_blockade": {
+      "col_inflammation": "module_inflammation",
+      "col_repair": "module_repair_ECM",
+      "col_ferroptosis": "module_ferroptosis",
+      "col_bbb": "module_BBB_leakage",
+      "col_astrocyte": "module_astrocyte_reactive"
+    },
+    "vegfa_flt1_kdr_blockade": {
+      "col_inflammation": "module_inflammation",
+      "col_repair": "module_repair_ECM",
+      "col_ferroptosis": "module_ferroptosis",
+      "col_bbb": "module_BBB_leakage",
+      "col_astrocyte": "module_astrocyte_reactive"
+    },
+    "ferroptosis_down": {
+      "col_inflammation": "module_inflammation",
+      "col_repair": "module_repair_ECM",
+      "col_ferroptosis": "module_ferroptosis",
+      "col_bbb": "module_BBB_leakage",
+      "col_astrocyte": "module_astrocyte_reactive"
+    },
+    "repair_ecm_up": {
+      "col_inflammation": "module_inflammation",
+      "col_repair": "module_repair_ECM",
+      "col_ferroptosis": "module_ferroptosis",
+      "col_bbb": "module_BBB_leakage",
+      "col_astrocyte": "module_astrocyte_reactive"
+    },
+    "ferroptosis_down_modulation": {
+      "col_inflammation": "module_inflammation",
+      "col_repair": "module_repair_ECM",
+      "col_ferroptosis": "module_ferroptosis",
+      "col_bbb": "module_BBB_leakage",
+      "col_astrocyte": "module_astrocyte_reactive"
+    },
+    "repair_ecm_promotion": {
+      "col_inflammation": "module_inflammation",
+      "col_repair": "module_repair_ECM",
+      "col_ferroptosis": "module_ferroptosis",
+      "col_bbb": "module_BBB_leakage",
+      "col_astrocyte": "module_astrocyte_reactive"
+    }
+  },
+  "parameters": {
+    "grid_n": 240,
+    "smooth_sigma": 2.0,
+    "min_density_frac": 0.008,
+    "force_obsm_key": "X_nicheformer"
+  },
+  "outputs": {
+    "per_cell_response_proxy_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/step78b_per_cell_virtual_perturbation_response_proxy.csv",
+    "summary_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/step78b_virtual_perturbation_response_summary.csv",
+    "atlas": {
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_VirtualPerturbationResponseLandscape_Atlas.png",
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_VirtualPerturbationResponseLandscape_Atlas.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_VirtualPerturbationResponseLandscape_Atlas.svg"
+    },
+    "single_candidate_figures": {
+      "ccl2_ccr2_ackr1_blockade": {
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_ccl2_ccr2_ackr1_blockade.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_ccl2_ccr2_ackr1_blockade.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_ccl2_ccr2_ackr1_blockade.svg"
+      },
+      "spp1_cd44_blockade": {
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_spp1_cd44_blockade.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_spp1_cd44_blockade.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_spp1_cd44_blockade.svg"
+      },
+      "vegfa_flt1_kdr_blockade": {
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_vegfa_flt1_kdr_blockade.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_vegfa_flt1_kdr_blockade.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_vegfa_flt1_kdr_blockade.svg"
+      },
+      "ferroptosis_down": {
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_ferroptosis_down.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_ferroptosis_down.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_ferroptosis_down.svg"
+      },
+      "repair_ecm_up": {
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_repair_ecm_up.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_repair_ecm_up.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_repair_ecm_up.svg"
+      },
+      "ferroptosis_down_modulation": {
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_ferroptosis_down_modulation.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_ferroptosis_down_modulation.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_ferroptosis_down_modulation.svg"
+      },
+      "repair_ecm_promotion": {
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_repair_ecm_promotion.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_repair_ecm_promotion.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/virtual_perturbation_response_landscape_78b_fixed/Fig_Step78B_ResponseLandscape_repair_ecm_promotion.svg"
+      }
+    }
+  },
+  "interpretation_note": "Step78B constructs visualization-level virtual perturbation response landscapes. If no per-cell Step72 counterfactual table is available, it combines Step72C mean shifts with per-spot susceptibility derived from baseline state/module scores. This is not wet-lab KO/blockade and not an observed state transition."
+}

@@ -1,0 +1,96 @@
+{
+  "status": "ok",
+  "analysis_name": "Step64b fixed-region-probability dynamics graph",
+  "outdir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype",
+  "original_step64_audit": [
+    {
+      "source_table": "nodes",
+      "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64/step64_dynamics_graph_nodes.csv",
+      "shape": "(18, 74)",
+      "checked_columns": "core_probability_mean;peri_probability_mean;remote_probability_mean",
+      "all_three_identical_rows": 18,
+      "n_rows": 18,
+      "all_three_identical_fraction": 1.0,
+      "corr_core_peri": 1.0,
+      "corr_core_remote": 1.0,
+      "corr_peri_remote": 1.0,
+      "status": "suspicious_identical"
+    },
+    {
+      "source_table": "tracks",
+      "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64/step64_track_summary.csv",
+      "shape": "(30, 26)",
+      "checked_columns": "delta_core_probability;delta_peri_probability;delta_remote_probability",
+      "all_three_identical_rows": 30,
+      "n_rows": 30,
+      "all_three_identical_fraction": 1.0,
+      "corr_core_peri": 1.0,
+      "corr_core_remote": 1.0,
+      "corr_peri_remote": 1.0,
+      "status": "suspicious_identical"
+    }
+  ],
+  "selected_probability_source": {
+    "selection_status": "selected_existing_triplet",
+    "source_label": "prob_region_state",
+    "source_type": "preferred_cell_state",
+    "core_col": "prob_lesion_core",
+    "peri_col": "prob_peri_infarct",
+    "remote_col": "prob_remote_like",
+    "score": 5.22618238404007,
+    "audit_status": "ok_candidate",
+    "post_fix_identical_fraction": 0.0,
+    "post_fix_pairwise_abs_diff_mean": 0.5394907184636506,
+    "post_fix_sum_median": 1.0
+  },
+  "post_fix_probability_audit": [
+    {
+      "table": "nodes_after_fix",
+      "n_rows": 35,
+      "all_three_identical_rows": 0,
+      "all_three_identical_fraction": 0.0
+    },
+    {
+      "table": "tracks_after_fix",
+      "n_rows": 30,
+      "all_three_identical_rows": 0,
+      "all_three_identical_fraction": 0.0
+    }
+  ],
+  "n_cells": 7756,
+  "n_nodes": 35,
+  "n_edges_all": 276,
+  "n_edges_selected": 67,
+  "n_tracks": 30,
+  "n_track_assignments": 32629,
+  "cluster_mode": "state_celltype",
+  "figure_outputs": {
+    "annotated": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_annotated.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_annotated.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_annotated.png"
+    },
+    "clean_no_text": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_clean_no_text.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_clean_no_text.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_clean_no_text.png"
+    }
+  },
+  "outputs": {
+    "original_probability_audit": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_original_probability_audit.csv",
+    "probability_source_audit": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_probability_source_audit.csv",
+    "selected_probability_source": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_selected_probability_source.json",
+    "modeling_input_used_fixed_probs": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_modeling_input_used.fixed_region_probs.csv",
+    "clustered_cells": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_clustered_cells.csv",
+    "nodes": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_dynamics_graph_nodes.csv",
+    "edges_all": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_dynamics_graph_edges_all.csv",
+    "edges_selected": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_dynamics_graph_edges.csv",
+    "track_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_summary.csv",
+    "track_assignment_by_cell": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_assignment_by_cell.csv",
+    "track_module_matrix": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_module_matrix.csv",
+    "postfix_probability_audit": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_postfix_probability_audit.csv",
+    "report_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_report.json",
+    "report_txt": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_report.txt"
+  },
+  "interpretation_note": "Use Step64b outputs instead of the original Step64 outputs when interpreting core/peri/remote probability shifts. If fallback_state_onehot was used, describe peri/remote shifts as state-label-derived, not model-predicted independent probabilities."
+}

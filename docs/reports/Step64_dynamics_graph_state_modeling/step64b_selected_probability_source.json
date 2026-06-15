@@ -1,0 +1,13 @@
+{
+  "selection_status": "selected_existing_triplet",
+  "source_label": "prob_region_state",
+  "source_type": "preferred_cell_state",
+  "core_col": "prob_lesion_core",
+  "peri_col": "prob_peri_infarct",
+  "remote_col": "prob_remote_like",
+  "score": 5.22618238404007,
+  "audit_status": "ok_candidate",
+  "post_fix_identical_fraction": 0.0,
+  "post_fix_pairwise_abs_diff_mean": 0.5394907184636506,
+  "post_fix_sum_median": 1.0
+}

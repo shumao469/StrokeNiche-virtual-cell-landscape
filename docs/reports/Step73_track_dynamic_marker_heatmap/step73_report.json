@@ -1,0 +1,72 @@
+{
+  "status": "ok",
+  "analysis_name": "Step73 track-specific dynamic marker heatmap",
+  "source_paths": {
+    "gene_table": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65e_encode_chipseq_housekeeping_filtered/step65e_dynamic_genes_cleaned_for_chipseq.csv",
+    "module_table": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_dynamic_modules.csv",
+    "regulator_table": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_regulator_enrichment.csv",
+    "track_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_summary.csv",
+    "discovered": {
+      "genes": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65e_encode_chipseq_housekeeping_filtered/step65e_dynamic_genes_cleaned_for_chipseq.csv",
+      "modules": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_dynamic_modules.csv",
+      "regulators": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_regulator_enrichment.csv",
+      "network": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65_track_network_edges.csv",
+      "track_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_summary.csv"
+    }
+  },
+  "gene_audit": {
+    "track_col": "track_id",
+    "gene_col": "feature",
+    "score_col": "slope",
+    "p_col": "",
+    "direction_col": "dynamic_pattern",
+    "n_input_rows": 6760,
+    "n_output_rows": 208,
+    "n_tracks": 26,
+    "status": "ok"
+  },
+  "module_audit": {
+    "track_col": "track_id",
+    "module_col": "feature",
+    "score_col": "slope",
+    "p_col": "",
+    "direction_col": "dynamic_pattern",
+    "n_input_rows": 810,
+    "n_output_rows": 150,
+    "n_tracks": 30,
+    "status": "ok"
+  },
+  "regulator_audit": {
+    "track_col": "track_id",
+    "regulator_col": "regulator",
+    "score_col": "enrichment_score",
+    "p_col": "p_value",
+    "n_input_rows": 254229,
+    "n_output_rows": 104,
+    "n_tracks": 26,
+    "status": "ok"
+  },
+  "track_order_audit": {
+    "status": "ok",
+    "track_col": "track_id",
+    "n_tracks": 30
+  },
+  "n_tracks": 30,
+  "n_features": 60,
+  "n_gene_features": 43,
+  "n_module_features": 17,
+  "outputs": {
+    "feature_matrix_z": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/step73_track_dynamic_feature_matrix.csv",
+    "feature_matrix_raw": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/step73_track_dynamic_feature_raw_matrix.csv",
+    "selected_features_long": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/step73_selected_dynamic_features_long.csv",
+    "top_regulators": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/step73_track_top_regulators.csv",
+    "feature_selection_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/step73_feature_selection_summary.csv",
+    "annotated_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/Fig_Step73_TrackSpecificDynamicMarkerHeatmap_annotated.pdf",
+    "annotated_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/Fig_Step73_TrackSpecificDynamicMarkerHeatmap_annotated.svg",
+    "annotated_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/Fig_Step73_TrackSpecificDynamicMarkerHeatmap_annotated.png",
+    "clean_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/Fig_Step73_TrackSpecificDynamicMarkerHeatmap_clean_no_text.pdf",
+    "clean_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/Fig_Step73_TrackSpecificDynamicMarkerHeatmap_clean_no_text.svg",
+    "clean_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73/Fig_Step73_TrackSpecificDynamicMarkerHeatmap_clean_no_text.png"
+  },
+  "interpretation_note": "Step73 visualizes transcript-level track-specific dynamic genes/modules and enrichment-derived regulators. It should be interpreted as dynamic marker/regulator prioritization, not functional or protein-level validation."
+}

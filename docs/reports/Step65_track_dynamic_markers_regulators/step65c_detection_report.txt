@@ -1,0 +1,769 @@
+Step65c clean stroke-relevant gene-level external-DB detection report
+====================================================================================================
+{
+  "status": "prepared",
+  "outdir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata",
+  "gene_filter_audit": {
+    "h5ad": "/mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad",
+    "adata_shape": [
+      7756,
+      32285
+    ],
+    "assignment_unique_obs": 7488,
+    "n_overlapping_obs_exported": 7488,
+    "n_genes_kept": 274,
+    "n_genes_removed_blacklist": 8727,
+    "blacklist_reason_counts": {
+      "predicted_Gm_gene": 8522,
+      "ribosomal": 179,
+      "mitochondrial": 13,
+      "hemoglobin": 11,
+      "technical_lncRNA": 2
+    },
+    "kept_category_counts": {
+      "core_inflammation_chemokine": 34,
+      "endothelial_bbb_vascular": 34,
+      "ecm_remodeling_repair": 32,
+      "microglia_macrophage_phagocytosis": 30,
+      "neuronal_synaptic_recovery": 26,
+      "ferroptosis_redox": 25,
+      "candidate_axes_from_perturbmap": 24,
+      "cell_death_stress_heatshock": 23,
+      "astrocyte_reactive_gliosis": 21,
+      "hypoxia_metabolism_mitochondrial_stress": 20,
+      "complement_coagulation_platelet": 19,
+      "oligodendrocyte_myelin": 19
+    }
+  },
+  "expression_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_filtered_stroke_relevant_expression.csv",
+  "regulator_meta": {
+    "external_db_available": true,
+    "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_external_regulator_targets.csv",
+    "n_pairs": 6514838,
+    "n_regulators": 22414,
+    "n_targets": 47230,
+    "databases": {
+      "GMT": 6235546,
+      "dorothea_collectri_trrust_mouse_for_step65_full_unfiltered": 66329,
+      "dorothea_collectri_mouse_for_step65": 66016,
+      "dorothea_collectri_trrust_mouse_for_step65_clean": 66016,
+      "dorothea_collectri_mouse_for_step65_OK_20260601": 66016,
+      "trrust_rawdata.human": 8426,
+      "trrust_rawdata.mouse": 6489
+    },
+    "source_files": [
+      "/mnt/h/vir/ST/resources/regulator_databases/dorothea_collectri_mouse_for_step65.csv",
+      "/mnt/h/vir/ST/resources/regulator_databases/dorothea_collectri_mouse_for_step65_OK_20260601.csv",
+      "/mnt/h/vir/ST/resources/regulator_databases/dorothea_collectri_trrust_mouse_for_step65_clean.csv",
+      "/mnt/h/vir/ST/resources/regulator_databases/dorothea_collectri_trrust_mouse_for_step65_full_unfiltered.csv",
+      "/mnt/h/vir/ST/resources/regulator_databases/trrust_rawdata.human.tsv",
+      "/mnt/h/vir/ST/resources/regulator_databases/trrust_rawdata.mouse.tsv",
+      "/mnt/h/vir/ST/resources/msigdb/ARCHS4_Coexpression.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/ENCODE_ChIP-seq.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/Enrichr_Queries.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/GTEx_Coexpression.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/Literature_ChIP-seq.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/ReMap_ChIP-seq.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.all.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.cgp.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.cp.biocarta.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.cp.reactome.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.cp.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m2.cp.wikipathways.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m3.all.v2026.1.Mm.symbols.gmt",
+      "/mnt/h/vir/ST/resources/msigdb/m3.gtrd.v2026.1.Mm.symbols.gmt"
+    ]
+  },
+  "regulator_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_external_regulator_targets.csv",
+  "top_external_regulator_candidates": [],
+  "top_external_gmt_candidates": [
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m2.cp.reactome.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1333,
+      "n_genes_head": 75097,
+      "filename_bonus": 2,
+      "score": 4083.9700000000003
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m3.all.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 2000,
+      "n_genes_head": 389304,
+      "filename_bonus": 1,
+      "score": 4000.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m2.all.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 2000,
+      "n_genes_head": 168786,
+      "filename_bonus": 1,
+      "score": 4000.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m5.go.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 2000,
+      "n_genes_head": 180278,
+      "filename_bonus": 1,
+      "score": 4000.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m5.go.bp.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 2000,
+      "n_genes_head": 180278,
+      "filename_bonus": 1,
+      "score": 4000.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m5.go.mf.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1899,
+      "n_genes_head": 114117,
+      "filename_bonus": 1,
+      "score": 3899.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m3.mirdb.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1768,
+      "n_genes_head": 233370,
+      "filename_bonus": 1,
+      "score": 3768.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m2.cp.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1787,
+      "n_genes_head": 89841,
+      "filename_bonus": 1,
+      "score": 3685.41
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/ARCHS4_Coexpression.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1628,
+      "n_genes_head": 486772,
+      "filename_bonus": 1,
+      "score": 3628.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/GTEx_Coexpression.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1607,
+      "n_genes_head": 480493,
+      "filename_bonus": 1,
+      "score": 3607.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/ENCODE_ChIP-seq.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 552,
+      "n_genes_head": 866323,
+      "filename_bonus": 2,
+      "score": 3552.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/Enrichr_Queries.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1404,
+      "n_genes_head": 416511,
+      "filename_bonus": 1,
+      "score": 3404.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m5.go.cc.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 1067,
+      "n_genes_head": 112349,
+      "filename_bonus": 1,
+      "score": 3067.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m2.cgp.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 984,
+      "n_genes_head": 116378,
+      "filename_bonus": 1,
+      "score": 2984.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m7.all.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 787,
+      "n_genes_head": 70547,
+      "filename_bonus": 1,
+      "score": 2492.4700000000003
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/Literature_ChIP-seq.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 307,
+      "n_genes_head": 387777,
+      "filename_bonus": 1,
+      "score": 2307.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/ReMap_ChIP-seq.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 297,
+      "n_genes_head": 417237,
+      "filename_bonus": 1,
+      "score": 2297.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m3.gtrd.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 279,
+      "n_genes_head": 163326,
+      "filename_bonus": 1,
+      "score": 2279.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m8.all.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 233,
+      "n_genes_head": 47976,
+      "filename_bonus": 1,
+      "score": 1712.76
+    },
+    {
+      "path": "/mnt/h/vir/ST/resources/msigdb/m2.cp.wikipathways.v2026.1.Mm.symbols.gmt",
+      "kind": "gmt",
+      "status": "ok",
+      "n_sets_head": 202,
+      "n_genes_head": 10785,
+      "filename_bonus": 1,
+      "score": 1309.85
+    }
+  ],
+  "step65_command": [
+    "/home/shu/miniconda/envs/nicheformer_env/bin/python",
+    "/mnt/h/vir/ST/65_track_dynamic_marker_regulator_network.py",
+    "--in64c",
+    "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype",
+    "--in64b",
+    "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype",
+    "--outdir",
+    "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata",
+    "--expr_csv",
+    "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_filtered_stroke_relevant_expression.csv",
+    "--max_genes",
+    "800",
+    "--min_cells_per_timepoint",
+    "10",
+    "--min_abs_delta_module",
+    "0.03",
+    "--min_abs_delta_gene",
+    "0.1",
+    "--top_n_modules_for_enrichment",
+    "8",
+    "--top_n_genes_for_enrichment",
+    "50",
+    "--min_overlap",
+    "1",
+    "--top_tracks_fig",
+    "12",
+    "--top_modules_fig",
+    "12",
+    "--dpi",
+    "600",
+    "--regulator_table",
+    "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_external_regulator_targets.csv"
+  ],
+  "run_script": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_run_step65_clean_gene_externaldb.sh",
+  "note": "This is a clean gene-level Step65 rerun. It keeps only stroke-relevant genes and removes mitochondrial/ribosomal/hemoglobin genes. It does not overwrite Step65b."
+}
+
+Gene filter audit:
+{
+  "h5ad": "/mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad",
+  "adata_shape": [
+    7756,
+    32285
+  ],
+  "assignment_unique_obs": 7488,
+  "n_overlapping_obs_exported": 7488,
+  "n_genes_kept": 274,
+  "n_genes_removed_blacklist": 8727,
+  "blacklist_reason_counts": {
+    "predicted_Gm_gene": 8522,
+    "ribosomal": 179,
+    "mitochondrial": 13,
+    "hemoglobin": 11,
+    "technical_lncRNA": 2
+  },
+  "kept_category_counts": {
+    "core_inflammation_chemokine": 34,
+    "endothelial_bbb_vascular": 34,
+    "ecm_remodeling_repair": 32,
+    "microglia_macrophage_phagocytosis": 30,
+    "neuronal_synaptic_recovery": 26,
+    "ferroptosis_redox": 25,
+    "candidate_axes_from_perturbmap": 24,
+    "cell_death_stress_heatshock": 23,
+    "astrocyte_reactive_gliosis": 21,
+    "hypoxia_metabolism_mitochondrial_stress": 20,
+    "complement_coagulation_platelet": 19,
+    "oligodendrocyte_myelin": 19
+  }
+}
+
+Kept genes:
+gene_raw gene_upper             keep_reason                                                                        source_category  adata_var_index  variance
+  Col3a1     COL3A1 stroke_relevant_catalog                                                                  ecm_remodeling_repair              296       NaN
+   Casp8      CASP8 stroke_relevant_catalog                                                            cell_death_stress_heatshock              395       NaN
+    Map2       MAP2 stroke_relevant_catalog                                                             neuronal_synaptic_recovery              481       NaN
+     Fn1        FN1 stroke_relevant_catalog                                                                  ecm_remodeling_repair              506       NaN
+   Cxcr2      CXCR2 stroke_relevant_catalog                                                            core_inflammation_chemokine              535       NaN
+     Des        DES stroke_relevant_catalog                                                               endothelial_bbb_vascular              586       NaN
+    Bcl2       BCL2 stroke_relevant_catalog                                                            cell_death_stress_heatshock              891       NaN
+   Cxcr4      CXCR4 stroke_relevant_catalog                                                            core_inflammation_chemokine              990       NaN
+    Il10       IL10 stroke_relevant_catalog                                                            core_inflammation_chemokine             1013       NaN
+   Ptgs2      PTGS2 stroke_relevant_catalog                                                            core_inflammation_chemokine             1195       NaN
+   Prdx6      PRDX6 stroke_relevant_catalog                                                                      ferroptosis_redox             1329       NaN
+    Fasl       FASL stroke_relevant_catalog                                                            cell_death_stress_heatshock             1332       NaN
+    Sele       SELE stroke_relevant_catalog                                                               endothelial_bbb_vascular             1362       NaN
+    Selp       SELP stroke_relevant_catalog                                                               endothelial_bbb_vascular             1364       NaN
+    Rgs5       RGS5 stroke_relevant_catalog                                                               endothelial_bbb_vascular             1433       NaN
+   Fcgr3      FCGR3 stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis             1461       NaN
+  Fcer1g     FCER1G stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis             1469       NaN
+   Ackr1      ACKR1 stroke_relevant_catalog                             candidate_axes_from_perturbmap;core_inflammation_chemokine             1537       NaN
+   Tgfb2      TGFB2 stroke_relevant_catalog                                                                  ecm_remodeling_repair             1703       NaN
+    Atf3       ATF3 stroke_relevant_catalog                                                            cell_death_stress_heatshock             1749       NaN
+     Vim        VIM stroke_relevant_catalog                                                             astrocyte_reactive_gliosis             1899       NaN
+   Grin1      GRIN1 stroke_relevant_catalog                                                             neuronal_synaptic_recovery             2011       NaN
+    Lcn2       LCN2 stroke_relevant_catalog                                                             astrocyte_reactive_gliosis             2223       NaN
+     Eng        ENG stroke_relevant_catalog                                                               endothelial_bbb_vascular             2235       NaN
+    Pdk1       PDK1 stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress             2542       NaN
+  Nfe2l2     NFE2L2 stroke_relevant_catalog                                       candidate_axes_from_perturbmap;ferroptosis_redox             2602       NaN
+   Itgav      ITGAV stroke_relevant_catalog                                                                  ecm_remodeling_repair             2650       NaN
+Serping1   SERPING1 stroke_relevant_catalog                                                        complement_coagulation_platelet             2673       NaN
+    Spi1       SPI1 stroke_relevant_catalog                                                         candidate_axes_from_perturbmap             2940       NaN
+  Slc1a2     SLC1A2 stroke_relevant_catalog                                                             astrocyte_reactive_gliosis             3020       NaN
+    Cd44       CD44 stroke_relevant_catalog candidate_axes_from_perturbmap;ecm_remodeling_repair;microglia_macrophage_phagocytosis             3022       NaN
+     Cat        CAT stroke_relevant_catalog                                                                      ferroptosis_redox             3031       NaN
+    Bdnf       BDNF stroke_relevant_catalog                                                             neuronal_synaptic_recovery             3083       NaN
+   Thbs1      THBS1 stroke_relevant_catalog                                                                  ecm_remodeling_repair             3191       NaN
+     Mal        MAL stroke_relevant_catalog                                                                 oligodendrocyte_myelin             3369       NaN
+    Il1a       IL1A stroke_relevant_catalog                                                            core_inflammation_chemokine             3407       NaN
+    Il1b       IL1B stroke_relevant_catalog                             candidate_axes_from_perturbmap;core_inflammation_chemokine             3408       NaN
+  Snap25     SNAP25 stroke_relevant_catalog                                                             neuronal_synaptic_recovery             3506       NaN
+  Bcl2l1     BCL2L1 stroke_relevant_catalog                                                            cell_death_stress_heatshock             3685       NaN
+     Gss        GSS stroke_relevant_catalog                                                                      ferroptosis_redox             3755       NaN
+    Mmp9       MMP9 stroke_relevant_catalog                                                                  ecm_remodeling_repair             3950       NaN
+    Ctsz       CTSZ stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis             4090       NaN
+   Stmn2      STMN2 stroke_relevant_catalog                                                             neuronal_synaptic_recovery             4240       NaN
+  Cldn11     CLDN11 stroke_relevant_catalog                                                                 oligodendrocyte_myelin             4359       NaN
+ Slc7a11    SLC7A11 stroke_relevant_catalog                                       candidate_axes_from_perturbmap;ferroptosis_redox             4477       NaN
+   Postn      POSTN stroke_relevant_catalog                                                                  ecm_remodeling_repair             4520       NaN
+   Gria2      GRIA2 stroke_relevant_catalog                                                             neuronal_synaptic_recovery             4673       NaN
+     Fgg        FGG stroke_relevant_catalog                                                        complement_coagulation_platelet             4696       NaN
+     Fga        FGA stroke_relevant_catalog                                                        complement_coagulation_platelet             4697       NaN
+     Fgb        FGB stroke_relevant_catalog                                                        complement_coagulation_platelet             4698       NaN
+    Tlr2       TLR2 stroke_relevant_catalog                                                            core_inflammation_chemokine             4706       NaN
+    Bcan       BCAN stroke_relevant_catalog                                                                 oligodendrocyte_myelin             4756       NaN
+   Syt11      SYT11 stroke_relevant_catalog                                                             neuronal_synaptic_recovery             4794       NaN
+    Ctss       CTSS stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis             5016       NaN
+  Tspan2     TSPAN2 stroke_relevant_catalog                                                                 oligodendrocyte_myelin             5172       NaN
+ Slc16a1    SLC16A1 stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress             5224       NaN
+   Vcam1      VCAM1 stroke_relevant_catalog                                                               endothelial_bbb_vascular             5367       NaN
+      F3         F3 stroke_relevant_catalog                                                        complement_coagulation_platelet             5410       NaN
+    Gclm       GCLM stroke_relevant_catalog                                                                      ferroptosis_redox             5414       NaN
+   Nfkb1      NFKB1 stroke_relevant_catalog                                                            core_inflammation_chemokine             5537       NaN
+    Car9       CAR9 stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress             6012       NaN
+  Tgfbr1     TGFBR1 stroke_relevant_catalog                                                                  ecm_remodeling_repair             6090       NaN
+    Klf4       KLF4 stroke_relevant_catalog                                                               endothelial_bbb_vascular             6145       NaN
+    Tlr4       TLR4 stroke_relevant_catalog                                                            core_inflammation_chemokine             6259       NaN
+     Tek        TEK stroke_relevant_catalog                                                               endothelial_bbb_vascular             6399       NaN
+     Jun        JUN stroke_relevant_catalog                                                            cell_death_stress_heatshock             6404       NaN
+   Prdx1      PRDX1 stroke_relevant_catalog                                                                      ferroptosis_redox             6647       NaN
+  Slc2a1     SLC2A1 stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress             6721       NaN
+  Mfsd2a     MFSD2A stroke_relevant_catalog                                                               endothelial_bbb_vascular             6772       NaN
+  Laptm5     LAPTM5 stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis             6938       NaN
+   Stmn1      STMN1 stroke_relevant_catalog                                                             neuronal_synaptic_recovery             7030       NaN
+    C1qb       C1QB stroke_relevant_catalog                      complement_coagulation_platelet;microglia_macrophage_phagocytosis             7084       NaN
+    C1qc       C1QC stroke_relevant_catalog                      complement_coagulation_platelet;microglia_macrophage_phagocytosis             7085       NaN
+    C1qa       C1QA stroke_relevant_catalog                      complement_coagulation_platelet;microglia_macrophage_phagocytosis             7086       NaN
+   Casp9      CASP9 stroke_relevant_catalog                                                            cell_death_stress_heatshock             7200       NaN
+    Eno1       ENO1 stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress             7357       NaN
+  Abcb1a     ABCB1A stroke_relevant_catalog                                                               endothelial_bbb_vascular             7543       NaN
+  Sema3a     SEMA3A stroke_relevant_catalog                                                             neuronal_synaptic_recovery             7588       NaN
+    Reln       RELN stroke_relevant_catalog                                                             neuronal_synaptic_recovery             7644       NaN
+    Nos3       NOS3 stroke_relevant_catalog                                                               endothelial_bbb_vascular             7669       NaN
+     Il6        IL6 stroke_relevant_catalog                                                            core_inflammation_chemokine             7742       NaN
+  Pdgfra     PDGFRA stroke_relevant_catalog                                                                 oligodendrocyte_myelin             8143       NaN
+     Kdr        KDR stroke_relevant_catalog                                candidate_axes_from_perturbmap;endothelial_bbb_vascular             8151       NaN
+    Ppbp       PPBP stroke_relevant_catalog                                                        complement_coagulation_platelet             8263       NaN
+   Cxcl1      CXCL1 stroke_relevant_catalog                                                            core_inflammation_chemokine             8268       NaN
+   Cxcl2      CXCL2 stroke_relevant_catalog                                                            core_inflammation_chemokine             8269       NaN
+  Cxcl10     CXCL10 stroke_relevant_catalog                                                            core_inflammation_chemokine             8294       NaN
+    Spp1       SPP1 stroke_relevant_catalog candidate_axes_from_perturbmap;ecm_remodeling_repair;microglia_macrophage_phagocytosis             8427       NaN
+   Hspb1      HSPB1 stroke_relevant_catalog                                                            cell_death_stress_heatshock             9000       NaN
+Serpine1   SERPINE1 stroke_relevant_catalog                                  complement_coagulation_platelet;ecm_remodeling_repair             9029       NaN
+    Flt1       FLT1 stroke_relevant_catalog                                candidate_axes_from_perturbmap;endothelial_bbb_vascular             9270       NaN
+  Col1a2     COL1A2 stroke_relevant_catalog                                                                  ecm_remodeling_repair             9356       NaN
+   Gpnmb      GPNMB stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis             9806       NaN
+   Abcg2      ABCG2 stroke_relevant_catalog                                                               endothelial_bbb_vascular             9938       NaN
+     Hk2        HK2 stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress            10262       NaN
+ Aldh1l1    ALDH1L1 stroke_relevant_catalog                                                             astrocyte_reactive_gliosis            10453       NaN
+   Alox5      ALOX5 stroke_relevant_catalog                                                                      ferroptosis_redox            10640       NaN
+  Lpcat3     LPCAT3 stroke_relevant_catalog                                                                      ferroptosis_redox            10765       NaN
+   Gapdh      GAPDH stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress            10797       NaN
+     Vwf        VWF stroke_relevant_catalog                                                               endothelial_bbb_vascular            10813       NaN
+    Emp1       EMP1 stroke_relevant_catalog                                                             astrocyte_reactive_gliosis            10985       NaN
+ Slco1a4    SLCO1A4 stroke_relevant_catalog                                                               endothelial_bbb_vascular            11035       NaN
+    Ldhb       LDHB stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress            11048       NaN
+    Fosb       FOSB stroke_relevant_catalog                                                            cell_death_stress_heatshock            11490       NaN
+    Apoe       APOE stroke_relevant_catalog                       candidate_axes_from_perturbmap;microglia_macrophage_phagocytosis            11515       NaN
+   Tgfb1      TGFB1 stroke_relevant_catalog                                   candidate_axes_from_perturbmap;ecm_remodeling_repair            11717       NaN
+  Tyrobp     TYROBP stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis            11882       NaN
+     Mag        MAG stroke_relevant_catalog                                                                 oligodendrocyte_myelin            11921       NaN
+    Ftl1       FTL1 stroke_relevant_catalog                                                                      ferroptosis_redox            12212       NaN
+     Bax        BAX stroke_relevant_catalog                                                            cell_death_stress_heatshock            12213       NaN
+    Ldha       LDHA stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress            12276       NaN
+    Tjp1       TJP1 stroke_relevant_catalog                                                               endothelial_bbb_vascular            12384       NaN
+     Adm        ADM stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress            13123       NaN
+   Aldoa      ALDOA stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress            13330       NaN
+  Pycard     PYCARD stroke_relevant_catalog                                                            core_inflammation_chemokine            13408       NaN
+   Itgam      ITGAM stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis            13411       NaN
+   Bnip3      BNIP3 stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress            13541       NaN
+    Ctsd       CTSD stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis            13672       NaN
+  Col4a1     COL4A1 stroke_relevant_catalog                                                                  ecm_remodeling_repair            13838       NaN
+  Col4a2     COL4A2 stroke_relevant_catalog                                                                  ecm_remodeling_repair            13839       NaN
+  Angpt2     ANGPT2 stroke_relevant_catalog                                                               endothelial_bbb_vascular            13926       NaN
+    Plat       PLAT stroke_relevant_catalog                                                        complement_coagulation_platelet            14015       NaN
+    Nrg1       NRG1 stroke_relevant_catalog                                                             neuronal_synaptic_recovery            14127       NaN
+     Gsr        GSR stroke_relevant_catalog                                                                      ferroptosis_redox            14136       NaN
+   Casp3      CASP3 stroke_relevant_catalog                                                            cell_death_stress_heatshock            14262       NaN
+   Enpp6      ENPP6 stroke_relevant_catalog                                                                 oligodendrocyte_myelin            14268       NaN
+     Lpl        LPL stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis            14405       NaN
+    Jund       JUND stroke_relevant_catalog                                                            cell_death_stress_heatshock            14466       NaN
+   Plvap      PLVAP stroke_relevant_catalog                                                               endothelial_bbb_vascular            14499       NaN
+    Klf2       KLF2 stroke_relevant_catalog                                                               endothelial_bbb_vascular            14533       NaN
+   Hmox1      HMOX1 stroke_relevant_catalog                                                                      ferroptosis_redox            14554       NaN
+    Ier2       IER2 stroke_relevant_catalog                                                            cell_death_stress_heatshock            14660       NaN
+   Prdx2      PRDX2 stroke_relevant_catalog                                                                      ferroptosis_redox            14680       NaN
+    Mmp2       MMP2 stroke_relevant_catalog                                                                  ecm_remodeling_repair            14778       NaN
+     Mt2        MT2 stroke_relevant_catalog                                                             astrocyte_reactive_gliosis            14809       NaN
+     Mt1        MT1 stroke_relevant_catalog                                                             astrocyte_reactive_gliosis            14810       NaN
+    Cdh5       CDH5 stroke_relevant_catalog                                                               endothelial_bbb_vascular            14884       NaN
+    Nqo1       NQO1 stroke_relevant_catalog                                                                      ferroptosis_redox            15006       NaN
+   Tubb3      TUBB3 stroke_relevant_catalog                                                             neuronal_synaptic_recovery            15230       NaN
+   Itgb1      ITGB1 stroke_relevant_catalog                                                                  ecm_remodeling_repair            15293       NaN
+   Casp1      CASP1 stroke_relevant_catalog                                                            core_inflammation_chemokine            15318       NaN
+    Mmp3       MMP3 stroke_relevant_catalog                                                                  ecm_remodeling_repair            15328       NaN
+   Icam1      ICAM1 stroke_relevant_catalog                                                               endothelial_bbb_vascular            15470       NaN
+   Keap1      KEAP1 stroke_relevant_catalog                                                                      ferroptosis_redox            15482       NaN
+    Esam       ESAM stroke_relevant_catalog                                                               endothelial_bbb_vascular            15680       NaN
+    Mcam       MCAM stroke_relevant_catalog                                                               endothelial_bbb_vascular            15860       NaN
+   Tagln      TAGLN stroke_relevant_catalog                                                               endothelial_bbb_vascular            15929       NaN
+    Il18       IL18 stroke_relevant_catalog                                                            core_inflammation_chemokine            15990       NaN
+   Cspg4      CSPG4 stroke_relevant_catalog                                                                 oligodendrocyte_myelin            16085       NaN
+     Pkm        PKM stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress            16151       NaN
+   Smad3      SMAD3 stroke_relevant_catalog                                   candidate_axes_from_perturbmap;ecm_remodeling_repair            16203       NaN
+    Gclc       GCLC stroke_relevant_catalog                                                                      ferroptosis_redox            16375       NaN
+     Trf        TRF stroke_relevant_catalog                                                                 oligodendrocyte_myelin            16637       NaN
+  Tgfbr2     TGFBR2 stroke_relevant_catalog                                                                  ecm_remodeling_repair            16920       NaN
+   Myd88      MYD88 stroke_relevant_catalog                                                            core_inflammation_chemokine            16950       NaN
+    Mobp       MOBP stroke_relevant_catalog                                                                 oligodendrocyte_myelin            16975       NaN
+    Ccr2       CCR2 stroke_relevant_catalog                             candidate_axes_from_perturbmap;core_inflammation_chemokine            17078       NaN
+    Ccr5       CCR5 stroke_relevant_catalog                                                            core_inflammation_chemokine            17079       NaN
+    Gja1       GJA1 stroke_relevant_catalog                                                             astrocyte_reactive_gliosis            17548       NaN
+   Fabp7      FABP7 stroke_relevant_catalog                                                             astrocyte_reactive_gliosis            17558       NaN
+   Aifm2      AIFM2 stroke_relevant_catalog                                                                      ferroptosis_redox            17616       NaN
+     Mif        MIF stroke_relevant_catalog                                                hypoxia_metabolism_mitochondrial_stress            17761       NaN
+   S100b      S100B stroke_relevant_catalog                                                             astrocyte_reactive_gliosis            17775       NaN
+  Col6a1     COL6A1 stroke_relevant_catalog                                                                  ecm_remodeling_repair            17791       NaN
+     Cfd        CFD stroke_relevant_catalog                                                        complement_coagulation_platelet            17903       NaN
+    Gpx4       GPX4 stroke_relevant_catalog                                       candidate_axes_from_perturbmap;ferroptosis_redox            17916       NaN
+  Txnrd1     TXNRD1 stroke_relevant_catalog                                                                      ferroptosis_redox            18041       NaN
+   Apaf1      APAF1 stroke_relevant_catalog                                                            cell_death_stress_heatshock            18129       NaN
+     Dcn        DCN stroke_relevant_catalog                                                                  ecm_remodeling_repair            18208       NaN
+     Lum        LUM stroke_relevant_catalog                                                                  ecm_remodeling_repair            18209       NaN
+    Syt1       SYT1 stroke_relevant_catalog                                                             neuronal_synaptic_recovery            18294       NaN
+    Lyz2       LYZ2 stroke_relevant_catalog                                                            core_inflammation_chemokine            18367       NaN
+   Ddit3      DDIT3 stroke_relevant_catalog                                                            cell_death_stress_heatshock            18500       NaN
+    Nefh       NEFH stroke_relevant_catalog                                                             neuronal_synaptic_recovery            18710       NaN
+  Camk2b     CAMK2B stroke_relevant_catalog                                                             neuronal_synaptic_recovery            18734       NaN
+    Irf1       IRF1 stroke_relevant_catalog                                                         candidate_axes_from_perturbmap            19151       NaN
+   Sparc      SPARC stroke_relevant_catalog                                                                  ecm_remodeling_repair            19183       NaN
+   Gria1      GRIA1 stroke_relevant_catalog                                                             neuronal_synaptic_recovery            19191       NaN
+   Nlrp3      NLRP3 stroke_relevant_catalog                                                            core_inflammation_chemokine            19274       NaN
+    Cd68       CD68 stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis            19468       NaN
+    Dlg4       DLG4 stroke_relevant_catalog                                                             neuronal_synaptic_recovery            19503       NaN
+  Alox15     ALOX15 stroke_relevant_catalog                                                                      ferroptosis_redox            19515       NaN
+   Gp1ba      GP1BA stroke_relevant_catalog                                                        complement_coagulation_platelet            19532       NaN
+    Nos2       NOS2 stroke_relevant_catalog                                                            core_inflammation_chemokine            19749       NaN
+  Lgals9     LGALS9 stroke_relevant_catalog                                                         candidate_axes_from_perturbmap            19750       NaN
+    Ccl2       CCL2 stroke_relevant_catalog                             candidate_axes_from_perturbmap;core_inflammation_chemokine            19793       NaN
+    Ccl7       CCL7 stroke_relevant_catalog                                                            core_inflammation_chemokine            19794       NaN
+    Ccl8       CCL8 stroke_relevant_catalog                                                            core_inflammation_chemokine            19797       NaN
+    Ccl5       CCL5 stroke_relevant_catalog                                                            core_inflammation_chemokine            19834       NaN
+    Ccl3       CCL3 stroke_relevant_catalog                                                            core_inflammation_chemokine            19839       NaN
+    Ccl4       CCL4 stroke_relevant_catalog                                                            core_inflammation_chemokine            19840       NaN
+  Col1a1     COL1A1 stroke_relevant_catalog                                                                  ecm_remodeling_repair            19983       NaN
+     Cnp        CNP stroke_relevant_catalog                                                                 oligodendrocyte_myelin            20225       NaN
+   Stat3      STAT3 stroke_relevant_catalog                              astrocyte_reactive_gliosis;candidate_axes_from_perturbmap            20239       NaN
+     Grn        GRN stroke_relevant_catalog                                                      microglia_macrophage_phagocytosis            20311       NaN
+  Itga2b     ITGA2B stroke_relevant_catalog                                                        complement_coagulation_platelet            20313       NaN
+    Gfap       GFAP stroke_relevant_catalog                                                             astrocyte_reactive_gliosis            20327       NaN
+   Itgb3      ITGB3 stroke_relevant_catalog                                                                  ecm_remodeling_repair            20369       NaN
+  Pecam1     PECAM1 stroke_relevant_catalog                                                               endothelial_bbb_vascular            20405       NaN
+    Sox9       SOX9 stroke_relevant_catalog                                                             astrocyte_reactive_gliosis            20473       NaN
+
+Removed blacklist genes:
+gene_raw gene_upper            reason  in_stroke_catalog
+  Gm1992     GM1992 predicted_Gm_gene              False
+ Gm19938    GM19938 predicted_Gm_gene              False
+ Gm37381    GM37381 predicted_Gm_gene              False
+ Gm37587    GM37587 predicted_Gm_gene              False
+ Gm37323    GM37323 predicted_Gm_gene              False
+  Mrpl15     MRPL15         ribosomal              False
+ Gm16041    GM16041 predicted_Gm_gene              False
+ Gm26901    GM26901 predicted_Gm_gene              False
+ Gm30414    GM30414 predicted_Gm_gene              False
+ Gm29520    GM29520 predicted_Gm_gene              False
+ Gm15818    GM15818 predicted_Gm_gene              False
+ Gm17644    GM17644 predicted_Gm_gene              False
+ Gm29663    GM29663 predicted_Gm_gene              False
+ Gm29283    GM29283 predicted_Gm_gene              False
+ Gm29570    GM29570 predicted_Gm_gene              False
+  Gm9947     GM9947 predicted_Gm_gene              False
+    Rpl7       RPL7         ribosomal              False
+ Gm28095    GM28095 predicted_Gm_gene              False
+  Gm7568     GM7568 predicted_Gm_gene              False
+ Gm28376    GM28376 predicted_Gm_gene              False
+ Gm28783    GM28783 predicted_Gm_gene              False
+ Gm28784    GM28784 predicted_Gm_gene              False
+ Gm28154    GM28154 predicted_Gm_gene              False
+ Gm16070    GM16070 predicted_Gm_gene              False
+ Gm28153    GM28153 predicted_Gm_gene              False
+ Gm28756    GM28756 predicted_Gm_gene              False
+ Gm15825    GM15825 predicted_Gm_gene              False
+ Gm28340    GM28340 predicted_Gm_gene              False
+ Gm28653    GM28653 predicted_Gm_gene              False
+ Gm28065    GM28065 predicted_Gm_gene              False
+ Gm28287    GM28287 predicted_Gm_gene              False
+ Gm28836    GM28836 predicted_Gm_gene              False
+ Gm29506    GM29506 predicted_Gm_gene              False
+ Gm27028    GM27028 predicted_Gm_gene              False
+ Gm29107    GM29107 predicted_Gm_gene              False
+ Gm28822    GM28822 predicted_Gm_gene              False
+ Gm28237    GM28237 predicted_Gm_gene              False
+ Gm29414    GM29414 predicted_Gm_gene              False
+  Gm5524     GM5524 predicted_Gm_gene              False
+   Gm597      GM597 predicted_Gm_gene              False
+  Gm9898     GM9898 predicted_Gm_gene              False
+  Gm5698     GM5698 predicted_Gm_gene              False
+ Gm28644    GM28644 predicted_Gm_gene              False
+ Gm29128    GM29128 predicted_Gm_gene              False
+  Gm5415     GM5415 predicted_Gm_gene              False
+ Gm37724    GM37724 predicted_Gm_gene              False
+ Gm37591    GM37591 predicted_Gm_gene              False
+ Gm26788    GM26788 predicted_Gm_gene              False
+ Gm37958    GM37958 predicted_Gm_gene              False
+ Gm37233    GM37233 predicted_Gm_gene              False
+ Gm28306    GM28306 predicted_Gm_gene              False
+ Gm28417    GM28417 predicted_Gm_gene              False
+ Gm38336    GM38336 predicted_Gm_gene              False
+ Gm37068    GM37068 predicted_Gm_gene              False
+ Gm28415    GM28415 predicted_Gm_gene              False
+ Gm37146    GM37146 predicted_Gm_gene              False
+ Gm33222    GM33222 predicted_Gm_gene              False
+ Gm37335    GM37335 predicted_Gm_gene              False
+ Gm33280    GM33280 predicted_Gm_gene              False
+ Gm38033    GM38033 predicted_Gm_gene              False
+ Gm33533    GM33533 predicted_Gm_gene              False
+ Gm38115    GM38115 predicted_Gm_gene              False
+ Gm37020    GM37020 predicted_Gm_gene              False
+ Gm26805    GM26805 predicted_Gm_gene              False
+  Mrpl30     MRPL30         ribosomal              False
+ Gm15457    GM15457 predicted_Gm_gene              False
+ Gm37062    GM37062 predicted_Gm_gene              False
+  Gm5099     GM5099 predicted_Gm_gene              False
+ Gm16150    GM16150 predicted_Gm_gene              False
+ Gm16151    GM16151 predicted_Gm_gene              False
+ Gm16152    GM16152 predicted_Gm_gene              False
+ Gm37707    GM37707 predicted_Gm_gene              False
+ Gm37821    GM37821 predicted_Gm_gene              False
+   Rpl31      RPL31         ribosomal              False
+ Gm15832    GM15832 predicted_Gm_gene              False
+  Gm3646     GM3646 predicted_Gm_gene              False
+ Gm16894    GM16894 predicted_Gm_gene              False
+ Gm35801    GM35801 predicted_Gm_gene              False
+ Gm37623    GM37623 predicted_Gm_gene              False
+ Gm37915    GM37915 predicted_Gm_gene              False
+ Gm28634    GM28634 predicted_Gm_gene              False
+ Gm29260    GM29260 predicted_Gm_gene              False
+  Gm9915     GM9915 predicted_Gm_gene              False
+ Gm29664    GM29664 predicted_Gm_gene              False
+ Gm28175    GM28175 predicted_Gm_gene              False
+ Gm28140    GM28140 predicted_Gm_gene              False
+ Gm20646    GM20646 predicted_Gm_gene              False
+   Mrps9      MRPS9         ribosomal              False
+ Gm28782    GM28782 predicted_Gm_gene              False
+ Gm29040    GM29040 predicted_Gm_gene              False
+ Gm29155    GM29155 predicted_Gm_gene              False
+ Gm29157    GM29157 predicted_Gm_gene              False
+ Gm29156    GM29156 predicted_Gm_gene              False
+  Gm8251     GM8251 predicted_Gm_gene              False
+ Gm28893    GM28893 predicted_Gm_gene              False
+  Gm5269     GM5269 predicted_Gm_gene              False
+ Gm28151    GM28151 predicted_Gm_gene              False
+ Gm28826    GM28826 predicted_Gm_gene              False
+ Gm29665    GM29665 predicted_Gm_gene              False
+ Gm28321    GM28321 predicted_Gm_gene              False
+ Gm28322    GM28322 predicted_Gm_gene              False
+ Gm28319    GM28319 predicted_Gm_gene              False
+ Gm28320    GM28320 predicted_Gm_gene              False
+ Gm29325    GM29325 predicted_Gm_gene              False
+ Gm17767    GM17767 predicted_Gm_gene              False
+ Gm28055    GM28055 predicted_Gm_gene              False
+ Gm29453    GM29453 predicted_Gm_gene              False
+ Gm28323    GM28323 predicted_Gm_gene              False
+ Gm31812    GM31812 predicted_Gm_gene              False
+   Gm553      GM553 predicted_Gm_gene              False
+ Gm28178    GM28178 predicted_Gm_gene              False
+ Gm29670    GM29670 predicted_Gm_gene              False
+ Gm28777    GM28777 predicted_Gm_gene              False
+ Gm34066    GM34066 predicted_Gm_gene              False
+ Gm10561    GM10561 predicted_Gm_gene              False
+ Gm28240    GM28240 predicted_Gm_gene              False
+ Gm17234    GM17234 predicted_Gm_gene              False
+ Gm15759    GM15759 predicted_Gm_gene              False
+ Gm15834    GM15834 predicted_Gm_gene              False
+ Gm29018    GM29018 predicted_Gm_gene              False
+ Gm29017    GM29017 predicted_Gm_gene              False
+ Gm29016    GM29016 predicted_Gm_gene              False
+ Gm26813    GM26813 predicted_Gm_gene              False
+   Gm973      GM973 predicted_Gm_gene              False
+ Gm28411    GM28411 predicted_Gm_gene              False
+ Gm11579    GM11579 predicted_Gm_gene              False
+ Gm28083    GM28083 predicted_Gm_gene              False
+ Gm11587    GM11587 predicted_Gm_gene              False
+ Gm11588    GM11588 predicted_Gm_gene              False
+ Gm28449    GM28449 predicted_Gm_gene              False
+ Gm29084    GM29084 predicted_Gm_gene              False
+ Gm29083    GM29083 predicted_Gm_gene              False
+  Gm4208     GM4208 predicted_Gm_gene              False
+ Gm20342    GM20342 predicted_Gm_gene              False
+ Gm11608    GM11608 predicted_Gm_gene              False
+ Gm39653    GM39653 predicted_Gm_gene              False
+ Gm13749    GM13749 predicted_Gm_gene              False
+ Gm13748    GM13748 predicted_Gm_gene              False
+ Gm28981    GM28981 predicted_Gm_gene              False
+ Gm28982    GM28982 predicted_Gm_gene              False
+ Gm29152    GM29152 predicted_Gm_gene              False
+ Gm10558    GM10558 predicted_Gm_gene              False
+ Gm15668    GM15668 predicted_Gm_gene              False
+ Gm15669    GM15669 predicted_Gm_gene              False
+ Gm15671    GM15671 predicted_Gm_gene              False
+ Gm16076    GM16076 predicted_Gm_gene              False
+ Gm28497    GM28497 predicted_Gm_gene              False
+ Gm29113    GM29113 predicted_Gm_gene              False
+ Gm29114    GM29114 predicted_Gm_gene              False
+ Gm29112    GM29112 predicted_Gm_gene              False
+ Gm28112    GM28112 predicted_Gm_gene              False
+  Gm8883     GM8883 predicted_Gm_gene              False
+ Gm28818    GM28818 predicted_Gm_gene              False
+  Gm4319     GM4319 predicted_Gm_gene              False
+ Gm39662    GM39662 predicted_Gm_gene              False
+  Rpl37a     RPL37A         ribosomal              False
+ Gm29185    GM29185 predicted_Gm_gene              False
+ Gm29186    GM29186 predicted_Gm_gene              False
+ Gm29183    GM29183 predicted_Gm_gene              False
+ Gm28364    GM28364 predicted_Gm_gene              False
+ Gm29358    GM29358 predicted_Gm_gene              False
+ Gm29539    GM29539 predicted_Gm_gene              False
+ Gm16582    GM16582 predicted_Gm_gene              False
+ Gm15841    GM15841 predicted_Gm_gene              False
+ Gm28294    GM28294 predicted_Gm_gene              False
+ Gm28902    GM28902 predicted_Gm_gene              False
+ Gm15179    GM15179 predicted_Gm_gene              False
+ Gm15178    GM15178 predicted_Gm_gene              False
+ Gm29065    GM29065 predicted_Gm_gene              False
+ Gm29069    GM29069 predicted_Gm_gene              False
+ Gm17751    GM17751 predicted_Gm_gene              False
+   Gm816      GM816 predicted_Gm_gene              False
+ Gm28386    GM28386 predicted_Gm_gene              False
+ Gm28387    GM28387 predicted_Gm_gene              False
+ Gm28410    GM28410 predicted_Gm_gene              False
+ Gm29611    GM29611 predicted_Gm_gene              False
+ Gm29536    GM29536 predicted_Gm_gene              False
+ Gm29187    GM29187 predicted_Gm_gene              False
+  Mrpl44     MRPL44         ribosomal              False
+ Gm29125    GM29125 predicted_Gm_gene              False
+ Gm45261    GM45261 predicted_Gm_gene              False
+  Gm9747     GM9747 predicted_Gm_gene              False
+ Gm28940    GM28940 predicted_Gm_gene              False
+ Gm28941    GM28941 predicted_Gm_gene              False
+ Gm47791    GM47791 predicted_Gm_gene              False
+ Gm28942    GM28942 predicted_Gm_gene              False
+  Gm6217     GM6217 predicted_Gm_gene              False
+  Gm7544     GM7544 predicted_Gm_gene              False
+ Gm47955    GM47955 predicted_Gm_gene              False
+ Gm47959    GM47959 predicted_Gm_gene              False
+ Gm47969    GM47969 predicted_Gm_gene              False
+ Gm10553    GM10553 predicted_Gm_gene              False
+ Gm16028    GM16028 predicted_Gm_gene              False
+ Gm16025    GM16025 predicted_Gm_gene              False
+ Gm16092    GM16092 predicted_Gm_gene              False
+ Gm16094    GM16094 predicted_Gm_gene              False
+ Gm10552    GM10552 predicted_Gm_gene              False
+ Gm17017    GM17017 predicted_Gm_gene              False
+ Gm28884    GM28884 predicted_Gm_gene              False
+ Gm28100    GM28100 predicted_Gm_gene              False
+
+Top external regulator candidates:
+None
+
+Top external GMT candidates:
+                                                                    path kind status  n_sets_head  n_genes_head  filename_bonus   score
+    /mnt/h/vir/ST/resources/msigdb/m2.cp.reactome.v2026.1.Mm.symbols.gmt  gmt     ok         1333         75097               2 4083.97
+            /mnt/h/vir/ST/resources/msigdb/m3.all.v2026.1.Mm.symbols.gmt  gmt     ok         2000        389304               1 4000.00
+            /mnt/h/vir/ST/resources/msigdb/m2.all.v2026.1.Mm.symbols.gmt  gmt     ok         2000        168786               1 4000.00
+             /mnt/h/vir/ST/resources/msigdb/m5.go.v2026.1.Mm.symbols.gmt  gmt     ok         2000        180278               1 4000.00
+          /mnt/h/vir/ST/resources/msigdb/m5.go.bp.v2026.1.Mm.symbols.gmt  gmt     ok         2000        180278               1 4000.00
+          /mnt/h/vir/ST/resources/msigdb/m5.go.mf.v2026.1.Mm.symbols.gmt  gmt     ok         1899        114117               1 3899.00
+          /mnt/h/vir/ST/resources/msigdb/m3.mirdb.v2026.1.Mm.symbols.gmt  gmt     ok         1768        233370               1 3768.00
+             /mnt/h/vir/ST/resources/msigdb/m2.cp.v2026.1.Mm.symbols.gmt  gmt     ok         1787         89841               1 3685.41
+                  /mnt/h/vir/ST/resources/msigdb/ARCHS4_Coexpression.gmt  gmt     ok         1628        486772               1 3628.00
+                    /mnt/h/vir/ST/resources/msigdb/GTEx_Coexpression.gmt  gmt     ok         1607        480493               1 3607.00
+                      /mnt/h/vir/ST/resources/msigdb/ENCODE_ChIP-seq.gmt  gmt     ok          552        866323               2 3552.00
+                      /mnt/h/vir/ST/resources/msigdb/Enrichr_Queries.gmt  gmt     ok         1404        416511               1 3404.00
+          /mnt/h/vir/ST/resources/msigdb/m5.go.cc.v2026.1.Mm.symbols.gmt  gmt     ok         1067        112349               1 3067.00
+            /mnt/h/vir/ST/resources/msigdb/m2.cgp.v2026.1.Mm.symbols.gmt  gmt     ok          984        116378               1 2984.00
+            /mnt/h/vir/ST/resources/msigdb/m7.all.v2026.1.Mm.symbols.gmt  gmt     ok          787         70547               1 2492.47
+                  /mnt/h/vir/ST/resources/msigdb/Literature_ChIP-seq.gmt  gmt     ok          307        387777               1 2307.00
+                       /mnt/h/vir/ST/resources/msigdb/ReMap_ChIP-seq.gmt  gmt     ok          297        417237               1 2297.00
+           /mnt/h/vir/ST/resources/msigdb/m3.gtrd.v2026.1.Mm.symbols.gmt  gmt     ok          279        163326               1 2279.00
+            /mnt/h/vir/ST/resources/msigdb/m8.all.v2026.1.Mm.symbols.gmt  gmt     ok          233         47976               1 1712.76
+/mnt/h/vir/ST/resources/msigdb/m2.cp.wikipathways.v2026.1.Mm.symbols.gmt  gmt     ok          202         10785               1 1309.85
+    /mnt/h/vir/ST/resources/msigdb/m2.cp.biocarta.v2026.1.Mm.symbols.gmt  gmt     ok          252          3959               1 1291.59
+            /mnt/h/vir/ST/resources/msigdb/mh.all.v2026.1.Mm.symbols.gmt  gmt     ok           50          7191               1 1121.91
+            /mnt/h/vir/ST/resources/msigdb/m5.mpt.v2026.1.Mm.symbols.gmt  gmt     ok           92          2606               1 1118.06
+
+Run script:
+/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata/step65c_run_step65_clean_gene_externaldb.sh

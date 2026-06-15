@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "analysis_name": "Step73C ultra-clean manuscript-ready track-specific dynamic marker heatmap",
+  "inputs": {
+    "step73b_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready"
+  },
+  "n_tracks_input": 14,
+  "n_features_input": 36,
+  "n_tracks_ultraclean": 8,
+  "n_features_ultraclean": 20,
+  "selected_tracks": [
+    "Track 048",
+    "Track 011",
+    "Track 018",
+    "Track 019",
+    "Track 022",
+    "Track 029",
+    "Track 035",
+    "Track 049"
+  ],
+  "outputs": {
+    "matrix_z": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2/step73c_ultraclean_dynamic_feature_matrix_z.csv",
+    "matrix_raw": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2/step73c_ultraclean_dynamic_feature_matrix_raw.csv",
+    "track_annotations": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2/step73c_ultraclean_track_annotations.csv",
+    "feature_annotations": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2/step73c_ultraclean_feature_annotations.csv",
+    "annotated_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2/Fig_Step73C_UltraCleanTrackDynamicMarkerHeatmap_annotated.pdf",
+    "annotated_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2/Fig_Step73C_UltraCleanTrackDynamicMarkerHeatmap_annotated.svg",
+    "annotated_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2/Fig_Step73C_UltraCleanTrackDynamicMarkerHeatmap_annotated.png",
+    "clean_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2/Fig_Step73C_UltraCleanTrackDynamicMarkerHeatmap_clean_no_text.pdf",
+    "clean_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2/Fig_Step73C_UltraCleanTrackDynamicMarkerHeatmap_clean_no_text.svg",
+    "clean_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2/Fig_Step73C_UltraCleanTrackDynamicMarkerHeatmap_clean_no_text.png"
+  },
+  "interpretation_note": "Step73C is an ultra-clean compact visualization for manuscript panel use. It summarizes transcript-level dynamic markers/modules and simplified enrichment-derived regulators. Regulator names are computational annotations and do not imply functional validation."
+}

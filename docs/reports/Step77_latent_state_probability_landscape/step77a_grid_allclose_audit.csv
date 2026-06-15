@@ -1,0 +1,7 @@
+target_1,target_2,n_common_grid,allclose,mean_abs_grid_difference,hash_1,hash_2
+core,peri,17613,True,0.0,7b3aaab8f1cf6c10,7b3aaab8f1cf6c10
+core,remote,17613,True,0.0,7b3aaab8f1cf6c10,7b3aaab8f1cf6c10
+core,repair,17613,False,0.5664077920794657,7b3aaab8f1cf6c10,52528dd6fc242955
+peri,remote,17613,True,0.0,7b3aaab8f1cf6c10,7b3aaab8f1cf6c10
+peri,repair,17613,False,0.5664077920794657,7b3aaab8f1cf6c10,52528dd6fc242955
+remote,repair,17613,False,0.5664077920794657,7b3aaab8f1cf6c10,52528dd6fc242955

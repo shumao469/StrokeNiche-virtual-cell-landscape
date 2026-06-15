@@ -1,0 +1,27 @@
+# Large processed data
+*.h5ad
+*.h5
+*.loom
+*.zarr/
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+
+# Large raw/result directories
+data/
+results/
+zenodo_data_results_bundle/
+processed_inputs/
+
+# Large images/tables should be on Zenodo unless manually selected
+*.tif
+*.tiff
+*.parquet
+
+# Runtime/cache
+__pycache__/
+.ipynb_checkpoints/
+*.log
+.DS_Store

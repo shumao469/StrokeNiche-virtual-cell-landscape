@@ -1,0 +1,19 @@
+step	description	recommended_location	status
+Step1-20	Data preprocessing and spatial object construction	Methods	summarize, not all files needed
+Step21-40	Annotation, region/state definition and QC	Methods/Fig1	summarize
+Step41-55	Embedding and latent representation	Methods/Fig1/Fig3	summarize
+Step56-64	State modeling and dynamics graph	Methods/Results	include final state table and graph files
+Step65-68	Dynamic regulators, perturbation FDR, validation layer	Extended/Supplementary	include source tables and reports
+Step69	Trajectory-aware virtual perturbation main figure	Supplementary/QC or method schematic	optional
+Step70	Virtual KO/blockade spatial rescue maps	Supplementary/QC	optional
+Step71	State probability shift sensitivity	Supplementary/QC	freeze as sensitivity only
+Step72	Expression-level in silico KO/blockade	Methods/Supplementary	include report and response source if used
+Step73	Track-specific dynamic marker heatmap	Extended Data	freeze
+Step74	WGCNA-style module evidence figure	Extended Data	freeze
+Step75B/75D	Spatial marker/module landscape atlas	Main Fig2	freeze
+Step76B	Latent-state pseudo-energy landscape	Main Fig3	freeze
+Step77B	Latent state-probability landscape	Main Fig4	freeze
+Step78D	Virtual perturbation response landscape	Main Fig5	freeze
+Step79 final v2	State/timepoint-specific spatial progression atlas	Extended Data	freeze; label-derived state maps
+Step80	Candidate perturbation-axis expression dotplot	Extended Data	freeze
+Step81B	Surrogate feature-response audit	Extended Data/QC	freeze with caveat

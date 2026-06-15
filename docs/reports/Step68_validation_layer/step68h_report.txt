@@ -1,0 +1,142 @@
+Step68H compartment-aware external validation/debug report
+====================================================================================================
+{
+  "status": "ok",
+  "analysis_name": "Step68H compartment-aware external validation/debug",
+  "h5ad": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68f_GSE233815_filtered_celllevel_h5ad/GSE233815_sc_sn_filtered_celllevel_step68_module_genes.h5ad",
+  "step66f_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary",
+  "step68e_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68e_strict_GSE233815_pseudobulk_robustness",
+  "step68g_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68g_celllevel_balanced_sensitivity",
+  "outdir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun",
+  "n_obs": 136328,
+  "n_vars": 183,
+  "n_candidates": 10,
+  "tier_counts": {
+    "compartment_specific_support_but_primary_discordant": 4,
+    "compartment_specific_rescue_with_68E_or_68G_support": 3,
+    "pseudobulk_primary_only_no_compartment_rescue": 2,
+    "not_rescued_after_compartment_debug": 1
+  },
+  "n_boot": 50,
+  "n_perm": 200,
+  "figure_outputs": {
+    "annotated": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_annotated.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_annotated.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_annotated.png"
+    },
+    "clean_no_text": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_clean_no_text.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_clean_no_text.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_clean_no_text.png"
+    }
+  },
+  "outputs": {
+    "compartment_marker_audit": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_compartment_marker_gene_audit.csv",
+    "compartment_assignment_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_cell_compartment_assignment_summary.csv",
+    "candidate_compartment_direction_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_candidate_compartment_direction_summary.csv",
+    "final_compartment_rescue_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_final_compartment_rescue_summary.csv",
+    "manuscript_text": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_manuscript_ready_compartment_text.txt",
+    "report_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_report.json",
+    "report_txt": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_report.txt"
+  },
+  "interpretation_note": "Step68H diagnoses whether weak whole-cell signals are rescued in relevant compartments. It does not constitute wet-lab therapeutic validation."
+}
+
+Final summary:
+ step68h_rank                    perturbation_id                    module_key                                  step68h_final_tier  best_compartment  best_repair_consistency_score  best_modality_concordant  best_bootstrap_positive_fraction  best_permutation_p_value  best_permutation_bh_fdr_global                   step68e_final_tier               step68g_final_sensitivity_tier  n_matched_genes  matched_gene_fraction
+            1                       hypoxia_down                       hypoxia compartment_specific_rescue_with_68E_or_68G_support  endothelial_like                       0.129263                      True                              1.00                  0.019900                        0.223881   partial_external_direction_support    68E_and_68F_concordant_strong_sensitivity               16               0.941176
+            2                   ferroptosis_down                   ferroptosis compartment_specific_rescue_with_68E_or_68G_support  endothelial_like                       0.067915                      True                              1.00                  0.074627                        0.358209   partial_external_direction_support    68E_and_68F_concordant_strong_sensitivity               23               0.920000
+            3                      repair_ECM_up                    repair_ecm compartment_specific_rescue_with_68E_or_68G_support vascular_ecm_like                       0.046025                     False                              0.78                  0.328358                        0.738806 modality_concordant_external_support  68E_supported_with_68F_balanced_sensitivity               33               1.000000
+            4                  inflammation_down                  inflammation compartment_specific_support_but_primary_discordant    microglia_like                       0.255677                      True                              1.00                  0.004975                        0.134328 not_supported_in_external_pseudobulk    68F_only_signal_check_for_cell_count_bias               28               1.000000
+            5        microglia_inflammatory_down        microglia_inflammatory compartment_specific_support_but_primary_discordant    microglia_like                       0.215523                      True                              1.00                  0.169154                        0.507463 not_supported_in_external_pseudobulk not_supported_after_balanced_celllevel_audit               22               1.000000
+            6                   BBB_leakage_down                   bbb_leakage compartment_specific_support_but_primary_discordant  endothelial_like                       0.209464                      True                              1.00                  0.208955                        0.564179  weak_or_inconsistent_external_trend    68F_only_signal_check_for_cell_count_bias               23               1.000000
+            7 endothelial_barrier_fragility_down endothelial_barrier_fragility compartment_specific_support_but_primary_discordant  endothelial_like                       0.242638                      True                              0.98                  0.159204                        0.507463 not_supported_in_external_pseudobulk not_supported_after_balanced_celllevel_audit               14               1.000000
+            8               barrier_stability_up             barrier_stability       pseudobulk_primary_only_no_compartment_rescue  endothelial_like                      -0.345890                     False                              0.00                  1.000000                        1.000000   partial_external_direction_support 68E_supported_but_68F_celllevel_inconclusive               15               1.000000
+            9               synaptic_recovery_up             synaptic_recovery       pseudobulk_primary_only_no_compartment_rescue       neuron_like                       0.132349                     False                               NaN                  1.000000                        1.000000   partial_external_direction_support 68E_supported_but_68F_celllevel_inconclusive               26               1.000000
+           10            astrocyte_reactive_down            astrocyte_reactive                 not_rescued_after_compartment_debug    astrocyte_like                      -0.004329                     False                              0.40                  1.000000                        1.000000 not_supported_in_external_pseudobulk not_supported_after_balanced_celllevel_audit               18               1.000000
+
+Compartment assignment summary:
+     assigned_compartment modality condition  n_cells
+           astrocyte_like       sc        D1      325
+           astrocyte_like       sc        D3      380
+           astrocyte_like       sc        D7      799
+           astrocyte_like       sc      sham      410
+           astrocyte_like       sn        D1     2569
+           astrocyte_like       sn        D3     8523
+           astrocyte_like       sn        D7     4292
+           astrocyte_like       sn      sham     3965
+         endothelial_like       sc        D1       84
+         endothelial_like       sc        D3       78
+         endothelial_like       sc        D7      148
+         endothelial_like       sc      sham      105
+         endothelial_like       sn        D1     1219
+         endothelial_like       sn        D3     4319
+         endothelial_like       sn        D7     1937
+         endothelial_like       sn      sham     2780
+           microglia_like       sc        D1      109
+           microglia_like       sc        D3      269
+           microglia_like       sc        D7      491
+           microglia_like       sc      sham      140
+           microglia_like       sn        D1     1328
+           microglia_like       sn        D3     5931
+           microglia_like       sn        D7     3262
+           microglia_like       sn      sham     1636
+              neuron_like       sc        D1       16
+              neuron_like       sc        D3       28
+              neuron_like       sc        D7       87
+              neuron_like       sc      sham       30
+              neuron_like       sn        D1     5268
+              neuron_like       sn        D3    10581
+              neuron_like       sn        D7     7091
+              neuron_like       sn      sham     8188
+               other_like       sc        D1      232
+               other_like       sc        D3      254
+               other_like       sc        D7      391
+               other_like       sc      sham      230
+               other_like       sn        D1     3609
+               other_like       sn        D3     8722
+               other_like       sn        D7     6158
+               other_like       sn      sham     7173
+stress_hypoxia_redox_like       sc        D1     1409
+stress_hypoxia_redox_like       sc        D3     1130
+stress_hypoxia_redox_like       sc        D7     1482
+stress_hypoxia_redox_like       sc      sham     1315
+stress_hypoxia_redox_like       sn        D1     2364
+stress_hypoxia_redox_like       sn        D3     4669
+stress_hypoxia_redox_like       sn        D7     2745
+stress_hypoxia_redox_like       sn      sham     4532
+        vascular_ecm_like       sc        D1       44
+        vascular_ecm_like       sc        D3       50
+        vascular_ecm_like       sc        D7       90
+        vascular_ecm_like       sc      sham       59
+        vascular_ecm_like       sn        D1     1697
+        vascular_ecm_like       sn        D3     5750
+        vascular_ecm_like       sn        D7     2907
+        vascular_ecm_like       sn      sham     2928
+
+Manuscript text:
+Step68H manuscript-ready compartment-aware interpretation
+====================================================================================================
+
+We performed a compartment-aware sensitivity analysis on the QC-filtered GSE233815 cell-level h5ad. Cells were assigned to lightweight marker-defined compartments using available module genes, and candidate module directions were re-evaluated within biologically relevant compartments after sample-level aggregation, stage-label permutation and balanced within-sample bootstrap.
+
+This analysis is intended to diagnose whether weak modules in the whole-cell analysis are diluted by cell composition. It does not replace the primary Step68E pseudobulk robustness result or the Step68G balanced cell-level sensitivity audit.
+
+Module-level interpretation:
+- hypoxia: compartment_specific_rescue_with_68E_or_68G_support; best compartment=endothelial_like; repair consistency=0.1293; bootstrap positive fraction=1; permutation P=0.0199; 68E=partial_external_direction_support; 68G=68E_and_68F_concordant_strong_sensitivity.
+- ferroptosis: compartment_specific_rescue_with_68E_or_68G_support; best compartment=endothelial_like; repair consistency=0.06791; bootstrap positive fraction=1; permutation P=0.0746; 68E=partial_external_direction_support; 68G=68E_and_68F_concordant_strong_sensitivity.
+- repair_ecm: compartment_specific_rescue_with_68E_or_68G_support; best compartment=vascular_ecm_like; repair consistency=0.04603; bootstrap positive fraction=0.78; permutation P=0.328; 68E=modality_concordant_external_support; 68G=68E_supported_with_68F_balanced_sensitivity.
+- inflammation: compartment_specific_support_but_primary_discordant; best compartment=microglia_like; repair consistency=0.2557; bootstrap positive fraction=1; permutation P=0.00498; 68E=not_supported_in_external_pseudobulk; 68G=68F_only_signal_check_for_cell_count_bias.
+- microglia_inflammatory: compartment_specific_support_but_primary_discordant; best compartment=microglia_like; repair consistency=0.2155; bootstrap positive fraction=1; permutation P=0.169; 68E=not_supported_in_external_pseudobulk; 68G=not_supported_after_balanced_celllevel_audit.
+- bbb_leakage: compartment_specific_support_but_primary_discordant; best compartment=endothelial_like; repair consistency=0.2095; bootstrap positive fraction=1; permutation P=0.209; 68E=weak_or_inconsistent_external_trend; 68G=68F_only_signal_check_for_cell_count_bias.
+- endothelial_barrier_fragility: compartment_specific_support_but_primary_discordant; best compartment=endothelial_like; repair consistency=0.2426; bootstrap positive fraction=0.98; permutation P=0.159; 68E=not_supported_in_external_pseudobulk; 68G=not_supported_after_balanced_celllevel_audit.
+- barrier_stability: pseudobulk_primary_only_no_compartment_rescue; best compartment=endothelial_like; repair consistency=-0.3459; bootstrap positive fraction=0; permutation P=1; 68E=partial_external_direction_support; 68G=68E_supported_but_68F_celllevel_inconclusive.
+- synaptic_recovery: pseudobulk_primary_only_no_compartment_rescue; best compartment=neuron_like; repair consistency=0.1323; bootstrap positive fraction=nan; permutation P=1; 68E=partial_external_direction_support; 68G=68E_supported_but_68F_celllevel_inconclusive.
+- astrocyte_reactive: not_rescued_after_compartment_debug; best compartment=astrocyte_like; repair consistency=-0.004329; bootstrap positive fraction=0.4; permutation P=1; 68E=not_supported_in_external_pseudobulk; 68G=not_supported_after_balanced_celllevel_audit.
+
+Conservative wording:
+Only candidates supported in Step68E/Step68G and rescued in the relevant compartment should be described as compartment-specific external direction-supported hypotheses. Candidates supported only in compartment or only in direct cell-level analysis should remain exploratory.
+
+Forbidden wording:
+experimentally validated therapeutic candidate; clinically validated target; proven treatment response

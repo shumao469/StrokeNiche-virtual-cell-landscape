@@ -1,0 +1,28 @@
+Step75 final frozen
+Date: Mon Jun 15 14:15:28 CST 2026
+H5AD: /mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad
+STATE: /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_modeling_input_used.fixed_region_probs.csv
+OUT: /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen
+
+Expected key audit:
+  n_obs = 7756
+  state_merge_overlap = 7756
+  prob_cols = core_probability / peri_probability / remote_probability
+
+Frozen scripts:
+5e60e0ec068844c4df1118369a8ee42d780c2fd51715b8ab6acdfa2e79542919  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/75b_dark_spatial_landscape_atlas.frozen.py
+243313cdc52b8320c350ff638070e7317e4a851f5431bcf6c27c2154e8eaf17f  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/75c_final_frozen_runner.py
+
+Main outputs:
+-rwxrwxrwx 1 shu shu  17M Jun 15 14:15 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_CompactSpatialLandscapeManuscriptPanel.png
+-rwxrwxrwx 1 shu shu  15M Jun 15 14:14 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_DarkSpatialMarkerLandscapeAtlas.png
+-rwxrwxrwx 1 shu shu  11M Jun 15 14:14 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_DarkSpatialModuleLandscapeAtlas.png
+-rwxrwxrwx 1 shu shu 2.9M Jun 15 14:15 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_DarkSpatialStateProbabilityLandscapeAtlas.png
+-rwxrwxrwx 1 shu shu  20M Jun 15 14:15 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_CompactSpatialLandscapeManuscriptPanel.pdf
+-rwxrwxrwx 1 shu shu  20M Jun 15 14:14 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_DarkSpatialMarkerLandscapeAtlas.pdf
+-rwxrwxrwx 1 shu shu  11M Jun 15 14:14 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_DarkSpatialModuleLandscapeAtlas.pdf
+-rwxrwxrwx 1 shu shu 4.5M Jun 15 14:15 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_DarkSpatialStateProbabilityLandscapeAtlas.pdf
+-rwxrwxrwx 1 shu shu  35M Jun 15 14:15 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_CompactSpatialLandscapeManuscriptPanel.svg
+-rwxrwxrwx 1 shu shu  36M Jun 15 14:14 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_DarkSpatialMarkerLandscapeAtlas.svg
+-rwxrwxrwx 1 shu shu  19M Jun 15 14:15 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_DarkSpatialModuleLandscapeAtlas.svg
+-rwxrwxrwx 1 shu shu 7.9M Jun 15 14:15 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75_final_frozen/Fig_Step75C_DarkSpatialStateProbabilityLandscapeAtlas.svg

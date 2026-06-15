@@ -1,0 +1,716 @@
+Step65b auto-detection report
+====================================================================================================
+{
+  "variant": "state_celltype",
+  "in64c": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype",
+  "in64b": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype",
+  "search_roots": [
+    "/mnt/h/vir/ST",
+    "/mnt/h/Data",
+    "/mnt/h/vir"
+  ],
+  "n_candidate_files": 3904,
+  "selected_expression": {
+    "path": "/mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad",
+    "kind": "h5ad",
+    "orientation": "cells_by_genes",
+    "obs_col": NaN,
+    "status": "ok",
+    "n_cols": NaN,
+    "obs_overlap_rows_head": NaN,
+    "obs_overlap_cols": NaN,
+    "n_genes": 32285.0,
+    "gene_like_cols": 32285.0,
+    "stroke_gene_hits": 13.0,
+    "filename_bonus": 3.0,
+    "score": 7522100,
+    "n_obs": 7756.0,
+    "obs_overlap": 7488.0
+  },
+  "expression_meta": {
+    "standardized": false,
+    "mode": "h5ad_direct",
+    "expr_h5ad": "/mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad"
+  },
+  "expr_csv_for_step65": "",
+  "expr_h5ad_for_step65": "/mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad",
+  "regulator_meta": {
+    "combined": true,
+    "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65b_state_celltype_gene_auto/step65b_combined_regulator_targets.csv",
+    "n_pairs": 536,
+    "n_regulators": 50,
+    "n_targets": 69,
+    "databases": {
+      "fig6B_cell_cell_communication_network_all_cellchat_all_ranked_edges": 169,
+      "fig6B_cell_cell_communication_network_all_ranked_edges": 169,
+      "step65_track_network_edges": 126,
+      "fig6B_cell_cell_communication_network_candidate_hits_all_ranked_edges": 72
+    },
+    "source_files": [
+      "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_cellchat_all_ranked_edges.csv",
+      "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_ranked_edges.csv",
+      "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_candidate_hits_all_ranked_edges.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_kmeans/step65_track_network_edges.csv"
+    ]
+  },
+  "regulator_csv_for_step65": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65b_state_celltype_gene_auto/step65b_combined_regulator_targets.csv",
+  "top_expression_candidates": [
+    {
+      "path": "/mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 3.0,
+      "score": 7522100,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/spatial_all_with_nicheformer.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 3.0,
+      "score": 7522100,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_input.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 3.0,
+      "score": 7522100,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step4_baseline_benchmark/spatial_all_with_baseline_embeddings.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 3.0,
+      "score": 7522100,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/spatial_all_with_nicheformer.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 3.0,
+      "score": 7522100,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 3.0,
+      "score": 7522100,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_input.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 3.0,
+      "score": 7522100,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step4_baseline_benchmark/spatial_all_with_baseline_embeddings.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 3.0,
+      "score": 7522100,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3B_nicheformer_umap_by_timepoint.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 2.0,
+      "score": 7521600,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3A_nicheformer_umap_by_region_auto.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 2.0,
+      "score": 7521600,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3B_nicheformer_umap_by_timepoint.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 2.0,
+      "score": 7521600,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3A_nicheformer_umap_by_region_auto.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 2.0,
+      "score": 7521600,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3D_nicheformer_umap_by_injury_score.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 2.0,
+      "score": 7521600,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3D_nicheformer_umap_by_RCTD_dominant_celltype.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 2.0,
+      "score": 7521600,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3D_nicheformer_umap_by_RCTD_dominant_celltype.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 2.0,
+      "score": 7521600,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3D_nicheformer_umap_by_injury_score.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 2.0,
+      "score": 7521600,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3C_nicheformer_umap_by_predicted_celltype.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 2.0,
+      "score": 7521600,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3C_nicheformer_umap_by_predicted_celltype.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 32285.0,
+      "gene_like_cols": 32285.0,
+      "stroke_gene_hits": 13.0,
+      "filename_bonus": 2.0,
+      "score": 7521600,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_with_embeddings_all_nan.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 20310.0,
+      "gene_like_cols": 20310.0,
+      "stroke_gene_hits": 0.0,
+      "filename_bonus": 3.0,
+      "score": 7509810,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_input_20310_ortholog.h5ad",
+      "kind": "h5ad",
+      "orientation": "cells_by_genes",
+      "obs_col": NaN,
+      "status": "ok",
+      "n_cols": NaN,
+      "obs_overlap_rows_head": NaN,
+      "obs_overlap_cols": NaN,
+      "n_genes": 20310.0,
+      "gene_like_cols": 20310.0,
+      "stroke_gene_hits": 0.0,
+      "filename_bonus": 3.0,
+      "score": 7509810,
+      "n_obs": 7756.0,
+      "obs_overlap": 7488.0
+    }
+  ],
+  "top_regulator_candidates": [
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_cellchat_all_ranked_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_all_cellchat_all_ranked_edges",
+      "n_head_rows": 100.0,
+      "filename_bonus": 2.0,
+      "score": 3000,
+      "n_pairs_head": 100.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_ranked_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_all_ranked_edges",
+      "n_head_rows": 100.0,
+      "filename_bonus": 2.0,
+      "score": 3000,
+      "n_pairs_head": 100.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_candidate_hits_all_ranked_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_candidate_hits_all_ranked_edges",
+      "n_head_rows": 100.0,
+      "filename_bonus": 2.0,
+      "score": 3000,
+      "n_pairs_head": 100.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_ranked_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_all_ranked_edges",
+      "n_head_rows": 100.0,
+      "filename_bonus": 2.0,
+      "score": 3000,
+      "n_pairs_head": 100.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_kmeans/step65_track_network_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "step65_track_network_edges",
+      "n_head_rows": 100.0,
+      "filename_bonus": 2.0,
+      "score": 3000,
+      "n_pairs_head": 100.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_candidate_hits_all_ranked_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_candidate_hits_all_ranked_edges",
+      "n_head_rows": 100.0,
+      "filename_bonus": 2.0,
+      "score": 3000,
+      "n_pairs_head": 100.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_cellchat_all_ranked_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_all_cellchat_all_ranked_edges",
+      "n_head_rows": 100.0,
+      "filename_bonus": 2.0,
+      "score": 3000,
+      "n_pairs_head": 100.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_kmeans/step65_track_network_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "step65_track_network_edges",
+      "n_head_rows": 100.0,
+      "filename_bonus": 2.0,
+      "score": 3000,
+      "n_pairs_head": 100.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_state_celltype/step65_track_network_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "step65_track_network_edges",
+      "n_head_rows": 79.0,
+      "filename_bonus": 2.0,
+      "score": 2790,
+      "n_pairs_head": 79.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_state_celltype/step65_track_network_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "step65_track_network_edges",
+      "n_head_rows": 79.0,
+      "filename_bonus": 2.0,
+      "score": 2790,
+      "n_pairs_head": 79.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_top_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_top_edges",
+      "n_head_rows": 12.0,
+      "filename_bonus": 2.0,
+      "score": 2120,
+      "n_pairs_head": 12.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_top_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_top_edges",
+      "n_head_rows": 12.0,
+      "filename_bonus": 2.0,
+      "score": 2120,
+      "n_pairs_head": 12.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/extended_fig6B_cell_cell_communication_network_with_OL_plot_source.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "extended_fig6B_cell_cell_communication_network_with_OL_plot_source",
+      "n_head_rows": 12.0,
+      "filename_bonus": 2.0,
+      "score": 2120,
+      "n_pairs_head": 12.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/extended_fig6B_cell_cell_communication_network_with_OL_plot_source.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "extended_fig6B_cell_cell_communication_network_with_OL_plot_source",
+      "n_head_rows": 12.0,
+      "filename_bonus": 2.0,
+      "score": 2120,
+      "n_pairs_head": 12.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_cellchat_top_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_all_cellchat_top_edges",
+      "n_head_rows": 12.0,
+      "filename_bonus": 2.0,
+      "score": 2120,
+      "n_pairs_head": 12.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_cellchat_top_edges.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_all_cellchat_top_edges",
+      "n_head_rows": 12.0,
+      "filename_bonus": 2.0,
+      "score": 2120,
+      "n_pairs_head": 12.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_nature_plot_source.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_nature_plot_source",
+      "n_head_rows": 10.0,
+      "filename_bonus": 2.0,
+      "score": 2100,
+      "n_pairs_head": 10.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_nature_plot_source.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_nature_plot_source",
+      "n_head_rows": 10.0,
+      "filename_bonus": 2.0,
+      "score": 2100,
+      "n_pairs_head": 10.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_polished_main_no_OL_plot_source.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_polished_main_no_OL_plot_source",
+      "n_head_rows": 8.0,
+      "filename_bonus": 2.0,
+      "score": 2080,
+      "n_pairs_head": 8.0
+    },
+    {
+      "path": "/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_MAIN_final_no_OL_no_overlap_plot_source.csv",
+      "kind": "regulator_table",
+      "status": "ok",
+      "reg_col": "source",
+      "target_col": "target",
+      "database": "fig6B_cell_cell_communication_network_MAIN_final_no_OL_no_overlap_plot_source",
+      "n_head_rows": 8.0,
+      "filename_bonus": 2.0,
+      "score": 2080,
+      "n_pairs_head": 8.0
+    }
+  ],
+  "top_gmt_candidates": []
+}
+
+Top expression candidates:
+                                                                                                            path kind    orientation obs_col status  n_cols  obs_overlap_rows_head  obs_overlap_cols  n_genes  gene_like_cols  stroke_gene_hits  filename_bonus   score  n_obs  obs_overlap
+                                                        /mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             3.0 7522100 7756.0       7488.0
+                                       /mnt/h/vir/ST/results/step5_nicheformer/spatial_all_with_nicheformer.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             3.0 7522100 7756.0       7488.0
+                                          /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_input.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             3.0 7522100 7756.0       7488.0
+                        /mnt/h/vir/ST/results/step4_baseline_benchmark/spatial_all_with_baseline_embeddings.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             3.0 7522100 7756.0       7488.0
+                                       /mnt/h/vir/ST/results/step5_nicheformer/spatial_all_with_nicheformer.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             3.0 7522100 7756.0       7488.0
+                                                        /mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             3.0 7522100 7756.0       7488.0
+                                          /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_input.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             3.0 7522100 7756.0       7488.0
+                        /mnt/h/vir/ST/results/step4_baseline_benchmark/spatial_all_with_baseline_embeddings.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             3.0 7522100 7756.0       7488.0
+             /mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3B_nicheformer_umap_by_timepoint.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             2.0 7521600 7756.0       7488.0
+           /mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3A_nicheformer_umap_by_region_auto.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             2.0 7521600 7756.0       7488.0
+             /mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3B_nicheformer_umap_by_timepoint.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             2.0 7521600 7756.0       7488.0
+           /mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3A_nicheformer_umap_by_region_auto.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             2.0 7521600 7756.0       7488.0
+          /mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3D_nicheformer_umap_by_injury_score.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             2.0 7521600 7756.0       7488.0
+/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3D_nicheformer_umap_by_RCTD_dominant_celltype.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             2.0 7521600 7756.0       7488.0
+/mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3D_nicheformer_umap_by_RCTD_dominant_celltype.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             2.0 7521600 7756.0       7488.0
+          /mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3D_nicheformer_umap_by_injury_score.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             2.0 7521600 7756.0       7488.0
+    /mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3C_nicheformer_umap_by_predicted_celltype.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             2.0 7521600 7756.0       7488.0
+    /mnt/h/vir/ST/results/step5_nicheformer/downstream/figures/fig3C_nicheformer_umap_by_predicted_celltype.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  32285.0         32285.0              13.0             2.0 7521600 7756.0       7488.0
+                        /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_with_embeddings_all_nan.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                           /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_input_20310_ortholog.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                         /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_with_embeddings_allnan.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                            /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_input_20310_allzero.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                         /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_with_embeddings_allnan.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                                /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_with_embeddings.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                             /mnt/h/vir/ST/results/step5_nicheformer/spatial_ortholog20310_with_nicheformer.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                                /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_with_embeddings.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                           /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_input_20310_ortholog.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                            /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_input_20310_allzero.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                        /mnt/h/vir/ST/results/step5_nicheformer/nicheformer_spatial_with_embeddings_all_nan.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+                             /mnt/h/vir/ST/results/step5_nicheformer/spatial_ortholog20310_with_nicheformer.h5ad h5ad cells_by_genes     NaN     ok     NaN                    NaN               NaN  20310.0         20310.0               0.0             3.0 7509810 7756.0       7488.0
+
+Top regulator table candidates:
+                                                                                                                                           path            kind                  status   reg_col target_col                                                                      database  n_head_rows  filename_bonus  score  n_pairs_head
+          /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_cellchat_all_ranked_edges.csv regulator_table                      ok    source     target           fig6B_cell_cell_communication_network_all_cellchat_all_ranked_edges        100.0             2.0   3000         100.0
+                       /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_ranked_edges.csv regulator_table                      ok    source     target                        fig6B_cell_cell_communication_network_all_ranked_edges        100.0             2.0   3000         100.0
+        /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_candidate_hits_all_ranked_edges.csv regulator_table                      ok    source     target         fig6B_cell_cell_communication_network_candidate_hits_all_ranked_edges        100.0             2.0   3000         100.0
+                       /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_ranked_edges.csv regulator_table                      ok    source     target                        fig6B_cell_cell_communication_network_all_ranked_edges        100.0             2.0   3000         100.0
+                     /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_kmeans/step65_track_network_edges.csv regulator_table                      ok    source     target                                                    step65_track_network_edges        100.0             2.0   3000         100.0
+        /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_candidate_hits_all_ranked_edges.csv regulator_table                      ok    source     target         fig6B_cell_cell_communication_network_candidate_hits_all_ranked_edges        100.0             2.0   3000         100.0
+          /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_cellchat_all_ranked_edges.csv regulator_table                      ok    source     target           fig6B_cell_cell_communication_network_all_cellchat_all_ranked_edges        100.0             2.0   3000         100.0
+                     /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_kmeans/step65_track_network_edges.csv regulator_table                      ok    source     target                                                    step65_track_network_edges        100.0             2.0   3000         100.0
+             /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_state_celltype/step65_track_network_edges.csv regulator_table                      ok    source     target                                                    step65_track_network_edges         79.0             2.0   2790          79.0
+             /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_state_celltype/step65_track_network_edges.csv regulator_table                      ok    source     target                                                    step65_track_network_edges         79.0             2.0   2790          79.0
+                              /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_top_edges.csv regulator_table                      ok    source     target                               fig6B_cell_cell_communication_network_top_edges         12.0             2.0   2120          12.0
+                              /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_top_edges.csv regulator_table                      ok    source     target                               fig6B_cell_cell_communication_network_top_edges         12.0             2.0   2120          12.0
+           /mnt/h/vir/ST/results/figure6_regulator_communication/figures/extended_fig6B_cell_cell_communication_network_with_OL_plot_source.csv regulator_table                      ok    source     target            extended_fig6B_cell_cell_communication_network_with_OL_plot_source         12.0             2.0   2120          12.0
+           /mnt/h/vir/ST/results/figure6_regulator_communication/figures/extended_fig6B_cell_cell_communication_network_with_OL_plot_source.csv regulator_table                      ok    source     target            extended_fig6B_cell_cell_communication_network_with_OL_plot_source         12.0             2.0   2120          12.0
+                 /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_cellchat_top_edges.csv regulator_table                      ok    source     target                  fig6B_cell_cell_communication_network_all_cellchat_top_edges         12.0             2.0   2120          12.0
+                 /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_all_cellchat_top_edges.csv regulator_table                      ok    source     target                  fig6B_cell_cell_communication_network_all_cellchat_top_edges         12.0             2.0   2120          12.0
+                     /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_nature_plot_source.csv regulator_table                      ok    source     target                      fig6B_cell_cell_communication_network_nature_plot_source         10.0             2.0   2100          10.0
+                     /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_nature_plot_source.csv regulator_table                      ok    source     target                      fig6B_cell_cell_communication_network_nature_plot_source         10.0             2.0   2100          10.0
+        /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_polished_main_no_OL_plot_source.csv regulator_table                      ok    source     target         fig6B_cell_cell_communication_network_polished_main_no_OL_plot_source          8.0             2.0   2080           8.0
+/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_MAIN_final_no_OL_no_overlap_plot_source.csv regulator_table                      ok    source     target fig6B_cell_cell_communication_network_MAIN_final_no_OL_no_overlap_plot_source          8.0             2.0   2080           8.0
+        /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_polished_main_no_OL_plot_source.csv regulator_table                      ok    source     target         fig6B_cell_cell_communication_network_polished_main_no_OL_plot_source          8.0             2.0   2080           8.0
+/mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_MAIN_final_no_OL_no_overlap_plot_source.csv regulator_table                      ok    source     target fig6B_cell_cell_communication_network_MAIN_final_no_OL_no_overlap_plot_source          8.0             2.0   2080           8.0
+               /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_candidate_hits_top_edges.csv regulator_table                      ok    source     target                fig6B_cell_cell_communication_network_candidate_hits_top_edges          3.0             2.0   2030           3.0
+               /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6B_cell_cell_communication_network_candidate_hits_top_edges.csv regulator_table                      ok    source     target                fig6B_cell_cell_communication_network_candidate_hits_top_edges          3.0             2.0   2030           3.0
+                 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_kmeans/step65_regulator_database_used.csv regulator_table                      ok regulator     target                                                step65_regulator_database_used        100.0             1.0   2000         100.0
+                 /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_kmeans/step65_regulator_database_used.csv regulator_table                      ok regulator     target                                                step65_regulator_database_used        100.0             1.0   2000         100.0
+         /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_state_celltype/step65_regulator_database_used.csv regulator_table                      ok regulator     target                                                step65_regulator_database_used        100.0             1.0   2000         100.0
+         /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65_state_celltype/step65_regulator_database_used.csv regulator_table                      ok regulator     target                                                step65_regulator_database_used        100.0             1.0   2000         100.0
+                /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6_regulator_communication_C_regulator_network_edges_source.csv regulator_table possible_unknown_header    ligand   celltype                 fig6_regulator_communication_C_regulator_network_edges_source          3.0             2.0   1000           NaN
+                /mnt/h/vir/ST/results/figure6_regulator_communication/figures/fig6_regulator_communication_C_regulator_network_edges_source.csv regulator_table possible_unknown_header    ligand   celltype                 fig6_regulator_communication_C_regulator_network_edges_source          3.0             2.0   1000           NaN
+
+Top GMT candidates:
+None
+
+Step65 command:
+/home/shu/miniconda/envs/nicheformer_env/bin/python /mnt/h/vir/ST/65_track_dynamic_marker_regulator_network.py --in64c /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64c_refined_labels_state_celltype --in64b /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype --outdir /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65b_state_celltype_gene_auto --max_genes 3000 --min_cells_per_timepoint 10 --min_abs_delta_module 0.03 --min_abs_delta_gene 0.1 --top_n_modules_for_enrichment 8 --top_n_genes_for_enrichment 50 --min_overlap 1 --top_tracks_fig 12 --top_modules_fig 12 --dpi 600 --expr_h5ad /mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad --regulator_table /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65b_state_celltype_gene_auto/step65b_combined_regulator_targets.csv
+
+Run script: /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65b_state_celltype_gene_auto/step65b_run_step65_gene_level.sh

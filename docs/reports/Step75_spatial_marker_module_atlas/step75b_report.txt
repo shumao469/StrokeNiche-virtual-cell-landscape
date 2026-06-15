@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "outputs": {
+    "marker_atlas_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75b_dark_final/Fig_Step75B_DarkSpatialMarkerLandscapeAtlas.png",
+    "module_atlas_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75b_dark_final/Fig_Step75B_DarkSpatialModuleLandscapeAtlas.png",
+    "state_probability_atlas_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75b_dark_final/Fig_Step75B_DarkSpatialStateProbabilityLandscapeAtlas.png",
+    "compact_panel_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75b_dark_final/Fig_Step75B_CompactSpatialLandscapeManuscriptPanel.png",
+    "audit_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75b_dark_final/step75b_audit_report.json",
+    "module_gene_match_audit": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75b_dark_final/step75b_module_gene_match_audit.csv"
+  },
+  "interpretation_note": "Step75B generates dark-background spatial landscape atlases with smoothed visualization layers, raw spot overlays, tissue outlines, and core/peri contours when model-derived state probabilities or labels are available. These are visualization-level spatial landscapes, not direct energy landscapes."
+}

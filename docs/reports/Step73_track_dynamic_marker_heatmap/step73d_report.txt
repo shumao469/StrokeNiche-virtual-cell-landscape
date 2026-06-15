@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "analysis_name": "Step73D label-cleaned final track-specific dynamic marker heatmap",
+  "inputs": {
+    "step73c_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73c_ultraclean_maintext_v2"
+  },
+  "n_tracks": 8,
+  "n_features": 20,
+  "selected_tracks": [
+    "Track 048",
+    "Track 011",
+    "Track 018",
+    "Track 019",
+    "Track 022",
+    "Track 029",
+    "Track 035",
+    "Track 049"
+  ],
+  "selected_features": [
+    "Hmox1",
+    "module ferroptosis",
+    "Ftl1",
+    "endothelial context",
+    "Gfap",
+    "Vim",
+    "repair score",
+    "repair score std",
+    "neuron context",
+    "core probability",
+    "Mbp",
+    "Plp1",
+    "Clu",
+    "Apoe",
+    "Spp1",
+    "Slc1a2",
+    "Ctsd",
+    "C1qa",
+    "Tyrobp",
+    "Lgals3"
+  ],
+  "outputs": {
+    "matrix_z": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final/step73d_labelclean_dynamic_feature_matrix_z.csv",
+    "matrix_raw": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final/step73d_labelclean_dynamic_feature_matrix_raw.csv",
+    "track_annotations": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final/step73d_labelclean_track_annotations.csv",
+    "feature_annotations": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final/step73d_labelclean_feature_annotations.csv",
+    "annotated_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final/Fig_Step73D_LabelCleanedFinalTrackDynamicMarkerHeatmap_annotated.pdf",
+    "annotated_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final/Fig_Step73D_LabelCleanedFinalTrackDynamicMarkerHeatmap_annotated.svg",
+    "annotated_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final/Fig_Step73D_LabelCleanedFinalTrackDynamicMarkerHeatmap_annotated.png",
+    "clean_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final/Fig_Step73D_LabelCleanedFinalTrackDynamicMarkerHeatmap_clean_no_text.pdf",
+    "clean_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final/Fig_Step73D_LabelCleanedFinalTrackDynamicMarkerHeatmap_clean_no_text.svg",
+    "clean_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final/Fig_Step73D_LabelCleanedFinalTrackDynamicMarkerHeatmap_clean_no_text.png"
+  },
+  "interpretation_note": "Step73D is the label-cleaned final version. It removes database-term residues from regulator labels and keeps only strict known regulator/TF symbols. Regulator labels remain enrichment-derived computational annotations, not functional validation."
+}

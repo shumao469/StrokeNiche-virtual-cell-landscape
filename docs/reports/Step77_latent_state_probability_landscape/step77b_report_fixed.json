@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "h5ad": "/mnt/h/vir/ST/results/step5_nicheformer/spatial_all_with_nicheformer.h5ad",
+  "state_table": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_modeling_input_used.fixed_region_probs.csv",
+  "shape": [
+    7756,
+    32285
+  ],
+  "state_merge_audit": {
+    "state_table_available": true,
+    "state_table_rows": 7756,
+    "merge_mode": "id",
+    "merge_key_state": "obs_name",
+    "state_merge_overlap": 7756,
+    "adata_n_obs": 7756
+  },
+  "latent_coordinate_audit": {
+    "mode": "obsm_forced_pca",
+    "obsm_key": "X_nicheformer",
+    "n_dim": 512,
+    "forced_obsm_priority": true,
+    "pca_explained_variance_ratio": [
+      0.1500479280948639,
+      0.09276904165744781
+    ]
+  },
+  "columns": {
+    "core_col": "core_probability",
+    "repair_col": "repair_score",
+    "state_label_col": "state_group"
+  },
+  "value_sources": {
+    "core": "model_probability",
+    "repair": "model_score"
+  },
+  "smoothing": {
+    "grid_n": 260,
+    "smooth_sigma": 3.4,
+    "density_sigma": 2.0,
+    "surface_smooth_sigma": 5.0,
+    "mask_density_quantile": 0.045,
+    "peak_quantile": 0.92,
+    "peak_neighborhood": 15
+  },
+  "density_thresholds": {
+    "core": 1.177965981667328e-05,
+    "repair": 1.177965981667328e-05
+  },
+  "outputs": {
+    "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77b_manuscript_ready_compact_fixed/Fig_Step77B_ManuscriptReadyCompact_LatentLandscape_fixed.png",
+    "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77b_manuscript_ready_compact_fixed/Fig_Step77B_ManuscriptReadyCompact_LatentLandscape_fixed.pdf",
+    "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77b_manuscript_ready_compact_fixed/Fig_Step77B_ManuscriptReadyCompact_LatentLandscape_fixed.svg",
+    "peaks_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77b_manuscript_ready_compact_fixed/step77b_core_peak_coordinates_fixed.csv",
+    "core_grid_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77b_manuscript_ready_compact_fixed/step77b_core_landscape_grid_fixed.csv",
+    "repair_grid_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77b_manuscript_ready_compact_fixed/step77b_repair_landscape_grid_fixed.csv"
+  },
+  "interpretation_note": "Core probability is derived from state-label/probability smoothing. Repair is a model-derived rescue/repair score normalized for visualization. These Gaussian-kernel-smoothed latent landscapes are visualization-level maps, not physical energy landscapes and not observed cell-state transitions."
+}

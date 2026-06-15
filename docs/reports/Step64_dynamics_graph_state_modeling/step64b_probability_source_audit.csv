@@ -1,0 +1,7 @@
+source_label,source_type,core_col,peri_col,remote_col,nonnull_fraction,pairwise_abs_diff_mean,identical_fraction,max_abs_pairwise_corr,sum_median,sum_median_abs_error_from1,mean_sd,state_alignment_score,status,score
+prob_region_state,preferred_cell_state,prob_lesion_core,prob_peri_infarct,prob_remote_like,1.0,0.5394907184636506,0.0,0.7438295063714232,1.0,3.112999996668364e-08,0.3002882066319646,0.4649309386340121,ok_candidate,5.22618238404007
+P_region_state,preferred_cell_state,P_lesion_core,P_peri_infarct,P_remote_like,1.0,0.5394907184636506,0.0,0.7438295063714232,1.0,3.112999996668364e-08,0.3002882066319646,0.4649309386340121,ok_candidate,5.22618238404007
+fuzzy_P_region_state,preferred_cell_state,P_lesion_core,P_peri_infarct,P_remote_like,1.0,0.5394907184636506,0.0,0.7438295063714232,1.0,3.112999996668364e-08,0.3002882066319646,0.4649309386340121,ok_candidate,5.22618238404007
+fuzzy_prob_region_state,preferred_cell_state,prob_lesion_core,prob_peri_infarct,prob_remote_like,1.0,0.5394907184636506,0.0,0.7438295063714232,1.0,3.112999996668364e-08,0.3002882066319646,0.4649309386340121,ok_candidate,5.22618238404007
+generic_probability,generic,core_probability,peri_probability,remote_probability,1.0,0.0,1.0,1.0,0.021472119674433902,0.9886307633394154,0.2512001494807415,0.0,three_columns_identical,-98.69449218575117
+existing_std_probability,existing_std,core_probability_std,peri_probability_std,remote_probability_std,1.0,0.0,1.0,1.0,0.021472119674433902,0.9886307633394154,0.2512001494807415,0.0,three_columns_identical,-99.39449218575118

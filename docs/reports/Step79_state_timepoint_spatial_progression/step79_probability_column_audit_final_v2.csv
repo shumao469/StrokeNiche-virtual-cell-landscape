@@ -1,0 +1,10 @@
+a,b,col_a,col_b,pearson,spearman,max_abs_diff,exact_equal
+core,core,core_probability,core_probability,0.9999999999999998,0.9999999999999998,0.0,True
+core,peri,core_probability,peri_probability,0.9999999999999998,0.9999999999999998,0.0,True
+core,remote,core_probability,remote_probability,0.9999999999999998,0.9999999999999998,0.0,True
+peri,core,peri_probability,core_probability,0.9999999999999998,0.9999999999999998,0.0,True
+peri,peri,peri_probability,peri_probability,0.9999999999999998,0.9999999999999998,0.0,True
+peri,remote,peri_probability,remote_probability,0.9999999999999998,0.9999999999999998,0.0,True
+remote,core,remote_probability,core_probability,0.9999999999999998,0.9999999999999998,0.0,True
+remote,peri,remote_probability,peri_probability,0.9999999999999998,0.9999999999999998,0.0,True
+remote,remote,remote_probability,remote_probability,0.9999999999999998,0.9999999999999998,0.0,True

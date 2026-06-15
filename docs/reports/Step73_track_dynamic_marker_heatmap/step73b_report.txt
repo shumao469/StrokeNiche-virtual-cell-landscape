@@ -1,0 +1,40 @@
+{
+  "status": "ok",
+  "analysis_name": "Step73B compact manuscript-ready track-specific dynamic marker heatmap",
+  "inputs": {
+    "step73_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73"
+  },
+  "n_tracks_input": 30,
+  "n_features_input": 60,
+  "n_tracks_compact": 14,
+  "n_features_compact": 36,
+  "selected_tracks": [
+    "Track 084",
+    "Track 018",
+    "Track 022",
+    "Track 029",
+    "Track 019",
+    "Track 049",
+    "Track 035",
+    "Track 064",
+    "Track 065",
+    "Track 011",
+    "Track 038",
+    "Track 048",
+    "Track 075",
+    "Track 067"
+  ],
+  "outputs": {
+    "compact_matrix_z": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready/step73b_compact_dynamic_feature_matrix_z.csv",
+    "compact_matrix_raw": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready/step73b_compact_dynamic_feature_matrix_raw.csv",
+    "track_annotations": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready/step73b_compact_track_annotations.csv",
+    "feature_annotations": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready/step73b_compact_feature_annotations.csv",
+    "annotated_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready/Fig_Step73B_CompactTrackDynamicMarkerHeatmap_annotated.pdf",
+    "annotated_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready/Fig_Step73B_CompactTrackDynamicMarkerHeatmap_annotated.svg",
+    "annotated_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready/Fig_Step73B_CompactTrackDynamicMarkerHeatmap_annotated.png",
+    "clean_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready/Fig_Step73B_CompactTrackDynamicMarkerHeatmap_clean_no_text.pdf",
+    "clean_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready/Fig_Step73B_CompactTrackDynamicMarkerHeatmap_clean_no_text.svg",
+    "clean_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73b_compact_manuscript_ready/Fig_Step73B_CompactTrackDynamicMarkerHeatmap_clean_no_text.png"
+  },
+  "interpretation_note": "Step73B is a compact visualization of Step65/Step73 transcript-level dynamic markers/modules and enrichment-derived regulators. It is suitable for manuscript/Extended Data presentation, but does not represent protein-level or functional validation."
+}

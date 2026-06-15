@@ -1,0 +1,294 @@
+{
+  "status": "ok",
+  "fallback_mode": false,
+  "n_obs": 7756,
+  "n_vars": 32285,
+  "merge_audit": {
+    "state_table": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_modeling_input_used.fixed_region_probs.csv",
+    "state_rows": 7756,
+    "merge_mode": "id",
+    "merge_key": "obs_name",
+    "merge_overlap": 7756
+  },
+  "response_audit": {
+    "candidate_paths_checked": [
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/gene_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/perturbed_state_predictions.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv",
+      "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv"
+    ],
+    "audits": [
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/no_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/ordinary_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/37c_all_variant_retraining_20260529_010640/preexisting_backup/ordinary_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010517/preexisting_backup/no_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/no_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/ordinary_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/gene_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/perturbed_state_predictions.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/perturbed_state_predictions.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/boundary_aware_graph/virtual_perturbation_vectors_aligned.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/all_perturbation_rescue_ranking.csv')"
+      },
+      {
+        "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv",
+        "error": "ValueError('No usable obs/cell/spot id column in /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/codex_handoff_strokeniche_UNAGI_like_63_68_20260602_011244/tables/37c_all_variant_retraining_20260529_010640/preexisting_backup/no_graph/gene_perturbation_rescue_ranking.csv')"
+      }
+    ],
+    "n_rows_response": 38780,
+    "candidate_counts": {
+      "Spp1-Cd44 blockade": 7756,
+      "Ccl2/Ccr2-Ackr1 blockade": 7756,
+      "Vegfa-Flt1/Kdr blockade": 7756,
+      "Ferroptosis down": 7756,
+      "Repair-ECM up": 7756
+    }
+  },
+  "missing_genes": [],
+  "outputs": {
+    "scatter": {
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/surrogate_feature_response_audit_81b_fixed/Fig_Step81B_SurrogateFeatureResponseAudit.png",
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/surrogate_feature_response_audit_81b_fixed/Fig_Step81B_SurrogateFeatureResponseAudit.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/surrogate_feature_response_audit_81b_fixed/Fig_Step81B_SurrogateFeatureResponseAudit.svg"
+    },
+    "heatmap": {
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/surrogate_feature_response_audit_81b_fixed/Fig_Step81B_FeatureResponseCorrelationHeatmap.png",
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/surrogate_feature_response_audit_81b_fixed/Fig_Step81B_FeatureResponseCorrelationHeatmap.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/surrogate_feature_response_audit_81b_fixed/Fig_Step81B_FeatureResponseCorrelationHeatmap.svg"
+    },
+    "summary_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/surrogate_feature_response_audit_81b_fixed/step81b_feature_response_spearman_summary.csv",
+    "merged_table": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/surrogate_feature_response_audit_81b_fixed/step81b_merged_feature_response_table.csv",
+    "gene_audit_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/surrogate_feature_response_audit_81b_fixed/step81b_gene_matching_audit.csv"
+  },
+  "interpretation_note": "This is a surrogate feature-response audit. It is not SHAP unless true SHAP values are supplied, and it is not wet-lab KO/blockade validation. If fallback_mode=true, it is only a baseline feature-state association QC."
+}

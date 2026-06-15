@@ -1,0 +1,150 @@
+Step 64b fixed-region-probability dynamics graph report
+====================================================================================================
+{
+  "status": "ok",
+  "analysis_name": "Step64b fixed-region-probability dynamics graph",
+  "outdir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype",
+  "original_step64_audit": [
+    {
+      "source_table": "nodes",
+      "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64/step64_dynamics_graph_nodes.csv",
+      "shape": "(18, 74)",
+      "checked_columns": "core_probability_mean;peri_probability_mean;remote_probability_mean",
+      "all_three_identical_rows": 18,
+      "n_rows": 18,
+      "all_three_identical_fraction": 1.0,
+      "corr_core_peri": 1.0,
+      "corr_core_remote": 1.0,
+      "corr_peri_remote": 1.0,
+      "status": "suspicious_identical"
+    },
+    {
+      "source_table": "tracks",
+      "path": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64/step64_track_summary.csv",
+      "shape": "(30, 26)",
+      "checked_columns": "delta_core_probability;delta_peri_probability;delta_remote_probability",
+      "all_three_identical_rows": 30,
+      "n_rows": 30,
+      "all_three_identical_fraction": 1.0,
+      "corr_core_peri": 1.0,
+      "corr_core_remote": 1.0,
+      "corr_peri_remote": 1.0,
+      "status": "suspicious_identical"
+    }
+  ],
+  "selected_probability_source": {
+    "selection_status": "selected_existing_triplet",
+    "source_label": "prob_region_state",
+    "source_type": "preferred_cell_state",
+    "core_col": "prob_lesion_core",
+    "peri_col": "prob_peri_infarct",
+    "remote_col": "prob_remote_like",
+    "score": 5.22618238404007,
+    "audit_status": "ok_candidate",
+    "post_fix_identical_fraction": 0.0,
+    "post_fix_pairwise_abs_diff_mean": 0.5394907184636506,
+    "post_fix_sum_median": 1.0
+  },
+  "post_fix_probability_audit": [
+    {
+      "table": "nodes_after_fix",
+      "n_rows": 35,
+      "all_three_identical_rows": 0,
+      "all_three_identical_fraction": 0.0
+    },
+    {
+      "table": "tracks_after_fix",
+      "n_rows": 30,
+      "all_three_identical_rows": 0,
+      "all_three_identical_fraction": 0.0
+    }
+  ],
+  "n_cells": 7756,
+  "n_nodes": 35,
+  "n_edges_all": 276,
+  "n_edges_selected": 67,
+  "n_tracks": 30,
+  "n_track_assignments": 32629,
+  "cluster_mode": "state_celltype",
+  "figure_outputs": {
+    "annotated": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_annotated.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_annotated.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_annotated.png"
+    },
+    "clean_no_text": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_clean_no_text.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_clean_no_text.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/Fig_StrokeNiche_DynamicsGraph_clean_no_text.png"
+    }
+  },
+  "outputs": {
+    "original_probability_audit": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_original_probability_audit.csv",
+    "probability_source_audit": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_probability_source_audit.csv",
+    "selected_probability_source": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_selected_probability_source.json",
+    "modeling_input_used_fixed_probs": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_modeling_input_used.fixed_region_probs.csv",
+    "clustered_cells": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_clustered_cells.csv",
+    "nodes": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_dynamics_graph_nodes.csv",
+    "edges_all": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_dynamics_graph_edges_all.csv",
+    "edges_selected": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_dynamics_graph_edges.csv",
+    "track_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_summary.csv",
+    "track_assignment_by_cell": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_assignment_by_cell.csv",
+    "track_module_matrix": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_track_module_matrix.csv",
+    "postfix_probability_audit": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_postfix_probability_audit.csv",
+    "report_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_report.json",
+    "report_txt": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_report.txt"
+  },
+  "interpretation_note": "Use Step64b outputs instead of the original Step64 outputs when interpreting core/peri/remote probability shifts. If fallback_state_onehot was used, describe peri/remote shifts as state-label-derived, not model-predicted independent probabilities."
+}
+
+Original probability audit:
+source_table                                                                                                 path    shape                                                        checked_columns  all_three_identical_rows  n_rows  all_three_identical_fraction  corr_core_peri  corr_core_remote  corr_peri_remote               status
+       nodes /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64/step64_dynamics_graph_nodes.csv (18, 74)    core_probability_mean;peri_probability_mean;remote_probability_mean                        18      18                           1.0             1.0               1.0               1.0 suspicious_identical
+      tracks        /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64/step64_track_summary.csv (30, 26) delta_core_probability;delta_peri_probability;delta_remote_probability                        30      30                           1.0             1.0               1.0               1.0 suspicious_identical
+
+Probability source audit:
+            source_label          source_type             core_col             peri_col             remote_col  nonnull_fraction  pairwise_abs_diff_mean  identical_fraction  max_abs_pairwise_corr  sum_median  sum_median_abs_error_from1  mean_sd  state_alignment_score                  status      score
+       prob_region_state preferred_cell_state     prob_lesion_core    prob_peri_infarct       prob_remote_like               1.0                0.539491                 0.0                0.74383    1.000000                3.113000e-08 0.300288               0.464931            ok_candidate   5.226182
+          P_region_state preferred_cell_state        P_lesion_core       P_peri_infarct          P_remote_like               1.0                0.539491                 0.0                0.74383    1.000000                3.113000e-08 0.300288               0.464931            ok_candidate   5.226182
+    fuzzy_P_region_state preferred_cell_state        P_lesion_core       P_peri_infarct          P_remote_like               1.0                0.539491                 0.0                0.74383    1.000000                3.113000e-08 0.300288               0.464931            ok_candidate   5.226182
+ fuzzy_prob_region_state preferred_cell_state     prob_lesion_core    prob_peri_infarct       prob_remote_like               1.0                0.539491                 0.0                0.74383    1.000000                3.113000e-08 0.300288               0.464931            ok_candidate   5.226182
+     generic_probability              generic     core_probability     peri_probability     remote_probability               1.0                0.000000                 1.0                1.00000    0.021472                9.886308e-01 0.251200               0.000000 three_columns_identical -98.694492
+existing_std_probability         existing_std core_probability_std peri_probability_std remote_probability_std               1.0                0.000000                 1.0                1.00000    0.021472                9.886308e-01 0.251200               0.000000 three_columns_identical -99.394492
+
+Post-fix probability audit:
+           table  n_rows  all_three_identical_rows  all_three_identical_fraction
+ nodes_after_fix      35                         0                           0.0
+tracks_after_fix      30                         0                           0.0
+
+Top tracks:
+ track_id            track_nodes start_node mid_node end_node  n_steps                              edge_ids  mean_edge_score  mean_combined_distance  min_edge_score  edge_score_product                    track_label                                       state_sequence                                    celltype_sequence  n_cells_sum  delta_repair_score  delta_core_probability  delta_peri_probability  delta_remote_probability      start_state        end_state   start_celltype     end_celltype  track_repair_core_score  track_priority_score  track_rank
+Track_011 D1_G01->D3_G05->D7_G08     D1_G01   D3_G05   D7_G08        2 D1_G01__to__D3_G05;D3_G05__to__D7_G08         0.963179                0.031134        0.926358            0.926358 vascular-barrier-fragile track         lesion-core-like->peri-infarct->peri-infarct                          Astrocytes->Astrocytes->OLs          731            0.223163               -0.263300                0.103158                  0.160143 lesion-core-like     peri-infarct       Astrocytes              OLs                 0.209757              0.661810           1
+Track_022 D1_G02->D3_G06->D7_G06     D1_G02   D3_G06   D7_G06        2 D1_G02__to__D3_G06;D3_G06__to__D7_G06         0.870619                0.105270        0.812401            0.754589 vascular-barrier-fragile track         lesion-core-like->peri-infarct->peri-infarct       EndothelialCells->EndothelialCells->Astrocytes          167            0.156766               -0.542806                0.516626                  0.026181 lesion-core-like     peri-infarct EndothelialCells       Astrocytes                 0.326271              0.652880           2
+Track_071 D1_G07->D3_G09->D7_G10     D1_G07   D3_G09   D7_G10        2 D1_G07__to__D3_G09;D3_G09__to__D7_G10         0.887758                0.091033        0.823931            0.784040 vascular-barrier-fragile track               peri-infarct->remote-like->remote-like                  Low_confidence->Low_confidence->OLs         1751            0.391993               -0.258050               -0.226367                  0.484417     peri-infarct      remote-like   Low_confidence              OLs                 0.300177              0.652726           3
+Track_070 D1_G07->D3_G09->D7_G09     D1_G07   D3_G09   D7_G09        2 D1_G07__to__D3_G09;D3_G09__to__D7_G09         0.911139                0.072291        0.870694            0.828539 vascular-barrier-fragile track               peri-infarct->remote-like->remote-like       Low_confidence->Low_confidence->EpendymalCells          161            0.322893               -0.192259               -0.261858                  0.454117     peri-infarct      remote-like   Low_confidence   EpendymalCells                 0.248421              0.646052           4
+Track_008 D1_G01->D3_G07->D7_G08     D1_G01   D3_G07   D7_G08        2 D1_G01__to__D3_G07;D3_G07__to__D7_G08         0.934481                0.053645        0.920237            0.873052 vascular-barrier-fragile track         lesion-core-like->peri-infarct->peri-infarct                      Astrocytes->Low_confidence->OLs          622            0.223163               -0.263300                0.103158                  0.160143 lesion-core-like     peri-infarct       Astrocytes              OLs                 0.209757              0.644591           5
+Track_064 D1_G06->D3_G08->D7_G10     D1_G06   D3_G08   D7_G10        2 D1_G06__to__D3_G08;D3_G08__to__D7_G10         0.950022                0.040273        0.909724            0.900917 vascular-barrier-fragile track              peri-infarct->peri-infarct->remote-like                                 Astrocytes->OLs->OLs         2088            0.258499               -0.038631               -0.402756                  0.441387     peri-infarct      remote-like       Astrocytes              OLs                 0.170204              0.638094           6
+Track_080 D1_G08->D3_G11->D7_G10     D1_G08   D3_G11   D7_G10        2 D1_G08__to__D3_G11;D3_G11__to__D7_G10         0.956338                0.036918        0.912676            0.912676   microglia-inflammatory track               peri-infarct->remote-like->remote-like                                        OLs->OLs->OLs         3649            0.218970               -0.040909               -0.350919                  0.391828     peri-infarct      remote-like              OLs              OLs                 0.149732              0.633696           7
+Track_075 D1_G08->D3_G08->D7_G10     D1_G08   D3_G08   D7_G10        2 D1_G08__to__D3_G08;D3_G08__to__D7_G10         0.952288                0.038357        0.909724            0.905040   microglia-inflammatory track              peri-infarct->peri-infarct->remote-like                                        OLs->OLs->OLs         2422            0.218970               -0.040909               -0.350919                  0.391828     peri-infarct      remote-like              OLs              OLs                 0.149732              0.631265           8
+Track_029 D1_G02->D3_G10->D7_G07     D1_G02   D3_G10   D7_G07        2 D1_G02__to__D3_G10;D3_G10__to__D7_G07         0.777078                0.180623        0.642324            0.585691 vascular-barrier-fragile track          lesion-core-like->remote-like->peri-infarct   EndothelialCells->EndothelialCells->Low_confidence          183            0.282215               -0.627178                0.489321                  0.137856 lesion-core-like     peri-infarct EndothelialCells   Low_confidence                 0.412364              0.631192           9
+Track_067 D1_G07->D3_G07->D7_G08     D1_G07   D3_G07   D7_G08        2 D1_G07__to__D3_G07;D3_G07__to__D7_G08         0.940924                0.048197        0.920237            0.884910   microglia-inflammatory track             peri-infarct->peri-infarct->peri-infarct                  Low_confidence->Low_confidence->OLs          599            0.104510               -0.199291                0.212142                 -0.012851     peri-infarct     peri-infarct   Low_confidence              OLs                 0.138152              0.619815          10
+Track_054 D1_G05->D3_G08->D7_G10     D1_G05   D3_G08   D7_G10        2 D1_G05__to__D3_G08;D3_G08__to__D7_G10         0.888941                0.091920        0.868159            0.789785 vascular-barrier-fragile track              peri-infarct->peri-infarct->remote-like                             EpendymalCells->OLs->OLs         1969            0.288085               -0.167366               -0.199234                  0.366600     peri-infarct      remote-like   EpendymalCells              OLs                 0.214398              0.619124          11
+Track_065 D1_G06->D3_G08->D7_G09     D1_G06   D3_G08   D7_G09        2 D1_G06__to__D3_G08;D3_G08__to__D7_G09         0.945174                0.044159        0.900029            0.891316   microglia-inflammatory track              peri-infarct->peri-infarct->remote-like                      Astrocytes->OLs->EpendymalCells          498            0.189400                0.027160               -0.438247                  0.411087     peri-infarct      remote-like       Astrocytes   EpendymalCells                 0.127953              0.618286          12
+Track_049 D1_G04->D3_G09->D7_G10     D1_G04   D3_G09   D7_G10        2 D1_G04__to__D3_G09;D3_G09__to__D7_G10         0.854397                0.119241        0.823931            0.729066 vascular-barrier-fragile track           lesion-core-like->remote-like->remote-like                             OLs->Low_confidence->OLs         1760            0.299184               -0.250011               -0.115493                  0.365504 lesion-core-like      remote-like              OLs              OLs                 0.247044              0.611456          13
+Track_076 D1_G08->D3_G08->D7_G09     D1_G08   D3_G08   D7_G09        2 D1_G08__to__D3_G08;D3_G08__to__D7_G09         0.947440                0.042243        0.900029            0.895395   microglia-inflammatory track              peri-infarct->peri-infarct->remote-like                             OLs->OLs->EpendymalCells          832            0.149871                0.024882               -0.386410                  0.361528     peri-infarct      remote-like              OLs   EpendymalCells                 0.106684              0.611138          14
+Track_084 D1_G09->D3_G11->D7_G10     D1_G09   D3_G11   D7_G10        2 D1_G09__to__D3_G11;D3_G11__to__D7_G10         0.954062                0.038843        0.908124            0.908124 vascular-barrier-fragile track                remote-like->remote-like->remote-like                                 Astrocytes->OLs->OLs         3235            0.115770               -0.107474                0.026298                  0.081176      remote-like      remote-like       Astrocytes              OLs                 0.094256              0.610140          15
+Track_035 D1_G03->D3_G00->D7_G04     D1_G03   D3_G00   D7_G04        2 D1_G03__to__D3_G00;D3_G00__to__D7_G04         0.922973                0.064209        0.887825            0.850644   microglia-inflammatory track lesion-core-like->lesion-core-like->lesion-core-like                             Low_confidence->OLs->OLs          164            0.015414               -0.238588                0.288083                 -0.049495 lesion-core-like lesion-core-like   Low_confidence              OLs                 0.132113              0.606629          16
+Track_090 D1_G11->D3_G11->D7_G10     D1_G11   D3_G11   D7_G10        2 D1_G11__to__D3_G11;D3_G11__to__D7_G10         1.000000                0.000000        1.000000            1.000000   microglia-inflammatory track                remote-like->remote-like->remote-like                                        OLs->OLs->OLs         4759           -0.019597               -0.007969                0.072370                 -0.064400      remote-like      remote-like              OLs              OLs                 0.013645              0.605458          17
+Track_048 D1_G04->D3_G09->D7_G09     D1_G04   D3_G09   D7_G09        2 D1_G04__to__D3_G09;D3_G09__to__D7_G09         0.877778                0.100500        0.870694            0.770444 vascular-barrier-fragile track           lesion-core-like->remote-like->remote-like                  OLs->Low_confidence->EpendymalCells          170            0.230085               -0.184220               -0.150984                  0.335205 lesion-core-like      remote-like              OLs   EpendymalCells                 0.195287              0.604782          18
+Track_074 D1_G08->D3_G08->D7_G08     D1_G08   D3_G08   D7_G08        2 D1_G08__to__D3_G08;D3_G08__to__D7_G08         0.997426                0.002177        0.994851            0.994851   microglia-inflammatory track             peri-infarct->peri-infarct->peri-infarct                                        OLs->OLs->OLs         1294           -0.068512                0.017850                0.087590                 -0.105440     peri-infarct     peri-infarct              OLs              OLs                 0.013138              0.603711          19
+Track_060 D1_G06->D3_G05->D7_G08     D1_G06   D3_G05   D7_G08        2 D1_G06__to__D3_G05;D3_G05__to__D7_G08         1.000000                0.000000        1.000000            1.000000   microglia-inflammatory track             peri-infarct->peri-infarct->peri-infarct                          Astrocytes->Astrocytes->OLs          799           -0.028983                0.020129                0.035752                 -0.055881     peri-infarct     peri-infarct       Astrocytes              OLs                 0.005363              0.602145          20
+Track_063 D1_G06->D3_G08->D7_G08     D1_G06   D3_G08   D7_G08        2 D1_G06__to__D3_G08;D3_G08__to__D7_G08         0.995160                0.004093        0.990319            0.990319   microglia-inflammatory track             peri-infarct->peri-infarct->peri-infarct                                 Astrocytes->OLs->OLs          960           -0.028983                0.020129                0.035752                 -0.055881     peri-infarct     peri-infarct       Astrocytes              OLs                 0.005363              0.599241          21
+Track_007 D1_G01->D3_G07->D7_G07     D1_G01   D3_G07   D7_G07        2 D1_G01__to__D3_G07;D3_G07__to__D7_G07         0.968445                0.026421        0.948724            0.937496   microglia-inflammatory track         lesion-core-like->peri-infarct->peri-infarct           Astrocytes->Low_confidence->Low_confidence          177            0.005146               -0.079426                0.040685                  0.038741 lesion-core-like     peri-infarct       Astrocytes   Low_confidence                 0.041514              0.597672          22
+Track_066 D1_G07->D3_G07->D7_G07     D1_G07   D3_G07   D7_G07        2 D1_G07__to__D3_G07;D3_G07__to__D7_G07         0.974888                0.020973        0.961611            0.950230   microglia-inflammatory track             peri-infarct->peri-infarct->peri-infarct       Low_confidence->Low_confidence->Low_confidence          154           -0.113507               -0.015417                0.149669                 -0.134252     peri-infarct     peri-infarct   Low_confidence   Low_confidence                 0.027846              0.596071          23
+Track_055 D1_G05->D3_G08->D7_G09     D1_G05   D3_G08   D7_G09        2 D1_G05__to__D3_G08;D3_G08__to__D7_G09         0.884094                0.095805        0.868159            0.781368   microglia-inflammatory track              peri-infarct->peri-infarct->remote-like                  EpendymalCells->OLs->EpendymalCells          379            0.218986               -0.101575               -0.234725                  0.336300     peri-infarct      remote-like   EpendymalCells   EpendymalCells                 0.162641              0.595513          24
+Track_038 D1_G03->D3_G04->D7_G07     D1_G03   D3_G04   D7_G07        2 D1_G03__to__D3_G04;D3_G04__to__D7_G07         0.844705                0.127200        0.813200            0.712535   microglia-inflammatory track         lesion-core-like->peri-infarct->peri-infarct            Low_confidence->Microglia->Low_confidence          190            0.127031               -0.346843                0.287389                  0.059454 lesion-core-like     peri-infarct   Low_confidence   Low_confidence                 0.217883              0.593976          25
+Track_077 D1_G08->D3_G05->D7_G08     D1_G08   D3_G05   D7_G08        2 D1_G08__to__D3_G05;D3_G05__to__D7_G08         0.978972                0.017780        0.957945            0.957945   microglia-inflammatory track             peri-infarct->peri-infarct->peri-infarct                                 OLs->Astrocytes->OLs         1133           -0.068512                0.017850                0.087590                 -0.105440     peri-infarct     peri-infarct              OLs              OLs                 0.013138              0.592639          26
+Track_019 D1_G02->D3_G01->D7_G05     D1_G02   D3_G01   D7_G05        2 D1_G02__to__D3_G01;D3_G01__to__D7_G05         0.902969                0.078111        0.821201            0.808666   microglia-inflammatory track     lesion-core-like->lesion-core-like->peri-infarct        EndothelialCells->EndothelialCells->Microglia          309            0.059174               -0.207450                0.195434                  0.012016 lesion-core-like     peri-infarct EndothelialCells        Microglia                 0.124436              0.591555          27
+Track_020 D1_G02->D3_G01->D7_G00     D1_G02   D3_G01   D7_G00        2 D1_G02__to__D3_G01;D3_G01__to__D7_G00         0.887969                0.090134        0.791201            0.779125   microglia-inflammatory track lesion-core-like->lesion-core-like->lesion-core-like EndothelialCells->EndothelialCells->EndothelialCells          285            0.060696               -0.247605                0.236497                  0.011108 lesion-core-like lesion-core-like EndothelialCells EndothelialCells                 0.145046              0.590800          28
+Track_053 D1_G05->D3_G08->D7_G08     D1_G05   D3_G08   D7_G08        2 D1_G05__to__D3_G08;D3_G08__to__D7_G08         0.934079                0.055739        0.868159            0.868159   microglia-inflammatory track             peri-infarct->peri-infarct->peri-infarct                             EpendymalCells->OLs->OLs          841            0.000603               -0.108607                0.239275                 -0.130668     peri-infarct     peri-infarct   EpendymalCells              OLs                 0.074115              0.590093          29
+Track_018 D1_G02->D3_G01->D7_G02     D1_G02   D3_G01   D7_G02        2 D1_G02__to__D3_G01;D3_G01__to__D7_G02         0.924574                0.060793        0.864411            0.851218   microglia-inflammatory track lesion-core-like->lesion-core-like->lesion-core-like   EndothelialCells->EndothelialCells->Low_confidence          348            0.007797               -0.162957                0.186271                 -0.023315 lesion-core-like lesion-core-like EndothelialCells   Low_confidence                 0.087704              0.589826          30

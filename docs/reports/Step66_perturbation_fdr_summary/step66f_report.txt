@@ -1,0 +1,133 @@
+Step66f manuscript-ready perturbation summary report
+====================================================================================================
+{
+  "status": "ok",
+  "analysis_name": "Step66f manuscript-ready perturbation summary",
+  "input_66c_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66e_probability_simplex_rerun66c/rerun66c_probability_simplex",
+  "input_66e_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66e_probability_simplex_rerun66c",
+  "outdir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary",
+  "fdr_cutoff": 0.25,
+  "p_trend_cutoff": 0.1,
+  "n_candidates": 10,
+  "tier_counts": {
+    "Not above random background": 6,
+    "Above random background but not FDR-significant": 3,
+    "Above random background; nominal trend only": 1
+  },
+  "n_FDR_supported_candidates": 0,
+  "n_above_random_candidates": 4,
+  "top_candidates": [
+    {
+      "perturbation_id": "synaptic_recovery_up",
+      "display_name": "Synaptic recovery enhancement",
+      "interpretation_tier": "Above random background; nominal trend only",
+      "s_overall_observed": 0.1213253785153368,
+      "random_mean": 0.0740102711478888,
+      "empirical_p_value": 0.0909090909090909,
+      "bh_fdr": 0.7126207126207126
+    },
+    {
+      "perturbation_id": "repair_ECM_up",
+      "display_name": "Repair-permissive ECM promotion",
+      "interpretation_tier": "Above random background but not FDR-significant",
+      "s_overall_observed": 0.1103209941743675,
+      "random_mean": 0.0750443718042752,
+      "empirical_p_value": 0.1998001998001998,
+      "bh_fdr": 0.7126207126207126
+    },
+    {
+      "perturbation_id": "ferroptosis_down",
+      "display_name": "Ferroptosis down-modulation",
+      "interpretation_tier": "Above random background but not FDR-significant",
+      "s_overall_observed": 0.1081891313657388,
+      "random_mean": 0.0733795407574069,
+      "empirical_p_value": 0.2137862137862138,
+      "bh_fdr": 0.7126207126207126
+    },
+    {
+      "perturbation_id": "astrocyte_reactive_down",
+      "display_name": "Reactive astrocyte down-modulation",
+      "interpretation_tier": "Above random background but not FDR-significant",
+      "s_overall_observed": 0.0906955931198373,
+      "random_mean": 0.0776541127671603,
+      "empirical_p_value": 0.4375624375624375,
+      "bh_fdr": 0.8641358641358642
+    },
+    {
+      "perturbation_id": "BBB_leakage_down",
+      "display_name": "BBB leakage down-modulation",
+      "interpretation_tier": "Not above random background",
+      "s_overall_observed": 0.064589011498465,
+      "random_mean": 0.0745673926659341,
+      "empirical_p_value": 0.4935064935064935,
+      "bh_fdr": 0.8641358641358642
+    }
+  ],
+  "figure_outputs": {
+    "annotated": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_annotated.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_annotated.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_annotated.png"
+    },
+    "clean_no_text": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_clean_no_text.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_clean_no_text.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_clean_no_text.png"
+    }
+  },
+  "outputs": {
+    "summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_manuscript_ready_perturbation_summary.csv",
+    "top_exploratory": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_top_exploratory_candidates.csv",
+    "not_above_background": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_not_above_background_candidates.csv",
+    "calibration_qc": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_calibration_qc_candidates.csv",
+    "track_contribution": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_track_contribution_summary.csv",
+    "text": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_manuscript_caption_and_results_text.txt",
+    "report_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_report.json",
+    "report_txt": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_report.txt"
+  },
+  "interpretation_note": "Step66f is a manuscript-ready summary of Step66e probability-simplex model-derived sensitivity analysis. No statistically significant therapeutic candidate should be claimed unless the FDR-supported tier is non-empty."
+}
+
+Manuscript-ready summary:
+ manuscript_rank                    perturbation_id                                  display_name                             interpretation_tier  s_overall_observed  random_mean  observed_minus_random_mean  empirical_p_value   bh_fdr  target_set_size                    module_key
+               1               synaptic_recovery_up                 Synaptic recovery enhancement     Above random background; nominal trend only            0.121325     0.074010                    0.047315           0.090909 0.712621               26             synaptic_recovery
+               2                      repair_ECM_up               Repair-permissive ECM promotion Above random background but not FDR-significant            0.110321     0.075044                    0.035277           0.199800 0.712621               33                    repair_ecm
+               3                   ferroptosis_down                   Ferroptosis down-modulation Above random background but not FDR-significant            0.108189     0.073380                    0.034810           0.213786 0.712621               25                   ferroptosis
+               4            astrocyte_reactive_down            Reactive astrocyte down-modulation Above random background but not FDR-significant            0.090696     0.077654                    0.013041           0.437562 0.864136               18            astrocyte_reactive
+               5                   BBB_leakage_down                   BBB leakage down-modulation                     Not above random background            0.064589     0.074567                   -0.009978           0.493506 0.864136               23                   bbb_leakage
+               6               barrier_stability_up                 Barrier stability enhancement                     Not above random background            0.061784     0.073955                   -0.012170           0.518482 0.864136               15             barrier_stability
+               7        microglia_inflammatory_down        Microglia inflammatory down-modulation                     Not above random background            0.067729     0.080311                   -0.012582           0.617383 0.881975               22        microglia_inflammatory
+               8                  inflammation_down                  Inflammation down-modulation                     Not above random background            0.013381     0.083487                   -0.070107           1.000000 1.000000               28                  inflammation
+               9                       hypoxia_down                       Hypoxia down-modulation                     Not above random background            0.012181     0.080827                   -0.068645           1.000000 1.000000               17                       hypoxia
+              10 endothelial_barrier_fragility_down Endothelial barrier fragility down-modulation                     Not above random background            0.012039     0.079548                   -0.067509           1.000000 1.000000               14 endothelial_barrier_fragility
+
+Interpretation text:
+Step66f manuscript-ready perturbation summary
+====================================================================================================
+
+Recommended manuscript statement:
+Track-level perturbation scoring with matched random-background calibration identified 4 of 10 candidates with model-derived scores above the random mean, but 0 candidates passed BH-FDR correction. Therefore, the leading perturbations should be interpreted as exploratory computational hypotheses for experimental prioritization rather than statistically confirmed therapeutic candidates.
+
+Leading exploratory candidates:
+- Synaptic recovery enhancement (synaptic_recovery_up): observed=0.1213, random mean=0.0740, empirical P=0.09091, BH-FDR=0.7126; tier=Above random background; nominal trend only.
+- Repair-permissive ECM promotion (repair_ECM_up): observed=0.1103, random mean=0.0750, empirical P=0.1998, BH-FDR=0.7126; tier=Above random background but not FDR-significant.
+- Ferroptosis down-modulation (ferroptosis_down): observed=0.1082, random mean=0.0734, empirical P=0.2138, BH-FDR=0.7126; tier=Above random background but not FDR-significant.
+
+Figure legend draft:
+Step66f summarizes track-level perturbation scores calibrated against matched random-target backgrounds. Candidate niche perturbations were ranked by model-derived overall score, empirical P value and BH-FDR. No perturbation survived BH-FDR correction in the probability-simplex sensitivity analysis. Candidates with scores above the random background, including synaptic recovery enhancement, repair-permissive ECM promotion and ferroptosis down-modulation, were retained as exploratory hypotheses.
+
+Important limitation:
+The Step66e/66f analysis uses probability-simplex model-derived state-probability shifts based on baseline core/peri/remote probabilities and Step61-predicted perturbation response components. It should not be described as direct observed perturbed state-probability transition.
+
+Full manuscript-ready table preview:
+ manuscript_rank                    perturbation_id                                  display_name                             interpretation_tier  s_overall_observed  random_mean  observed_minus_random_mean  empirical_p_value   bh_fdr  target_set_size                    module_key
+               1               synaptic_recovery_up                 Synaptic recovery enhancement     Above random background; nominal trend only            0.121325     0.074010                    0.047315           0.090909 0.712621               26             synaptic_recovery
+               2                      repair_ECM_up               Repair-permissive ECM promotion Above random background but not FDR-significant            0.110321     0.075044                    0.035277           0.199800 0.712621               33                    repair_ecm
+               3                   ferroptosis_down                   Ferroptosis down-modulation Above random background but not FDR-significant            0.108189     0.073380                    0.034810           0.213786 0.712621               25                   ferroptosis
+               4            astrocyte_reactive_down            Reactive astrocyte down-modulation Above random background but not FDR-significant            0.090696     0.077654                    0.013041           0.437562 0.864136               18            astrocyte_reactive
+               5                   BBB_leakage_down                   BBB leakage down-modulation                     Not above random background            0.064589     0.074567                   -0.009978           0.493506 0.864136               23                   bbb_leakage
+               6               barrier_stability_up                 Barrier stability enhancement                     Not above random background            0.061784     0.073955                   -0.012170           0.518482 0.864136               15             barrier_stability
+               7        microglia_inflammatory_down        Microglia inflammatory down-modulation                     Not above random background            0.067729     0.080311                   -0.012582           0.617383 0.881975               22        microglia_inflammatory
+               8                  inflammation_down                  Inflammation down-modulation                     Not above random background            0.013381     0.083487                   -0.070107           1.000000 1.000000               28                  inflammation
+               9                       hypoxia_down                       Hypoxia down-modulation                     Not above random background            0.012181     0.080827                   -0.068645           1.000000 1.000000               17                       hypoxia
+              10 endothelial_barrier_fragility_down Endothelial barrier fragility down-modulation                     Not above random background            0.012039     0.079548                   -0.067509           1.000000 1.000000               14 endothelial_barrier_fragility

@@ -1,0 +1,3 @@
+source_table,path,shape,checked_columns,all_three_identical_rows,n_rows,all_three_identical_fraction,corr_core_peri,corr_core_remote,corr_peri_remote,status
+nodes,/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64/step64_dynamics_graph_nodes.csv,"(18, 74)",core_probability_mean;peri_probability_mean;remote_probability_mean,18,18,1.0,1.0,1.0,1.0,suspicious_identical
+tracks,/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64/step64_track_summary.csv,"(30, 26)",delta_core_probability;delta_peri_probability;delta_remote_probability,30,30,1.0,1.0,1.0,1.0,suspicious_identical

@@ -1,0 +1,52 @@
+{
+  "status": "ok",
+  "analysis_name": "Step73E final polished track-specific dynamic marker heatmap",
+  "inputs": {
+    "step73d_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73d_labelclean_final"
+  },
+  "n_tracks": 8,
+  "n_features": 18,
+  "selected_tracks": [
+    "Track 048",
+    "Track 011",
+    "Track 018",
+    "Track 019",
+    "Track 022",
+    "Track 029",
+    "Track 035",
+    "Track 049"
+  ],
+  "selected_features": [
+    "Hmox1",
+    "Ftl1",
+    "endothelial context",
+    "Gfap",
+    "Vim",
+    "repair score",
+    "neuron context",
+    "core probability",
+    "Mbp",
+    "Plp1",
+    "Clu",
+    "Apoe",
+    "Spp1",
+    "Slc1a2",
+    "Ctsd",
+    "C1qa",
+    "Tyrobp",
+    "Lgals3"
+  ],
+  "outputs": {
+    "matrix_z": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73e_final_polished/step73e_final_polished_dynamic_feature_matrix_z.csv",
+    "matrix_raw": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73e_final_polished/step73e_final_polished_dynamic_feature_matrix_raw.csv",
+    "track_annotations": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73e_final_polished/step73e_final_polished_track_annotations.csv",
+    "feature_annotations": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73e_final_polished/step73e_final_polished_feature_annotations.csv",
+    "annotated_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73e_final_polished/Fig_Step73E_FinalPolishedTrackDynamicMarkerHeatmap_annotated.pdf",
+    "annotated_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73e_final_polished/Fig_Step73E_FinalPolishedTrackDynamicMarkerHeatmap_annotated.svg",
+    "annotated_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73e_final_polished/Fig_Step73E_FinalPolishedTrackDynamicMarkerHeatmap_annotated.png",
+    "clean_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73e_final_polished/Fig_Step73E_FinalPolishedTrackDynamicMarkerHeatmap_clean_no_text.pdf",
+    "clean_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73e_final_polished/Fig_Step73E_FinalPolishedTrackDynamicMarkerHeatmap_clean_no_text.svg",
+    "clean_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_heatmap_73e_final_polished/Fig_Step73E_FinalPolishedTrackDynamicMarkerHeatmap_clean_no_text.png"
+  },
+  "interpretation_note": "Step73E is the final polished layout of the track-specific dynamic marker landscape. It preserves Step73D label-cleaned regulators while improving figure spacing, colorbar placement, program legend placement and manuscript readability. Regulator labels remain enrichment-derived computational annotations, not functional validation."
+}

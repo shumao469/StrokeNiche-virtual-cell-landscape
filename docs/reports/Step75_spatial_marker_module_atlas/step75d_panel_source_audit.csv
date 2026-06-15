@@ -1,0 +1,9 @@
+panel_key,title,kind,source,matched_genes_if_computed,n_finite,min,max,norm_kind
+core_probability,Core probability,prob,column:core_probability,,7756,0.0,1.0,probability_0_1
+peri_probability,Peri-infarct probability,prob,column:peri_probability,,7756,0.0,1.0,probability_0_1
+remote_probability,Remote-like probability,prob,column:remote_probability,,7756,0.0,1.0,probability_0_1
+repair_score,Repair score,score,column:repair_score,,7756,-2.5,0.8553071577515134,z_score
+ferroptosis,Ferroptosis,score,computed_gene_set_score,Hmox1;Fth1;Ftl1;Slc7a11;Gpx4;Acsl4;Tfrc;Ptgs2;Nfe2l1;Nfe2l2,7756,-2.5,2.5,z_score
+inflammation,Inflammation,score,computed_gene_set_score,Ccl2;Ccr2;Ackr1;Tnf;Il1b;Il6;C1qa;C1qb;C1qc;Tyrobp;Lgals3;Ctsd,7756,-1.4649756009645034,2.5,z_score
+BBB_leakage,BBB leakage,score,computed_gene_set_score,Vegfa;Flt1;Kdr;Vwf;Mmp9;Timp1;Pecam1;Cldn5;Kcnj8;Rgs5;Emcn,7756,-1.1255972189049819,2.5,z_score
+astrocyte_reactive,Reactive astrocyte,score,computed_gene_set_score,Gfap;Aqp4;Vim;Clu;Apoe;Serpina3n;Lcn2;C3;S100b;Slc1a2,7756,-2.5,2.5,z_score

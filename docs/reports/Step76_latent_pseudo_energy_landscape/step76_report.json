@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "n_obs": 7756,
+  "n_vars": 3000,
+  "adata_id_col_used": "_obs_names_",
+  "state_merge_audit": {
+    "state_table_available": true,
+    "state_table_rows": 7756,
+    "merge_mode": "id",
+    "merge_key_meta": "_adata_id_",
+    "merge_key_state": "obs_name",
+    "state_merge_overlap": 7756
+  },
+  "latent_coordinate_audit": {
+    "mode": "obsm_forced_pca",
+    "obsm_key": "X_scgpt",
+    "n_dim": 512,
+    "forced_obsm_priority": true
+  },
+  "state_label_source": "state_group",
+  "time_col": "timepoint",
+  "prob_cols": {
+    "core": "core_probability",
+    "peri": "peri_probability",
+    "remote": "remote_probability",
+    "repair": "repair_score"
+  },
+  "kde_bandwidth_used": 0.2247641453643105,
+  "grid_n": 240,
+  "outputs": {
+    "main_2d_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_scgpt_forced_sensitivity/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_2D.png",
+    "main_2d_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_scgpt_forced_sensitivity/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_2D.pdf",
+    "main_2d_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_scgpt_forced_sensitivity/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_2D.svg",
+    "surface_3d_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_scgpt_forced_sensitivity/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_3D.png",
+    "surface_3d_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_scgpt_forced_sensitivity/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_3D.pdf",
+    "surface_3d_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_scgpt_forced_sensitivity/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_3D.svg",
+    "per_cell_energy_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_scgpt_forced_sensitivity/step76_per_cell_latent_pseudo_energy.csv",
+    "grid_energy_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_scgpt_forced_sensitivity/step76_grid_pseudo_energy_surface.csv",
+    "centroids_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_scgpt_forced_sensitivity/step76_state_time_centroids.csv",
+    "perturbation_vectors_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_scgpt_forced_sensitivity/step76_virtual_perturbation_shift_vectors.csv"
+  },
+  "formula": "U(z) = -log[p(z) + epsilon], where p(z) is KDE density in latent space.",
+  "interpretation_note": "Step76 constructs a density-derived pseudo-energy landscape in latent/state space. Low U(z) indicates high-density latent basins; high U(z) indicates sparse regions or barriers. This should be interpreted as a visualization-level potential landscape, not a physical energy, not true Waddington lineage potential, and not functional validation."
+}

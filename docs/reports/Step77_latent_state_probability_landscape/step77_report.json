@@ -1,0 +1,94 @@
+{
+  "status": "ok",
+  "n_obs": 7756,
+  "n_vars": 3000,
+  "adata_id_col_used": "_obs_names_",
+  "state_merge_audit": {
+    "state_table_available": true,
+    "state_table_rows": 7756,
+    "merge_mode": "id",
+    "merge_key_meta": "_adata_id_",
+    "merge_key_state": "obs_name",
+    "state_merge_overlap": 7756
+  },
+  "latent_coordinate_audit": {
+    "mode": "obsm_forced_pca",
+    "obsm_key": "X_scgpt",
+    "n_dim": 512,
+    "forced_obsm_priority": true,
+    "obs_x_col": null,
+    "obs_y_col": null
+  },
+  "state_label_source": "state_group",
+  "time_col": "timepoint",
+  "prob_cols": {
+    "core": "core_probability",
+    "peri": "peri_probability",
+    "remote": "remote_probability",
+    "repair": "repair_score"
+  },
+  "targets_requested": "core,peri,remote,repair",
+  "targets_used": [
+    {
+      "target_key": "core",
+      "target_column": "core_probability"
+    },
+    {
+      "target_key": "peri",
+      "target_column": "peri_probability"
+    },
+    {
+      "target_key": "remote",
+      "target_column": "remote_probability"
+    },
+    {
+      "target_key": "repair",
+      "target_column": "repair_score"
+    }
+  ],
+  "bandwidth_used": 0.010305596770532725,
+  "grid_n": 220,
+  "radius_mult": 3.0,
+  "peak_q": 0.92,
+  "max_peaks": 8,
+  "outputs": {
+    "atlas_png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_StateProbabilityLandscape_2D_Atlas.png",
+    "atlas_pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_StateProbabilityLandscape_2D_Atlas.pdf",
+    "atlas_svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_StateProbabilityLandscape_2D_Atlas.svg",
+    "grid_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/step77_grid_state_probability_landscape.csv",
+    "peaks_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/step77_landscape_peaks.csv",
+    "per_spot_csv": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/step77_per_spot_latent_targets.csv",
+    "per_target_figures": [
+      {
+        "target_key": "core",
+        "target_column": "core_probability",
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_core_Landscape_2D3DPeaks.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_core_Landscape_2D3DPeaks.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_core_Landscape_2D3DPeaks.svg"
+      },
+      {
+        "target_key": "peri",
+        "target_column": "peri_probability",
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_peri_Landscape_2D3DPeaks.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_peri_Landscape_2D3DPeaks.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_peri_Landscape_2D3DPeaks.svg"
+      },
+      {
+        "target_key": "remote",
+        "target_column": "remote_probability",
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_remote_Landscape_2D3DPeaks.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_remote_Landscape_2D3DPeaks.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_remote_Landscape_2D3DPeaks.svg"
+      },
+      {
+        "target_key": "repair",
+        "target_column": "repair_score",
+        "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_repair_Landscape_2D3DPeaks.png",
+        "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_repair_Landscape_2D3DPeaks.pdf",
+        "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_state_probability_landscape_77_X_scgpt_sensitivity/Fig_Step77_repair_Landscape_2D3DPeaks.svg"
+      }
+    ]
+  },
+  "formula": "f(z) = sum_i K(||z-z_i||/h) * y_i / sum_i K(||z-z_i||/h), where y_i is a state probability or repair score.",
+  "interpretation_note": "Step77 constructs smoothed latent-state probability / score landscapes directly in latent space. High values indicate latent regions enriched for the corresponding state probability or score. This is a visualization-level conditional landscape, not a physical energy surface and not functional validation."
+}

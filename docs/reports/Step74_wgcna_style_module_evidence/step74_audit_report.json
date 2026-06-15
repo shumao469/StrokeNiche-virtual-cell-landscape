@@ -1,0 +1,75 @@
+{
+  "status": "ok",
+  "h5ad": "/mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad",
+  "n_obs_used": 7756,
+  "n_vars": 32285,
+  "max_cells": 0,
+  "module_audit": {
+    "source": "curated_default_plus_optional_table",
+    "curated_modules": {
+      "Hypoxia_redox": 16,
+      "Ferroptosis": 15,
+      "BBB_endothelial": 15,
+      "Inflammation_chemotaxis": 16,
+      "Microglia_myeloid": 15,
+      "Astrocyte_reactive": 13,
+      "Repair_ECM": 16,
+      "Synaptic_recovery": 18
+    },
+    "table_loaded": true,
+    "table_module_col": "",
+    "table_gene_col": "feature",
+    "n_table_rows": 8160
+  },
+  "merge_audit": {
+    "state_merge_key": "obs_name",
+    "state_overlap": 7756
+  },
+  "n_modules_scored": 8,
+  "modules_scored": [
+    "Hypoxia_redox",
+    "Ferroptosis",
+    "BBB_endothelial",
+    "Inflammation_chemotaxis",
+    "Microglia_myeloid",
+    "Astrocyte_reactive",
+    "Repair_ECM",
+    "Synaptic_recovery"
+  ],
+  "n_traits": 20,
+  "traits": [
+    "core_probability",
+    "peri_probability",
+    "remote_probability",
+    "repair_score",
+    "injury_score",
+    "timepoint_D7",
+    "timepoint_D1",
+    "timepoint_D3",
+    "region_auto_remote_like",
+    "region_auto_peri_infarct",
+    "region_auto_lesion_core",
+    "region_refined_remote_like",
+    "region_refined_peri_infarct",
+    "region_refined_lesion_core",
+    "region_manual_final_remote_like",
+    "region_manual_final_peri_infarct",
+    "region_manual_final_lesion_core",
+    "state_group_remote-like",
+    "state_group_peri-infarct",
+    "state_group_lesion-core-like"
+  ],
+  "group_col_for_dotplot": "state_group",
+  "spatial_x_col": "spatial_x",
+  "spatial_y_col": "spatial_y",
+  "module_order": [
+    "Synaptic_recovery",
+    "Hypoxia_redox",
+    "Astrocyte_reactive",
+    "Ferroptosis",
+    "Inflammation_chemotaxis",
+    "Microglia_myeloid",
+    "BBB_endothelial",
+    "Repair_ECM"
+  ]
+}

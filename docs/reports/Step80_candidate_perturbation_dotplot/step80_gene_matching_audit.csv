@@ -1,0 +1,17 @@
+gene,found,matched_index,var_name,program,row_label
+Ccl2,True,19793,Ccl2,Ccl2/Ccr2-Ackr1,Ccl2
+Ccr2,True,17078,Ccr2,Ccl2/Ccr2-Ackr1,Ccr2
+Ackr1,True,1537,Ackr1,Ccl2/Ccr2-Ackr1,Ackr1
+Spp1,True,8427,Spp1,Spp1-Cd44,Spp1
+Cd44,True,3022,Cd44,Spp1-Cd44,Cd44
+Vegfa,True,28118,Vegfa,Vegfa-Flt1/Kdr,Vegfa
+Flt1,True,9270,Flt1,Vegfa-Flt1/Kdr,Flt1
+Kdr,True,8151,Kdr,Vegfa-Flt1/Kdr,Kdr
+Hmox1,True,14554,Hmox1,Ferroptosis / hypoxia,Hmox1
+Fth1,True,29678,Fth1,Ferroptosis / hypoxia,Fth1
+Slc7a11,True,4477,Slc7a11,Ferroptosis / hypoxia,Slc7a11
+Gpx4,True,17916,Gpx4,Ferroptosis / hypoxia,Gpx4
+Col1a1,True,19983,Col1a1,Repair / ECM,Col1a1
+Col3a1,True,296,Col3a1,Repair / ECM,Col3a1
+Fn1,True,506,Fn1,Repair / ECM,Fn1
+Spp1,True,8427,Spp1,Repair / ECM,Spp1 (ECM)

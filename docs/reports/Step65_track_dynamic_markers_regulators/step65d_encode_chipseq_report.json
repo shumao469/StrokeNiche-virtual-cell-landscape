@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "step65_out": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65c_state_celltype_gene_clean_stroke_real_externaldb_no_encode_metadata",
+  "gmt_files": [
+    "/mnt/h/vir/ST/resources/msigdb/ENCODE_ChIP-seq.gmt",
+    "/mnt/h/vir/ST/resources/msigdb/Literature_ChIP-seq.gmt",
+    "/mnt/h/vir/ST/resources/msigdb/ReMap_ChIP-seq.gmt"
+  ],
+  "n_edges": 1671337,
+  "n_enrichment_rows": 25643,
+  "n_tracks_with_encode_chipseq_support": 30,
+  "outputs": {
+    "edges": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65d_encode_chipseq_gmt_supplement/step65d_encode_chipseq_gmt_edges_parsed.csv",
+    "enrichment": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65d_encode_chipseq_gmt_supplement/step65d_encode_chipseq_track_enrichment.csv",
+    "summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65d_encode_chipseq_gmt_supplement/step65d_encode_chipseq_track_summary.csv",
+    "report": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_dynamic_marker_regulator_65d_encode_chipseq_gmt_supplement/step65d_encode_chipseq_report.json"
+  }
+}

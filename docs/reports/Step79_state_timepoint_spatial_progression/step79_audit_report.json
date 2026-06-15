@@ -1,0 +1,419 @@
+{
+  "status": "ok",
+  "h5ad": "/mnt/h/vir/ST/results/virtual_cell_h5ad/spatial_all.h5ad",
+  "state_table": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_modeling_input_used.fixed_region_probs.csv",
+  "n_obs": 7756,
+  "n_vars": 32285,
+  "xy_audit": {
+    "xy_mode": "obs_auto",
+    "xcol": "spatial_x",
+    "ycol": "spatial_y"
+  },
+  "state_merge_audit": {
+    "state_table_available": true,
+    "merge_mode": "id",
+    "state_merge_overlap": 7756,
+    "merge_key_meta": "_adata_id_",
+    "merge_key_state": "obs_name",
+    "state_table_rows": 7756
+  },
+  "time_col_used": "_step79_timepoint_",
+  "timepoints_observed": [
+    "D1",
+    "D3",
+    "D7"
+  ],
+  "timepoints_used": [
+    "D1",
+    "D3",
+    "D7"
+  ],
+  "timepoints_requested_missing": [],
+  "prob_cols": {
+    "core": "core_probability",
+    "peri": "peri_probability",
+    "remote": "remote_probability",
+    "repair": "repair_score"
+  },
+  "features_requested": [
+    "core_probability",
+    "peri_probability",
+    "remote_probability",
+    "repair_score",
+    "repair_ECM",
+    "ferroptosis",
+    "inflammation",
+    "BBB_endothelial",
+    "astrocyte_reactive",
+    "hypoxia_redox"
+  ],
+  "features_used": [
+    "core_probability",
+    "peri_probability",
+    "remote_probability",
+    "repair_score",
+    "repair_ECM",
+    "ferroptosis",
+    "inflammation",
+    "BBB_endothelial",
+    "astrocyte_reactive",
+    "hypoxia_redox"
+  ],
+  "module_sets": {
+    "repair_ECM": [
+      "Col1a1",
+      "Col3a1",
+      "Fn1",
+      "Spp1",
+      "Vim",
+      "Apoe",
+      "Postn",
+      "Timp1",
+      "Col1a2",
+      "Col5a1",
+      "Sparc"
+    ],
+    "ferroptosis": [
+      "Hmox1",
+      "Fth1",
+      "Slc7a11",
+      "Gpx4",
+      "Tfrc",
+      "Acsl4",
+      "Ptgs2",
+      "Ftl1",
+      "Ncoa4",
+      "Nfe2l1",
+      "Nfe2l2"
+    ],
+    "inflammation": [
+      "C1qa",
+      "C1qb",
+      "Tyrobp",
+      "Lgals3",
+      "Ctsd",
+      "Ccl2",
+      "Ccl3",
+      "Il1b",
+      "Tnf",
+      "Aif1",
+      "Lyz2"
+    ],
+    "BBB_endothelial": [
+      "Kdr",
+      "Cldn5",
+      "Pecam1",
+      "Kcnj8",
+      "Vwf",
+      "Flt1",
+      "Rgs5",
+      "Klf2",
+      "Tek",
+      "Slc2a1"
+    ],
+    "astrocyte_reactive": [
+      "Gfap",
+      "Aqp4",
+      "Vim",
+      "Clu",
+      "Apoe",
+      "Serpina3n",
+      "Lcn2",
+      "S100b",
+      "C3"
+    ],
+    "hypoxia_redox": [
+      "Hmox1",
+      "Fth1",
+      "Nfe2l1",
+      "Nfe2l2",
+      "Hif1a",
+      "Vegfa",
+      "Sod2",
+      "Nqo1",
+      "Srxn1"
+    ]
+  },
+  "module_audit": {
+    "repair_ECM": {
+      "status": "ok",
+      "n_genes_requested": 11,
+      "n_genes_used": 11,
+      "genes_used": [
+        "Col1a1",
+        "Col3a1",
+        "Fn1",
+        "Spp1",
+        "Vim",
+        "Apoe",
+        "Postn",
+        "Timp1",
+        "Col1a2",
+        "Col5a1",
+        "Sparc"
+      ],
+      "genes_missing": []
+    },
+    "ferroptosis": {
+      "status": "ok",
+      "n_genes_requested": 11,
+      "n_genes_used": 11,
+      "genes_used": [
+        "Hmox1",
+        "Fth1",
+        "Slc7a11",
+        "Gpx4",
+        "Tfrc",
+        "Acsl4",
+        "Ptgs2",
+        "Ftl1",
+        "Ncoa4",
+        "Nfe2l1",
+        "Nfe2l2"
+      ],
+      "genes_missing": []
+    },
+    "inflammation": {
+      "status": "ok",
+      "n_genes_requested": 11,
+      "n_genes_used": 11,
+      "genes_used": [
+        "C1qa",
+        "C1qb",
+        "Tyrobp",
+        "Lgals3",
+        "Ctsd",
+        "Ccl2",
+        "Ccl3",
+        "Il1b",
+        "Tnf",
+        "Aif1",
+        "Lyz2"
+      ],
+      "genes_missing": []
+    },
+    "BBB_endothelial": {
+      "status": "ok",
+      "n_genes_requested": 10,
+      "n_genes_used": 10,
+      "genes_used": [
+        "Kdr",
+        "Cldn5",
+        "Pecam1",
+        "Kcnj8",
+        "Vwf",
+        "Flt1",
+        "Rgs5",
+        "Klf2",
+        "Tek",
+        "Slc2a1"
+      ],
+      "genes_missing": []
+    },
+    "astrocyte_reactive": {
+      "status": "ok",
+      "n_genes_requested": 9,
+      "n_genes_used": 9,
+      "genes_used": [
+        "Gfap",
+        "Aqp4",
+        "Vim",
+        "Clu",
+        "Apoe",
+        "Serpina3n",
+        "Lcn2",
+        "S100b",
+        "C3"
+      ],
+      "genes_missing": []
+    },
+    "hypoxia_redox": {
+      "status": "ok",
+      "n_genes_requested": 9,
+      "n_genes_used": 9,
+      "genes_used": [
+        "Hmox1",
+        "Fth1",
+        "Nfe2l1",
+        "Nfe2l2",
+        "Hif1a",
+        "Vegfa",
+        "Sod2",
+        "Nqo1",
+        "Srxn1"
+      ],
+      "genes_missing": []
+    }
+  },
+  "marker_groups": {
+    "Microglia / inflammatory": [
+      "C1qa",
+      "C1qb",
+      "Tyrobp",
+      "Lgals3"
+    ],
+    "Endothelial / BBB": [
+      "Kdr",
+      "Cldn5",
+      "Pecam1",
+      "Kcnj8"
+    ],
+    "Ferroptosis / hypoxia": [
+      "Hmox1",
+      "Fth1",
+      "Slc7a11",
+      "Gpx4"
+    ],
+    "Repair / ECM": [
+      "Spp1",
+      "Fn1",
+      "Col1a1",
+      "Col3a1"
+    ]
+  },
+  "marker_audit": {
+    "C1qa": {
+      "group": "Microglia / inflammatory",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        4.209078180349463
+      ]
+    },
+    "C1qb": {
+      "group": "Microglia / inflammatory",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        4.552425263748578
+      ]
+    },
+    "Tyrobp": {
+      "group": "Microglia / inflammatory",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        4.1484311834840595
+      ]
+    },
+    "Lgals3": {
+      "group": "Microglia / inflammatory",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        3.392166079708972
+      ]
+    },
+    "Kdr": {
+      "group": "Endothelial / BBB",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        1.6520529519414697
+      ]
+    },
+    "Cldn5": {
+      "group": "Endothelial / BBB",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        3.0936129022136263
+      ]
+    },
+    "Pecam1": {
+      "group": "Endothelial / BBB",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        2.730542586276465
+      ]
+    },
+    "Kcnj8": {
+      "group": "Endothelial / BBB",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        1.3266402806755573
+      ]
+    },
+    "Hmox1": {
+      "group": "Ferroptosis / hypoxia",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        3.850673210984075
+      ]
+    },
+    "Fth1": {
+      "group": "Ferroptosis / hypoxia",
+      "status": "ok",
+      "display_limits": [
+        3.2948542078702783,
+        6.326097570223774
+      ]
+    },
+    "Slc7a11": {
+      "group": "Ferroptosis / hypoxia",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        2.5873086366049156
+      ]
+    },
+    "Gpx4": {
+      "group": "Ferroptosis / hypoxia",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        3.4939590507457674
+      ]
+    },
+    "Spp1": {
+      "group": "Repair / ECM",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        5.344938544031999
+      ]
+    },
+    "Fn1": {
+      "group": "Repair / ECM",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        3.4036769016352446
+      ]
+    },
+    "Col1a1": {
+      "group": "Repair / ECM",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        2.7553816831625375
+      ]
+    },
+    "Col3a1": {
+      "group": "Repair / ECM",
+      "status": "ok",
+      "display_limits": [
+        0.0,
+        3.1962136862653234
+      ]
+    }
+  },
+  "outputs": {
+    "state_module_atlas": {
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/state_timepoint_spatial_progression_atlas_79/Fig_Step79A_StateModule_TimepointProgressionAtlas.png",
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/state_timepoint_spatial_progression_atlas_79/Fig_Step79A_StateModule_TimepointProgressionAtlas.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/state_timepoint_spatial_progression_atlas_79/Fig_Step79A_StateModule_TimepointProgressionAtlas.svg"
+    },
+    "marker_progression_atlas": {
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/state_timepoint_spatial_progression_atlas_79/Fig_Step79B_Marker_TimepointProgressionAtlas.png",
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/state_timepoint_spatial_progression_atlas_79/Fig_Step79B_Marker_TimepointProgressionAtlas.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/state_timepoint_spatial_progression_atlas_79/Fig_Step79B_Marker_TimepointProgressionAtlas.svg"
+    },
+    "per_spot_feature_table": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/state_timepoint_spatial_progression_atlas_79/step79_per_spot_feature_table.csv",
+    "audit_report": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/state_timepoint_spatial_progression_atlas_79/step79_audit_report.json"
+  },
+  "interpretation_note": "Step79 generates timepoint-specific spatial progression atlases. State probabilities are taken from the merged state table when available. Module scores are curated transcript-level gene-set scores. Smoothed maps are visualization-level spatial landscapes and do not imply functional validation or observed cell-state transition."
+}

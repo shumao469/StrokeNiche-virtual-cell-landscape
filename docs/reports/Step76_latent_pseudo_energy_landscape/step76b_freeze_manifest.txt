@@ -1,0 +1,44 @@
+Step76B final frozen
+Date: Mon Jun 15 14:53:51 CST 2026
+
+Final version:
+X_nicheformer-forced latent-state pseudo-potential landscape.
+
+Input h5ad:
+/mnt/h/vir/ST/results/step5_nicheformer/spatial_all_with_nicheformer.h5ad
+
+State table:
+/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/dynamics_graph_64b_fixed_region_probs_state_celltype/step64b_modeling_input_used.fixed_region_probs.csv
+
+Audit passed:
+latent_coordinate_audit.mode = obsm_forced_pca
+latent_coordinate_audit.obsm_key = X_nicheformer
+latent_coordinate_audit.n_dim = 512
+forced_obsm_priority = true
+state_merge_overlap = 7756
+state_label_source = state_group
+time_col = timepoint
+
+Formula:
+U(z) = -log[p(z) + epsilon], where p(z) is KDE density in X_nicheformer latent space.
+
+Interpretation:
+Density-derived pseudo-potential landscape.
+Low U(z) indicates high-density latent-state basins.
+High U(z) indicates sparse regions or transition/barrier-like areas.
+This is not a physical energy landscape, not true Waddington lineage potential, not lineage reconstruction, and not functional validation.
+
+Recommended use:
+Main figure conceptual panel or Extended Data figure.
+43841b789966bf41bf6193c5bd2a40c344e054d9cce2058bd58e0382ccd01376  /mnt/h/vir/ST/76_latent_state_potential_landscape.py
+c16df006ba8004521e10ee06b6e4ee2402028395401b907a298b1b5a5737612a  /mnt/h/vir/ST/76b_force_obsm_latent_state_potential_landscape.py
+cfa547236a4c0dc1ead8cecf6302d80b5f8b9051456376defa5d0fccb69a42bf  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_nicheformer_forced_final/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_2D.pdf
+990da7bd00a029df89e54dac92234704e835f60d0625e711add2d579e598cf01  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_nicheformer_forced_final/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_2D.png
+39d056899ff96a6c9cd76d7c246eb8e2a6ff203901096e12880e9487dfbb4169  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_nicheformer_forced_final/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_2D.svg
+5994333f79bc3438d2f09644ee0569931d8f5ac0e3e8b32eeb216d09a6b9d6f4  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_nicheformer_forced_final/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_3D.pdf
+dbe98fb0c9987a14a6464c5a33fb427b5d081e3ef6d4372c0ea9d38bde9f45a3  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_nicheformer_forced_final/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_3D.png
+5b52378817e194e1c62150898b5d191fcc0d086a2058b0aa16ca9f740fe3e645  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_nicheformer_forced_final/Fig_Step76_StrokeNiche_LatentStatePotentialLandscape_3D.svg
+c4aed9270ce0641f9cd70b0940f96e33ebfea47aa16d7a33dcd663ed879597be  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_nicheformer_forced_final/step76_grid_pseudo_energy_surface.csv
+80799f403fed25af8b77a97a9a906e4fcfce5054dd9ef2c4515d6b05c3ab9c7b  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_nicheformer_forced_final/step76_per_cell_latent_pseudo_energy.csv
+147410cc73a920db68eb393305ad400081abc4fca99808c9729dba90531c63f7  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_nicheformer_forced_final/step76_state_time_centroids.csv
+9f0042b81b62dcaff80ae5f215b176ceeab0dd410a6b4a1afacab9212eaf1c5f  /mnt/h/vir/ST/results/step8_strokeniche_perturbmap/latent_pseudo_energy_landscape_76b_X_nicheformer_forced_final/step76_virtual_perturbation_shift_vectors.csv

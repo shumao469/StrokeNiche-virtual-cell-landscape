@@ -1,0 +1,7 @@
+module,n_input_genes,n_matched_genes,matched_genes
+Repair / ECM,8,8,Col1a1;Col3a1;Fn1;Spp1;Vim;Apoe;Postn;Timp1
+Ferroptosis,7,7,Hmox1;Fth1;Slc7a11;Gpx4;Tfrc;Acsl4;Ptgs2
+Microglia / inflammation,7,7,C1qa;C1qb;Tyrobp;Lgals3;Ctsd;Ccl2;Ccl3
+BBB / endothelial,7,7,Kdr;Cldn5;Pecam1;Kcnj8;Vwf;Flt1;Rgs5
+Reactive astrocyte,7,7,Gfap;Aqp4;Vim;Clu;Apoe;Serpina3n;Lcn2
+Hypoxia / redox,7,7,Hmox1;Fth1;Nfe2l1;Nfe2l2;Hif1a;Vegfa;Sod2

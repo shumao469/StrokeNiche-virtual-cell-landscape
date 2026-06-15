@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "created": "2026-06-15T17:55:05",
+  "project_root": "/mnt/h/vir/ST",
+  "results_root": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap",
+  "outdir": "/mnt/h/vir/ST/release_StrokeNiche_NCS_v1",
+  "github_repo_skeleton": "/mnt/h/vir/ST/release_StrokeNiche_NCS_v1/github_repo_skeleton",
+  "zenodo_data_results_bundle": "/mnt/h/vir/ST/release_StrokeNiche_NCS_v1/zenodo_data_results_bundle",
+  "manifest_dir": "/mnt/h/vir/ST/release_StrokeNiche_NCS_v1/manifests",
+  "n_scripts": 231,
+  "n_figures": 755,
+  "n_tables": 723,
+  "n_key_inputs": 8
+}

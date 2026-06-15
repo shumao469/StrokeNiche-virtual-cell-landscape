@@ -1,0 +1,87 @@
+{
+  "status": "ok",
+  "analysis_name": "Step66f manuscript-ready perturbation summary",
+  "input_66c_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66e_probability_simplex_rerun66c/rerun66c_probability_simplex",
+  "input_66e_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66e_probability_simplex_rerun66c",
+  "outdir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary",
+  "fdr_cutoff": 0.25,
+  "p_trend_cutoff": 0.1,
+  "n_candidates": 10,
+  "tier_counts": {
+    "Not above random background": 6,
+    "Above random background but not FDR-significant": 3,
+    "Above random background; nominal trend only": 1
+  },
+  "n_FDR_supported_candidates": 0,
+  "n_above_random_candidates": 4,
+  "top_candidates": [
+    {
+      "perturbation_id": "synaptic_recovery_up",
+      "display_name": "Synaptic recovery enhancement",
+      "interpretation_tier": "Above random background; nominal trend only",
+      "s_overall_observed": 0.1213253785153368,
+      "random_mean": 0.0740102711478888,
+      "empirical_p_value": 0.0909090909090909,
+      "bh_fdr": 0.7126207126207126
+    },
+    {
+      "perturbation_id": "repair_ECM_up",
+      "display_name": "Repair-permissive ECM promotion",
+      "interpretation_tier": "Above random background but not FDR-significant",
+      "s_overall_observed": 0.1103209941743675,
+      "random_mean": 0.0750443718042752,
+      "empirical_p_value": 0.1998001998001998,
+      "bh_fdr": 0.7126207126207126
+    },
+    {
+      "perturbation_id": "ferroptosis_down",
+      "display_name": "Ferroptosis down-modulation",
+      "interpretation_tier": "Above random background but not FDR-significant",
+      "s_overall_observed": 0.1081891313657388,
+      "random_mean": 0.0733795407574069,
+      "empirical_p_value": 0.2137862137862138,
+      "bh_fdr": 0.7126207126207126
+    },
+    {
+      "perturbation_id": "astrocyte_reactive_down",
+      "display_name": "Reactive astrocyte down-modulation",
+      "interpretation_tier": "Above random background but not FDR-significant",
+      "s_overall_observed": 0.0906955931198373,
+      "random_mean": 0.0776541127671603,
+      "empirical_p_value": 0.4375624375624375,
+      "bh_fdr": 0.8641358641358642
+    },
+    {
+      "perturbation_id": "BBB_leakage_down",
+      "display_name": "BBB leakage down-modulation",
+      "interpretation_tier": "Not above random background",
+      "s_overall_observed": 0.064589011498465,
+      "random_mean": 0.0745673926659341,
+      "empirical_p_value": 0.4935064935064935,
+      "bh_fdr": 0.8641358641358642
+    }
+  ],
+  "figure_outputs": {
+    "annotated": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_annotated.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_annotated.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_annotated.png"
+    },
+    "clean_no_text": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_clean_no_text.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_clean_no_text.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/Fig_Step66F_ManuscriptReadyPerturbationSummary_clean_no_text.png"
+    }
+  },
+  "outputs": {
+    "summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_manuscript_ready_perturbation_summary.csv",
+    "top_exploratory": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_top_exploratory_candidates.csv",
+    "not_above_background": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_not_above_background_candidates.csv",
+    "calibration_qc": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_calibration_qc_candidates.csv",
+    "track_contribution": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_track_contribution_summary.csv",
+    "text": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_manuscript_caption_and_results_text.txt",
+    "report_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_report.json",
+    "report_txt": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary/step66f_report.txt"
+  },
+  "interpretation_note": "Step66f is a manuscript-ready summary of Step66e probability-simplex model-derived sensitivity analysis. No statistically significant therapeutic candidate should be claimed unless the FDR-supported tier is non-empty."
+}

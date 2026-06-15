@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "StrokeNiche virtual-cell landscape analysis"
+message: "If you use this code, please cite the associated article and Zenodo DOI."
+type: software
+authors:
+  - family-names: Xu
+    given-names: Shumao
+repository-code: "https://github.com/shumaoxu/StrokeNiche-virtual-cell-landscape"
+license: MIT
+version: 1.0.0
+date-released: YYYY-MM-DD
+doi: "10.5281/zenodo.TO_BE_ADDED"

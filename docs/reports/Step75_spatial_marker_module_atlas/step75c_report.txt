@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "outputs": {
+    "marker_atlas": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75c_dark_fixed_cbar/Fig_Step75C_DarkSpatialMarkerLandscapeAtlas.png",
+    "module_atlas": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75c_dark_fixed_cbar/Fig_Step75C_DarkSpatialModuleLandscapeAtlas.png",
+    "state_probability_atlas": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75c_dark_fixed_cbar/Fig_Step75C_DarkSpatialStateProbabilityLandscapeAtlas.png",
+    "compact_panel": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75c_dark_fixed_cbar/Fig_Step75C_CompactSpatialLandscapeManuscriptPanel.png",
+    "audit_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/spatial_landscape_atlas_75c_dark_fixed_cbar/step75c_audit_report.json"
+  },
+  "interpretation_note": "Step75C fixes the colorbar-overlap issue in Step75B. State metadata are successfully merged when state_merge_overlap equals n_obs."
+}

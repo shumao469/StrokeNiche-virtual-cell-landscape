@@ -1,0 +1,65 @@
+{
+  "status": "ok",
+  "analysis_name": "Step74B polished WGCNA-style module evidence figure",
+  "input_step74_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74",
+  "outputs": {
+    "annotated": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74b_polished/Fig_Step74B_PolishedWGCNAStyleModuleEvidence_annotated.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74b_polished/Fig_Step74B_PolishedWGCNAStyleModuleEvidence_annotated.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74b_polished/Fig_Step74B_PolishedWGCNAStyleModuleEvidence_annotated.png"
+    },
+    "clean_no_text": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74b_polished/Fig_Step74B_PolishedWGCNAStyleModuleEvidence_clean_no_text.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74b_polished/Fig_Step74B_PolishedWGCNAStyleModuleEvidence_clean_no_text.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74b_polished/Fig_Step74B_PolishedWGCNAStyleModuleEvidence_clean_no_text.png"
+    },
+    "report_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74b_polished/step74b_report.json",
+    "report_txt": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/wgcna_style_module_evidence_74b_polished/step74b_report.txt"
+  },
+  "selected_content": {
+    "module_order": [
+      "Synaptic_recovery",
+      "Hypoxia_redox",
+      "Astrocyte_reactive",
+      "Ferroptosis",
+      "Inflammation_chemotaxis",
+      "Microglia_myeloid",
+      "BBB_endothelial",
+      "Repair_ECM"
+    ],
+    "selected_traits": [
+      "repair_score",
+      "core_probability",
+      "peri_probability",
+      "remote_probability",
+      "state_group_lesion-core-like",
+      "state_group_peri-infarct",
+      "state_group_remote-like",
+      "region_manual_final_lesion_core"
+    ],
+    "selected_spatial_map_modules": [
+      "Microglia_myeloid",
+      "Repair_ECM",
+      "Astrocyte_reactive",
+      "Ferroptosis"
+    ],
+    "dotplot_groups": [
+      "lesion-core-like",
+      "peri-infarct",
+      "remote-like"
+    ],
+    "dotplot_modules": [
+      "Synaptic_recovery",
+      "Hypoxia_redox",
+      "Astrocyte_reactive",
+      "Ferroptosis",
+      "Inflammation_chemotaxis",
+      "Microglia_myeloid",
+      "BBB_endothelial",
+      "Repair_ECM"
+    ],
+    "spatial_x_col": "spatial_x",
+    "spatial_y_col": "spatial_y"
+  },
+  "interpretation_note": "Step74B is a polished visualization of Step74 WGCNA-style module evidence. It improves layout and readability but remains module-level computational evidence, not full WGCNA TOM analysis and not functional validation."
+}

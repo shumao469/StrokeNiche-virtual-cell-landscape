@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "analysis_name": "Step68H compartment-aware external validation/debug",
+  "h5ad": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68f_GSE233815_filtered_celllevel_h5ad/GSE233815_sc_sn_filtered_celllevel_step68_module_genes.h5ad",
+  "step66f_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/track_level_perturbation_fdr_66f_manuscript_ready_summary",
+  "step68e_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68e_strict_GSE233815_pseudobulk_robustness",
+  "step68g_dir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68g_celllevel_balanced_sensitivity",
+  "outdir": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun",
+  "n_obs": 136328,
+  "n_vars": 183,
+  "n_candidates": 10,
+  "tier_counts": {
+    "compartment_specific_support_but_primary_discordant": 4,
+    "compartment_specific_rescue_with_68E_or_68G_support": 3,
+    "pseudobulk_primary_only_no_compartment_rescue": 2,
+    "not_rescued_after_compartment_debug": 1
+  },
+  "n_boot": 50,
+  "n_perm": 200,
+  "figure_outputs": {
+    "annotated": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_annotated.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_annotated.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_annotated.png"
+    },
+    "clean_no_text": {
+      "pdf": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_clean_no_text.pdf",
+      "svg": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_clean_no_text.svg",
+      "png": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/Fig_Step68H_CompartmentAwareValidation_clean_no_text.png"
+    }
+  },
+  "outputs": {
+    "compartment_marker_audit": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_compartment_marker_gene_audit.csv",
+    "compartment_assignment_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_cell_compartment_assignment_summary.csv",
+    "candidate_compartment_direction_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_candidate_compartment_direction_summary.csv",
+    "final_compartment_rescue_summary": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_final_compartment_rescue_summary.csv",
+    "manuscript_text": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_manuscript_ready_compartment_text.txt",
+    "report_json": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_report.json",
+    "report_txt": "/mnt/h/vir/ST/results/step8_strokeniche_perturbmap/validation_layer_68h_compartment_aware_debug_dryrun/step68h_report.txt"
+  },
+  "interpretation_note": "Step68H diagnoses whether weak whole-cell signals are rescued in relevant compartments. It does not constitute wet-lab therapeutic validation."
+}
