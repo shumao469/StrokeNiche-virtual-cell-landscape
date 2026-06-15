@@ -31,3 +31,4 @@ See `docs/input_data_manifest.tsv`, `docs/figure_manifest.tsv`, and `docs/table_
 Virtual perturbation response landscapes are computational surrogate analyses.
 They should not be interpreted as wet-lab knockout/blockade experiments, causal ligand-receptor validation,
 physical energy landscapes, true Waddington potentials, or directly observed cell-state transitions.
+# StrokeNiche-virtual-cell-landscape
