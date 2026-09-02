@@ -1,5 +1,9 @@
 # StrokeNiche manuscript code subset: Steps 64/65/66/68/73-81B
 
+> Historical snapshot: paths and completion states here predate the current
+> curated branch and are not current verification evidence. See
+> `HISTORICAL_MANIFEST_NOTICE.md` and `curated_code_manifest.tsv`.
+
 This curated GitHub subset contains the code and provenance manifests for the manuscript-relevant steps:
 
 - Step64: state probability and dynamics graph source

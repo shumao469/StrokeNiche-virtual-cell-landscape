@@ -1,3 +1,6 @@
+# Historical analysis-environment snapshot. It is not a validated environment for
+# the curated legacy model scripts and intentionally does not claim end-to-end
+# adapter-training reproducibility. Use environment-core.yml for the tested MVP.
 name: kaggle_dl
 channels:
   - defaults
@@ -118,4 +121,3 @@ dependencies:
       - urllib3==2.7.0
       - webencodings==0.5.1
       - zarr==3.1.6
-prefix: /home/shu/miniconda/envs/kaggle_dl

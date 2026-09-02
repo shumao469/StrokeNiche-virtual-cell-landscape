@@ -1,0 +1,3 @@
+perturbation,delta_core,delta_repair,modality,target_genes,source
+Example gene-axis suppression,-0.05,0.08,gene,"GeneA,GeneB",synthetic_example
+Example target-bridged compound,-0.03,0.04,drug_proxy,GeneA,synthetic_target_bridge

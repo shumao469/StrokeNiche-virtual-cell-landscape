@@ -1,0 +1,6 @@
+project_root: /path/to/StrokeNiche
+validated_data_bundle: /path/to/validated_bundle
+output_root: /path/to/new_outputs
+
+# Never point output_root at the original result directory.
+# Record SHA-256 hashes for every file selected from duplicated legacy folders.

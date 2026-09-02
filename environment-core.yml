@@ -1,0 +1,14 @@
+name: strokeniche-vc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pandas>=2.0
+  - scipy>=1.11
+  - scikit-learn>=1.4
+  - pip
+  - pip:
+      - plotly>=5.20
+      - streamlit>=1.51
+      - pytest>=8.0
