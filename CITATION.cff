@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "StrokeNiche virtual-cell landscape analysis"
+title: "StrokeNiche: spatial counterfactual gene-programme sensitivity in ischaemic stroke"
 message: "If you use this code, please cite this software repository and the associated article when available."
 type: software
 authors:
@@ -7,4 +7,4 @@ authors:
     given-names: Shumao
 repository-code: "https://github.com/shumao469/StrokeNiche-virtual-cell-landscape"
 license: MIT
-version: 0.2.0
+version: 0.3.0

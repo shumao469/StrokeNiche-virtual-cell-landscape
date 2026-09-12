@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "strokeniche-virtual-cell"
-version = "0.2.0"
-description = "Reusable virtual-cell perturbation and landscape utilities for StrokeNiche"
+version = "0.3.0"
+description = "Spatial counterfactual gene-programme sensitivity utilities for StrokeNiche"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

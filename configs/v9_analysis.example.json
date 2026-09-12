@@ -1,0 +1,35 @@
+{
+  "release": "manuscript-v9",
+  "random_seed": 20260912,
+  "sections": ["D1", "D3", "D7"],
+  "outer_split": "leave-one-section-out",
+  "inner_selection": "two reciprocal whole-section folds",
+  "regularisation_C": [0.01, 0.1, 1.0, 10.0],
+  "selection_metric": "equal-section mean macro-F1",
+  "classifier": {
+    "family": "class-balanced L2 multinomial logistic regression",
+    "solver": "lbfgs",
+    "tolerance": 1e-8,
+    "maximum_iterations": 3000
+  },
+  "spatial_context": {
+    "neighbours": 12,
+    "self_edges": false,
+    "cross_section_edges": false,
+    "feature_map": "[Z, A Z] / sqrt(2)"
+  },
+  "programme_edits": {
+    "Ccl2-Ccr2-Ackr1-associated": {"operator": "log-expression scaling", "factor": 0.0},
+    "Spp1-Cd44-associated": {"operator": "log-expression scaling", "factor": 0.0},
+    "Vegfa-Flt1-Kdr-associated": {"operator": "log-expression scaling", "factor": 0.0},
+    "ferroptosis-associated": {"operator": "log-expression scaling", "factor": 0.0},
+    "ECM-associated": {
+      "operator": "training-derived monotone up-modulation",
+      "strength": 1.0,
+      "upper_quantile": 0.995,
+      "ceiling_margin_in_training_sd": 0.5
+    }
+  },
+  "matched_random_programmes_per_section": 5000,
+  "multiple_testing": "Benjamini-Hochberg over the declared 30 tests"
+}

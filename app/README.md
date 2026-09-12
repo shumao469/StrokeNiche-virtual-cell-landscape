@@ -35,6 +35,10 @@ Cell table, required columns:
 latent1,latent2,baseline_core,baseline_repair
 ```
 
+`baseline_repair` is retained for backward-compatible CSV loading; in the v9
+manuscript terminology it is an ordered injury-state display score, not a
+measured tissue-repair outcome.
+
 Optional columns:
 
 ```text

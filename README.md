@@ -1,5 +1,7 @@
 # StrokeNiche virtual-cell landscape
 
+**Spatial counterfactual gene-programme sensitivity in ischaemic stroke**
+
 Reusable code, research-script provenance, and a white-background interactive
 explorer for visualizing precomputed gene/pathway and drug-mechanism perturbation proxies in
 the StrokeNiche virtual-cell landscape.
@@ -7,6 +9,25 @@ the StrokeNiche virtual-cell landscape.
 > **Scope.** Outputs are computational counterfactuals and evidence summaries.
 > They are not wet-lab knockout results, causal treatment effects, observed
 > cell-state transitions, or clinical treatment recommendations.
+
+## Manuscript v9 update
+
+Version 0.3.0 adds the transparent StrokeNiche spatial-context extension and the
+final numerical editing operators without removing the original explorer,
+research-script provenance or white-background figure workflow. The public API
+now includes:
+
+- a section-isolated 12-neighbour operator and
+  \(2^{-1/2}[Z,AZ]\) context feature map;
+- an exactly matched self-edge control \(2^{-1/2}[Z,Z]\);
+- explicit scaling of log-normalised programme features;
+- a training-derived monotone up-modulation operator with an exact no-edit
+  identity; and
+- tests for graph isolation, L2-equivalence, monotonicity and one-hop design.
+
+See [the v9 methods and validation map](docs/V9_METHODS_AND_VALIDATION.md),
+[the path-free example configuration](configs/v9_analysis.example.json), and
+[the release manifest](docs/V9_RELEASE_MANIFEST.md).
 
 ## Interactive perturbation explorer
 
@@ -51,6 +72,10 @@ effect and remain explicitly labelled `target-bridged proxy`.
 
 - `src/strokeniche_vc/classifier.py`: balanced expression-state classifier and
   explicit gene-expression counterfactuals.
+- `src/strokeniche_vc/context.py`: section-isolated kNN context operator and
+  expression/self-edge/spatial feature maps.
+- `src/strokeniche_vc/operators.py`: precisely specified down- and
+  up-modulation operators for log-normalised model inputs.
 - `src/strokeniche_vc/response.py`: transparent context-susceptibility and signed
   candidate-effect calculations.
 - `src/strokeniche_vc/landscape.py`: density-aware Gaussian landscape grids.
@@ -64,13 +89,19 @@ effect and remain explicitly labelled `target-bridged proxy`.
 
 ```mermaid
 flowchart LR
-    A[Observed baseline expression\nand spatial context] --> B[Grouped split]
-    B --> C[State classifier\nor graph adapter]
-    C --> D[Gene/pathway\nexpression edit]
-    D --> E[Predicted probability\nredistribution]
-    E --> F[White-background latent\nand spatial maps]
-    G[LINCS signature evidence] --> H[Drug-target bridge]
-    H --> D
+    A[Baseline expression X] --> B[Training-only scaling Z]
+    C[Coordinates and section IDs] --> D[Section-isolated operator A]
+    B --> E[Local block Z]
+    B --> D
+    D --> F[Neighbour block AZ]
+    E --> G[State model]
+    F --> G
+    H[Declared programme edit] --> I[Edited expression X']
+    I --> J[Recompute Z' and AZ']
+    J --> G
+    G --> K[Probability change vector]
+    K --> L[Latent and tissue maps]
+    M[Interaction, target and compound evidence] --> H
 ```
 
 The layers must remain distinguishable:

@@ -7,6 +7,17 @@ coordinates, and a sparse graph-attention layer. Multitask heads reconstruct
 region/state, time, neighbour composition, and repair-related outputs. The reusable
 safety rule is that a reconstruction target must not also be provided as an input.
 
+### Transparent v9 spatial-context extension
+
+The additive v9 model encodes each spot as
+`[standardised local expression, within-section neighbour-mean expression] / sqrt(2)`.
+Its section-isolated 12-neighbour operator contains no self-edges or cross-section
+edges. An exactly matched duplicated self-edge representation separates the
+contribution of tissue topology from the change in feature dimension and L2
+regularisation. The implementation is `strokeniche_vc.context`; equations,
+nested whole-section selection and locked aggregate metrics are documented in
+[`V9_METHODS_AND_VALIDATION.md`](V9_METHODS_AND_VALIDATION.md).
+
 Legacy provenance scripts (not a validated default pipeline):
 
 | Stage | Script | Role |
@@ -32,6 +43,14 @@ Two complementary routes are retained:
 
 Boundary/domain-loss variants are kept under `scripts/experiments/` rather than
 presented as validated defaults.
+
+The v9 numerical operators are defined in `strokeniche_vc.operators`. Programme
+down-modulation scales the selected log-normalised inputs by a declared factor.
+ECM-associated up-modulation uses a training-derived, non-decreasing increment;
+values already above the upper reference remain unchanged and strength zero is
+the exact identity. The resulting probability differences are model-predicted
+feature sensitivities, which can be decomposed into single-gene and
+leave-one-gene-out contributions.
 
 The current Streamlit release does not call this classifier live. It visualizes
 precomputed candidate-level effects exported from an audited analysis. Arbitrary
@@ -70,7 +89,8 @@ c'_i=\operatorname{clip}(c_i+\alpha\Delta c\,s_i,0,1),\qquad
 r'_i=\operatorname{clip}(r_i+\alpha\Delta r\,s_i,0,1).
 \]
 
-Here `c` is the baseline core-like score, `r` is the repair score, and candidate
+Here `c` is the baseline core-like score and `r` is the ordered injury-state
+display score (retained as `baseline_repair` in the legacy app input schema). Candidate
 mean shifts are supplied by a model export. The 2-D surface is a density-masked,
 Gaussian-smoothed display proxy; it is not a physical or Waddington potential.
 `RMM` is 1st–99th percentile robust min-max scaling, applied to each baseline
