@@ -30,8 +30,6 @@ See [the methods and validation map](docs/V9_METHODS_AND_VALIDATION.md),
 The Streamlit app supports a safe synthetic demo and user-supplied model exports.
 It provides latent before/after views, density-aware response landscapes,
 state-stratified summaries, spatial projections, and relative-strength sensitivity.
-It is a candidate-effect explorer, not a live graph-adapter or arbitrary-gene
-inference service.
 
 ![Gene-perturbation explorer](docs/assets/perturbation_explorer.png)
 
