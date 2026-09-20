@@ -21,7 +21,7 @@ now includes:
   identity; and
 - tests for graph isolation, L2-equivalence, monotonicity and one-hop design.
 
-See [the v9 methods and validation map](docs/V9_METHODS_AND_VALIDATION.md),
+See [the methods and validation map](docs/V9_METHODS_AND_VALIDATION.md),
 [the path-free example configuration](configs/v9_analysis.example.json), and
 [the release manifest](docs/V9_RELEASE_MANIFEST.md).
 
