@@ -8,11 +8,7 @@ the StrokeNiche virtual-cell landscape.
 
 > **Scope.** Outputs are computational counterfactuals and evidence summaries.
 > They are not wet-lab knockout results, causal treatment effects, observed
-> cell-state transitions, or clinical treatment recommendations.
-
-## Manuscript v9 update
-
-Version 0.3.0 adds the transparent StrokeNiche spatial-context extension and the
+> cell-state transitions, or clinical treatment recommendations. Version 0.3.0 adds the transparent StrokeNiche spatial-context extension and the
 final numerical editing operators without removing the original explorer,
 research-script provenance or white-background figure workflow. The public API
 now includes:
